@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,283 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Device:R R?
+U 1 1 621DE39F
+P 4200 3050
+F 0 "R?" V 3993 3050 50  0000 C CNN
+F 1 "10k" V 4084 3050 50  0000 C CNN
+F 2 "" V 4130 3050 50  0001 C CNN
+F 3 "~" H 4200 3050 50  0001 C CNN
+	1    4200 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621DEAAB
+P 4450 3300
+F 0 "C?" H 4565 3346 50  0000 L CNN
+F 1 "100n" H 4565 3255 50  0000 L CNN
+F 2 "" H 4488 3150 50  0001 C CNN
+F 3 "~" H 4450 3300 50  0001 C CNN
+	1    4450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3050 4450 3050
+Wire Wire Line
+	4450 3050 4450 3150
+$Comp
+L power:GND #PWR?
+U 1 1 621DEFBC
+P 4450 3500
+F 0 "#PWR?" H 4450 3250 50  0001 C CNN
+F 1 "GND" H 4455 3327 50  0000 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "" H 4450 3500 50  0001 C CNN
+	1    4450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3500 4450 3450
+$Comp
+L Device:R R?
+U 1 1 621E00FD
+P 4800 3050
+F 0 "R?" V 4593 3050 50  0000 C CNN
+F 1 "10k" V 4684 3050 50  0000 C CNN
+F 2 "" V 4730 3050 50  0001 C CNN
+F 3 "~" H 4800 3050 50  0001 C CNN
+	1    4800 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621E0103
+P 5050 3300
+F 0 "C?" H 5165 3346 50  0000 L CNN
+F 1 "100n" H 5165 3255 50  0000 L CNN
+F 2 "" H 5088 3150 50  0001 C CNN
+F 3 "~" H 5050 3300 50  0001 C CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3050 5050 3050
+Wire Wire Line
+	5050 3050 5050 3150
+$Comp
+L power:GND #PWR?
+U 1 1 621E010B
+P 5050 3500
+F 0 "#PWR?" H 5050 3250 50  0001 C CNN
+F 1 "GND" H 5055 3327 50  0000 C CNN
+F 2 "" H 5050 3500 50  0001 C CNN
+F 3 "" H 5050 3500 50  0001 C CNN
+	1    5050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3500 5050 3450
+$Comp
+L Device:R R?
+U 1 1 621E0A28
+P 5400 3050
+F 0 "R?" V 5193 3050 50  0000 C CNN
+F 1 "10k" V 5284 3050 50  0000 C CNN
+F 2 "" V 5330 3050 50  0001 C CNN
+F 3 "~" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621E0A2E
+P 5650 3300
+F 0 "C?" H 5765 3346 50  0000 L CNN
+F 1 "100n" H 5765 3255 50  0000 L CNN
+F 2 "" H 5688 3150 50  0001 C CNN
+F 3 "~" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3050 5650 3050
+Wire Wire Line
+	5650 3050 5650 3150
+$Comp
+L power:GND #PWR?
+U 1 1 621E0A36
+P 5650 3500
+F 0 "#PWR?" H 5650 3250 50  0001 C CNN
+F 1 "GND" H 5655 3327 50  0000 C CNN
+F 2 "" H 5650 3500 50  0001 C CNN
+F 3 "" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3500 5650 3450
+Wire Wire Line
+	5250 3050 5050 3050
+Connection ~ 5050 3050
+Wire Wire Line
+	4650 3050 4450 3050
+Connection ~ 4450 3050
+$Comp
+L Amplifier_Operational:LMV321 U?
+U 1 1 621E171E
+P 6500 3150
+F 0 "U?" H 6650 3050 50  0000 L CNN
+F 1 "LMV321" H 6650 2950 50  0000 L CNN
+F 2 "" H 6500 3150 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 6500 3150 50  0001 C CNN
+	1    6500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621E20ED
+P 6400 3500
+F 0 "#PWR?" H 6400 3250 50  0001 C CNN
+F 1 "GND" H 6405 3327 50  0000 C CNN
+F 2 "" H 6400 3500 50  0001 C CNN
+F 3 "" H 6400 3500 50  0001 C CNN
+	1    6400 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3500 6400 3450
+Wire Wire Line
+	6400 2700 6400 2850
+Wire Wire Line
+	6200 3050 5650 3050
+Connection ~ 5650 3050
+Wire Wire Line
+	6200 3250 6100 3250
+Wire Wire Line
+	6100 3250 6100 3850
+Wire Wire Line
+	6100 3850 7000 3850
+Wire Wire Line
+	7000 3850 7000 3150
+Wire Wire Line
+	7000 3150 6800 3150
+$Comp
+L power:GND #PWR?
+U 1 1 621E42F7
+P 7050 2650
+F 0 "#PWR?" H 7050 2400 50  0001 C CNN
+F 1 "GND" H 7055 2477 50  0000 C CNN
+F 2 "" H 7050 2650 50  0001 C CNN
+F 3 "" H 7050 2650 50  0001 C CNN
+	1    7050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621E44A2
+P 7050 2450
+F 0 "C?" H 7165 2496 50  0000 L CNN
+F 1 "100n" H 7165 2405 50  0000 L CNN
+F 2 "" H 7088 2300 50  0001 C CNN
+F 3 "~" H 7050 2450 50  0001 C CNN
+	1    7050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2600 7050 2650
+$Comp
+L Device:R R?
+U 1 1 621F7666
+P 3800 2800
+F 0 "R?" V 3593 2800 50  0000 C CNN
+F 1 "10k" V 3684 2800 50  0000 C CNN
+F 2 "" V 3730 2800 50  0001 C CNN
+F 3 "~" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2950 3800 3050
+Wire Wire Line
+	3800 3050 4050 3050
+$Comp
+L Isolator:6N137 U?
+U 1 1 621E8781
+P 2900 3050
+AR Path="/61D39570/621E8781" Ref="U?"  Part="1" 
+AR Path="/61DA711F/621E8781" Ref="U?"  Part="1" 
+F 0 "U?" H 2900 3517 50  0000 C CNN
+F 1 "6N137" H 2900 3426 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2900 2550 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 2050 3600 50  0001 C CNN
+	1    2900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2850 3200 2850
+Wire Wire Line
+	3400 2950 3200 2950
+$Comp
+L power:GND #PWR?
+U 1 1 621E8792
+P 3400 3300
+AR Path="/61D39570/621E8792" Ref="#PWR?"  Part="1" 
+AR Path="/61DA711F/621E8792" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 3050 50  0001 C CNN
+F 1 "GND" H 3405 3127 50  0000 C CNN
+F 2 "" H 3400 3300 50  0001 C CNN
+F 3 "" H 3400 3300 50  0001 C CNN
+	1    3400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3250 3200 3250
+$Comp
+L power:GND #PWR?
+U 1 1 621E879A
+P 2400 3300
+AR Path="/61D39570/621E879A" Ref="#PWR?"  Part="1" 
+AR Path="/61DA711F/621E879A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2400 3050 50  0001 C CNN
+F 1 "GND" H 2405 3127 50  0000 C CNN
+F 2 "" H 2400 3300 50  0001 C CNN
+F 3 "" H 2400 3300 50  0001 C CNN
+	1    2400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3250 2400 3250
+Wire Wire Line
+	2400 3250 2400 3300
+Wire Wire Line
+	2050 3050 2600 3050
+Wire Wire Line
+	3400 2650 3400 2850
+Wire Wire Line
+	3400 2850 3400 2950
+Connection ~ 3400 2850
+Wire Wire Line
+	3400 3300 3400 3250
+Text HLabel 1750 3050 0    50   Input ~ 0
+SPINLDE_PWM
+Wire Wire Line
+	3200 3050 3800 3050
+Connection ~ 3800 3050
+Text Label 3400 2650 1    50   ~ 0
+5V
+Text Label 3800 2650 1    50   ~ 0
+5V
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 621FBFC8
+P 2550 1450
+F 0 "J?" H 2468 1125 50  0000 C CNN
+F 1 "24V_VFD" H 2468 1216 50  0000 C CNN
+F 2 "" H 2550 1450 50  0001 C CNN
+F 3 "~" H 2550 1450 50  0001 C CNN
+	1    2550 1450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
