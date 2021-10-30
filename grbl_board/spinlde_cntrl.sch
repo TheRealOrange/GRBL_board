@@ -257,6 +257,7 @@ F 0 "D45" V 8454 5480 50  0000 L CNN
 F 1 "1N4148" V 8545 5480 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8500 5225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8500 5400 50  0001 C CNN
+F 4 "1N4148FS-ND" H 8500 5400 50  0001 C CNN "Digikey Part No."
 	1    8500 5400
 	0    1    1    0   
 $EndComp
@@ -268,6 +269,7 @@ F 0 "D44" V 8454 5130 50  0000 L CNN
 F 1 "1N4148" V 8545 5130 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8500 4875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8500 5050 50  0001 C CNN
+F 4 "1N4148FS-ND" H 8500 5050 50  0001 C CNN "Digikey Part No."
 	1    8500 5050
 	0    1    1    0   
 $EndComp
@@ -514,9 +516,9 @@ AR Path="/61D39570/621E8781" Ref="U?"  Part="1"
 AR Path="/61DA711F/621E8781" Ref="U20"  Part="1" 
 F 0 "U20" H 2050 4267 50  0000 C CNN
 F 1 "6N137" H 2050 4176 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 3300 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 1200 4350 50  0001 C CNN
-F 4 "6N137-X007TCT-ND" H 2050 3800 50  0001 C CNN "Digikey Part No."
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2050 3300 50  0001 C CNN
+F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 1200 4350 50  0001 C CNN
+F 4 "6N137IS-ND" H 2050 3800 50  0001 C CNN "Digikey Part No."
 	1    2050 3800
 	1    0    0    -1  
 $EndComp
@@ -998,9 +1000,10 @@ P 3250 5750
 AR Path="/61764E0B/6256DA44" Ref="D?"  Part="1" 
 AR Path="/61DA711F/6256DA44" Ref="D41"  Part="1" 
 F 0 "D41" V 3204 5830 50  0000 L CNN
-F 1 "BZX84Cxx" V 3295 5830 50  0000 L CNN
+F 1 "BZX84C5V6" V 3295 5830 50  0000 L CNN
 F 2 "Diode_SMD:D_SOT-23_ANK" H 3250 5575 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 3250 5750 50  0001 C CNN
+F 4 "1514-BZX84C5V6TRPBFREECT-ND" H 3250 5750 50  0001 C CNN "Digikey Part No."
 	1    3250 5750
 	0    1    1    0   
 $EndComp
@@ -1047,9 +1050,10 @@ P 3250 7000
 AR Path="/61764E0B/62579E21" Ref="D?"  Part="1" 
 AR Path="/61DA711F/62579E21" Ref="D42"  Part="1" 
 F 0 "D42" V 3204 7080 50  0000 L CNN
-F 1 "BZX84Cxx" V 3295 7080 50  0000 L CNN
+F 1 "BZX84C5V6" V 3295 7080 50  0000 L CNN
 F 2 "Diode_SMD:D_SOT-23_ANK" H 3250 6825 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 3250 7000 50  0001 C CNN
+F 4 "1514-BZX84C5V6TRPBFREECT-ND" H 3250 7000 50  0001 C CNN "Digikey Part No."
 	1    3250 7000
 	0    1    1    0   
 $EndComp
@@ -1173,9 +1177,9 @@ AR Path="/61D39570/626742C5" Ref="U?"  Part="1"
 AR Path="/61DA711F/626742C5" Ref="U18"  Part="1" 
 F 0 "U18" H 2000 5967 50  0000 C CNN
 F 1 "6N137" H 2000 5876 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2000 5000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 1150 6050 50  0001 C CNN
-F 4 "6N137-X007TCT-ND" H 2000 5500 50  0001 C CNN "Digikey Part No."
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2000 5000 50  0001 C CNN
+F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 1150 6050 50  0001 C CNN
+F 4 "6N137IS-ND" H 2000 5500 50  0001 C CNN "Digikey Part No."
 	1    2000 5500
 	1    0    0    -1  
 $EndComp
@@ -1241,9 +1245,9 @@ AR Path="/61D39570/6268158D" Ref="U?"  Part="1"
 AR Path="/61DA711F/6268158D" Ref="U19"  Part="1" 
 F 0 "U19" H 2000 7217 50  0000 C CNN
 F 1 "6N137" H 2000 7126 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2000 6250 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 1150 7300 50  0001 C CNN
-F 4 "6N137-X007TCT-ND" H 2000 6750 50  0001 C CNN "Digikey Part No."
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2000 6250 50  0001 C CNN
+F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 1150 7300 50  0001 C CNN
+F 4 "6N137IS-ND" H 2000 6750 50  0001 C CNN "Digikey Part No."
 	1    2000 6750
 	1    0    0    -1  
 $EndComp
