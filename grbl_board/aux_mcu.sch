@@ -21,6 +21,7 @@ F 0 "U28" H 5500 1150 50  0000 C CNN
 F 1 "ATmega328P-AU" H 5750 1050 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5300 2650 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5300 2650 50  0001 C CNN
+F 4 "ATMEGA328P-AU-ND" H 5300 2650 50  0001 C CNN "Digikey Part No."
 	1    5300 2650
 	1    0    0    -1  
 $EndComp
@@ -384,8 +385,9 @@ U 1 1 61885C4F
 P 3600 6200
 F 0 "D47" V 3547 6280 50  0000 L CNN
 F 1 "LED" V 3638 6280 50  0000 L CNN
-F 2 "" H 3600 6200 50  0001 C CNN
-F 3 "~" H 3600 6200 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3600 6200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 3600 6200 50  0001 C CNN
+F 4 "404-1042-1-ND" H 3600 6200 50  0001 C CNN "Digikey Part No."
 	1    3600 6200
 	0    1    1    0   
 $EndComp
@@ -395,8 +397,9 @@ U 1 1 61885C55
 P 3950 6200
 F 0 "D48" V 3897 6280 50  0000 L CNN
 F 1 "LED" V 3988 6280 50  0000 L CNN
-F 2 "" H 3950 6200 50  0001 C CNN
-F 3 "~" H 3950 6200 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3950 6200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 3950 6200 50  0001 C CNN
+F 4 "404-1042-1-ND" H 3950 6200 50  0001 C CNN "Digikey Part No."
 	1    3950 6200
 	0    1    1    0   
 $EndComp
@@ -1136,8 +1139,9 @@ U 1 1 61FD2A47
 P 5200 6350
 F 0 "U27" H 5350 7050 50  0000 C CNN
 F 1 "74LS155" H 5450 6950 50  0000 C CNN
-F 2 "" H 5200 6350 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5200 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS155" H 5200 6350 50  0001 C CNN
+F 4 "296-33960-5-ND" H 5200 6350 50  0001 C CNN "Digikey Part No."
 	1    5200 6350
 	1    0    0    -1  
 $EndComp
@@ -1147,31 +1151,10 @@ U 1 1 61FD4784
 P 6200 6050
 F 0 "U26" H 6200 6367 50  0000 C CNN
 F 1 "40106" H 6200 6276 50  0000 C CNN
-F 2 "" H 6200 6050 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6200 6050 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 6050 50  0001 C CNN
+F 4 "HEF40106BTT,112-ND" H 6200 6050 50  0001 C CNN "Digikey Part No."
 	1    6200 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:40106 U29
-U 1 1 6201B7B4
-P 6200 6550
-F 0 "U29" H 6200 6867 50  0000 C CNN
-F 1 "40106" H 6200 6776 50  0000 C CNN
-F 2 "" H 6200 6550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 6550 50  0001 C CNN
-	1    6200 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:40106 U30
-U 1 1 62027074
-P 6200 7050
-F 0 "U30" H 6200 7367 50  0000 C CNN
-F 1 "40106" H 6200 7276 50  0000 C CNN
-F 2 "" H 6200 7050 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 7050 50  0001 C CNN
-	1    6200 7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1288,8 +1271,9 @@ U 7 1 61FD68E5
 P 4200 3250
 F 0 "U26" H 4430 3296 50  0000 L CNN
 F 1 "40106" H 4430 3205 50  0000 L CNN
-F 2 "" H 4200 3250 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4200 3250 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 4200 3250 50  0001 C CNN
+F 4 "HEF40106BTT,112-ND" H 4200 3250 50  0001 C CNN "Digikey Part No."
 	7    4200 3250
 	1    0    0    -1  
 $EndComp
@@ -1400,13 +1384,14 @@ F 3 "" H 8350 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS153 U31
+L 74xx:74LS153 U29
 U 1 1 618CA113
 P 8350 4300
-F 0 "U31" H 8500 5300 50  0000 C CNN
+F 0 "U29" H 8500 5300 50  0000 C CNN
 F 1 "74LS153" H 8600 5200 50  0000 C CNN
-F 2 "" H 8350 4300 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8350 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 8350 4300 50  0001 C CNN
+F 4 "296-3653-5-ND" H 8350 4300 50  0001 C CNN "Digikey Part No."
 	1    8350 4300
 	1    0    0    -1  
 $EndComp
@@ -1501,13 +1486,14 @@ Connection ~ 7250 5000
 Wire Wire Line
 	7850 5100 6950 5100
 $Comp
-L 74xx:74LS153 U32
+L 74xx:74LS153 U30
 U 1 1 61E49967
 P 10450 4700
-F 0 "U32" H 10600 5700 50  0000 C CNN
+F 0 "U30" H 10600 5700 50  0000 C CNN
 F 1 "74LS153" H 10700 5600 50  0000 C CNN
-F 2 "" H 10450 4700 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 10450 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 10450 4700 50  0001 C CNN
+F 4 "296-3653-5-ND" H 10450 4700 50  0001 C CNN "Digikey Part No."
 	1    10450 4700
 	1    0    0    -1  
 $EndComp
@@ -1661,4 +1647,32 @@ F 4 "EG2526CT-ND" H 3350 1300 50  0001 C CNN "Digikey Part No."
 	1    3350 1300
 	1    0    0    -1  
 $EndComp
+$Comp
+L 4xxx:40106 U26
+U 2 1 61AE43E8
+P 6200 6550
+F 0 "U26" H 6200 6867 50  0000 C CNN
+F 1 "40106" H 6200 6776 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6200 6550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 6550 50  0001 C CNN
+F 4 "HEF40106BTT,112-ND" H 6200 6550 50  0001 C CNN "Digikey Part No."
+	2    6200 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U26
+U 3 1 61AE6394
+P 6200 7050
+F 0 "U26" H 6200 7367 50  0000 C CNN
+F 1 "40106" H 6200 7276 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6200 7050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 7050 50  0001 C CNN
+F 4 "HEF40106BTT,112-ND" H 6200 7050 50  0001 C CNN "Digikey Part No."
+	3    6200 7050
+	1    0    0    -1  
+$EndComp
+Text Notes 4000 6000 0    50   ~ 0
+TXLED
+Text Notes 3650 6000 0    50   ~ 0
+RXLED
 $EndSCHEMATC

@@ -20,7 +20,8 @@ P 3500 2050
 F 0 "U9" H 3500 2517 50  0000 C CNN
 F 1 "6N137" H 3500 2426 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3500 1550 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 2650 2600 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 2650 2600 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 3500 2050 50  0001 C CNN "Digikey Part No."
 	1    3500 2050
 	1    0    0    -1  
 $EndComp
@@ -134,7 +135,8 @@ P 3500 3150
 F 0 "U10" H 3500 3617 50  0000 C CNN
 F 1 "6N137" H 3500 3526 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3500 2650 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 2650 3700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 2650 3700 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 3500 3150 50  0001 C CNN "Digikey Part No."
 	1    3500 3150
 	1    0    0    -1  
 $EndComp
@@ -209,7 +211,8 @@ P 3500 4250
 F 0 "U11" H 3500 4717 50  0000 C CNN
 F 1 "6N137" H 3500 4626 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3500 3750 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 2650 4800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 2650 4800 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 3500 4250 50  0001 C CNN "Digikey Part No."
 	1    3500 4250
 	1    0    0    -1  
 $EndComp
@@ -300,7 +303,8 @@ P 3500 5700
 F 0 "U12" H 3500 6167 50  0000 C CNN
 F 1 "6N137" H 3500 6076 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3500 5200 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 2650 6250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 2650 6250 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 3500 5700 50  0001 C CNN "Digikey Part No."
 	1    3500 5700
 	1    0    0    -1  
 $EndComp
@@ -408,7 +412,8 @@ P 7800 2050
 F 0 "U14" H 7800 2517 50  0000 C CNN
 F 1 "6N137" H 7800 2426 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 7800 1550 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 6950 2600 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 6950 2600 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 7800 2050 50  0001 C CNN "Digikey Part No."
 	1    7800 2050
 	1    0    0    -1  
 $EndComp
@@ -510,7 +515,8 @@ P 7800 3150
 F 0 "U15" H 7800 3617 50  0000 C CNN
 F 1 "6N137" H 7800 3526 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 7800 2650 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 6950 3700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 6950 3700 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 7800 3150 50  0001 C CNN "Digikey Part No."
 	1    7800 3150
 	1    0    0    -1  
 $EndComp
@@ -585,7 +591,8 @@ P 7800 4250
 F 0 "U16" H 7800 4717 50  0000 C CNN
 F 1 "6N137" H 7800 4626 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 7800 3750 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 6950 4800 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 6950 4800 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 7800 4250 50  0001 C CNN "Digikey Part No."
 	1    7800 4250
 	1    0    0    -1  
 $EndComp
@@ -693,7 +700,8 @@ P 7800 5350
 F 0 "U17" H 7800 5817 50  0000 C CNN
 F 1 "6N137" H 7800 5726 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 7800 4850 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 6950 5900 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 6950 5900 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 7800 5350 50  0001 C CNN "Digikey Part No."
 	1    7800 5350
 	1    0    0    -1  
 $EndComp
@@ -794,7 +802,8 @@ P 3500 6900
 F 0 "U13" H 3500 7367 50  0000 C CNN
 F 1 "6N137" H 3500 7276 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3500 6400 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 2650 7450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 2650 7450 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 3500 6900 50  0001 C CNN "Digikey Part No."
 	1    3500 6900
 	1    0    0    -1  
 $EndComp

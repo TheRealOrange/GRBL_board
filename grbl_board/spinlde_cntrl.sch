@@ -45,8 +45,9 @@ U 1 1 622D3963
 P 6050 5500
 F 0 "U22" H 6050 5867 50  0000 C CNN
 F 1 "LMV358" H 6050 5776 50  0000 C CNN
-F 2 "" H 6050 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 6050 5500 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 5500 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/lmv321-d.pdf" H 6050 5500 50  0001 C CNN
+F 4 "LMV358DR2GOSCT-ND" H 6050 5500 50  0001 C CNN "Digikey Part No."
 	1    6050 5500
 	1    0    0    -1  
 $EndComp
@@ -184,8 +185,9 @@ U 2 1 622D99B9
 P 6150 3800
 F 0 "U22" H 6150 4167 50  0000 C CNN
 F 1 "LMV358" H 6150 4076 50  0000 C CNN
-F 2 "" H 6150 3800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 6150 3800 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6150 3800 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/lmv321-d.pdf" H 6150 3800 50  0001 C CNN
+F 4 "LMV358DR2GOSCT-ND" H 6150 3800 50  0001 C CNN "Digikey Part No."
 	2    6150 3800
 	1    0    0    -1  
 $EndComp
@@ -199,8 +201,9 @@ U 3 1 622C5F43
 P 5950 2300
 F 0 "U22" H 5908 2346 50  0000 L CNN
 F 1 "LMV358" H 5908 2255 50  0000 L CNN
-F 2 "" H 5950 2300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 5950 2300 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5950 2300 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/lmv321-d.pdf" H 5950 2300 50  0001 C CNN
+F 4 "LMV358DR2GOSCT-ND" H 5950 2300 50  0001 C CNN "Digikey Part No."
 	3    5950 2300
 	1    0    0    -1  
 $EndComp
@@ -372,8 +375,9 @@ U 1 1 62256D59
 P 7100 2900
 F 0 "R46" H 7170 2946 50  0000 L CNN
 F 1 "250" H 7170 2855 50  0000 L CNN
-F 2 "" V 7030 2900 50  0001 C CNN
-F 3 "~" H 7100 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 2900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 7100 2900 50  0001 C CNN
+F 4 "13-RT0603BRE07250RLCT-ND" H 7100 2900 50  0001 C CNN "Digikey Part No."
 	1    7100 2900
 	1    0    0    -1  
 $EndComp
@@ -457,8 +461,9 @@ U 1 1 62237570
 P 8050 4100
 F 0 "U23" H 8200 4800 50  0000 C CNN
 F 1 "OPA2192" H 8300 4700 50  0000 C CNN
-F 2 "" H 8050 4100 50  0001 C CNN
-F 3 "" H 8050 4100 50  0001 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 8050 4100 50  0001 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopa2192-q1" H 8050 4100 50  0001 C CNN
+F 4 "296-50480-1-ND" H 8050 4100 50  0001 C CNN "Digikey Part No."
 	1    8050 4100
 	1    0    0    -1  
 $EndComp
@@ -510,7 +515,8 @@ AR Path="/61DA711F/621E8781" Ref="U20"  Part="1"
 F 0 "U20" H 2050 4267 50  0000 C CNN
 F 1 "6N137" H 2050 4176 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2050 3300 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 1200 4350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 1200 4350 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 2050 3800 50  0001 C CNN "Digikey Part No."
 	1    2050 3800
 	1    0    0    -1  
 $EndComp
@@ -628,11 +634,6 @@ Wire Wire Line
 	1700 1150 1700 1450
 Text Label 1700 1150 1    50   ~ 0
 24V_VFD
-Connection ~ 1700 1850
-Wire Wire Line
-	1250 1850 1700 1850
-Wire Wire Line
-	1250 1550 1250 1850
 Wire Wire Line
 	1150 1450 1700 1450
 Wire Wire Line
@@ -669,8 +670,9 @@ AR Path="/619755E7/62356FD0" Ref="D?"  Part="1"
 AR Path="/61DA711F/62356FD0" Ref="D43"  Part="1" 
 F 0 "D43" V 3854 2580 50  0000 L CNN
 F 1 "SS2150-LTP" V 3945 2580 50  0000 L CNN
-F 2 "" H 3900 2500 50  0001 C CNN
-F 3 "~" H 3900 2500 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3900 2500 50  0001 C CNN
+F 3 "https://www.mccsemi.com/pdf/Products/SS22-L-SS220-L(DO-214AC).pdf" H 3900 2500 50  0001 C CNN
+F 4 "SS2150-LTPMSCT-ND" H 3900 2500 50  0001 C CNN "Digikey Part No."
 	1    3900 2500
 	0    1    1    0   
 $EndComp
@@ -689,19 +691,6 @@ Wire Wire Line
 	3550 2700 3900 2700
 Wire Wire Line
 	4500 1500 4500 1450
-$Comp
-L Device:C C?
-U 1 1 62356FB4
-P 4500 1650
-AR Path="/619755E7/62356FB4" Ref="C?"  Part="1" 
-AR Path="/61DA711F/62356FB4" Ref="C29"  Part="1" 
-F 0 "C29" H 4615 1696 50  0000 L CNN
-F 1 "100u" H 4615 1605 50  0000 L CNN
-F 2 "" H 4538 1500 50  0001 C CNN
-F 3 "~" H 4500 1650 50  0001 C CNN
-	1    4500 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 1450 4500 1450
 Connection ~ 4050 1450
@@ -825,25 +814,10 @@ F 4 "311-47KARCT-ND" H 3050 2450 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 1950 1700 1850
-Wire Wire Line
 	1700 1450 2150 1450
 Connection ~ 1700 1450
 Wire Wire Line
 	1700 1550 1700 1450
-$Comp
-L Device:C C?
-U 1 1 62356F5F
-P 1700 1700
-AR Path="/619755E7/62356F5F" Ref="C?"  Part="1" 
-AR Path="/61DA711F/62356F5F" Ref="C25"  Part="1" 
-F 0 "C25" H 1815 1746 50  0000 L CNN
-F 1 "10u" H 1815 1655 50  0000 L CNN
-F 2 "" H 1738 1550 50  0001 C CNN
-F 3 "~" H 1700 1700 50  0001 C CNN
-	1    1700 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2150 2150 2150 2050
 Connection ~ 2150 1750
@@ -890,6 +864,7 @@ F 0 "U21" H 3050 2350 50  0000 C CNN
 F 1 "BD9G341EFJ" H 3250 2250 50  0000 C CNN
 F 2 "Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm_ThermalVias" H 3050 1300 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/BD9G341EFJ.pdf" H 2950 1750 50  0001 C CNN
+F 4 "BD9G341AEFJ-E2CT-ND" H 2950 1750 50  0001 C CNN "Digikey Part No."
 	1    2950 1750
 	1    0    0    -1  
 $EndComp
@@ -962,8 +937,9 @@ U 1 1 6222A089
 P 9650 1950
 F 0 "U24" H 9650 2192 50  0000 C CNN
 F 1 "L7805" H 9650 2101 50  0000 C CNN
-F 2 "" H 9675 1800 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 9675 1800 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 9650 1900 50  0001 C CNN
+F 4 "497-1170-1-ND" H 9650 1950 50  0001 C CNN "Digikey Part No."
 	1    9650 1950
 	1    0    0    -1  
 $EndComp
@@ -1198,7 +1174,8 @@ AR Path="/61DA711F/626742C5" Ref="U18"  Part="1"
 F 0 "U18" H 2000 5967 50  0000 C CNN
 F 1 "6N137" H 2000 5876 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2000 5000 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 1150 6050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 1150 6050 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 2000 5500 50  0001 C CNN "Digikey Part No."
 	1    2000 5500
 	1    0    0    -1  
 $EndComp
@@ -1265,7 +1242,8 @@ AR Path="/61DA711F/6268158D" Ref="U19"  Part="1"
 F 0 "U19" H 2000 7217 50  0000 C CNN
 F 1 "6N137" H 2000 7126 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2000 6250 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-0940EN" H 1150 7300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 1150 7300 50  0001 C CNN
+F 4 "6N137-X007TCT-ND" H 2000 6750 50  0001 C CNN "Digikey Part No."
 	1    2000 6750
 	1    0    0    -1  
 $EndComp
@@ -1337,8 +1315,9 @@ AR Path="/619755E7/619C2658" Ref="D?"  Part="1"
 AR Path="/61DA711F/619C2658" Ref="D46"  Part="1" 
 F 0 "D46" V 10647 3730 50  0000 L CNN
 F 1 "LED" V 10738 3730 50  0000 L CNN
-F 2 "" H 10700 3650 50  0001 C CNN
-F 3 "~" H 10700 3650 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10700 3650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 10700 3650 50  0001 C CNN
+F 4 "404-1046-1-ND" H 10700 3650 50  0001 C CNN "Digikey Part No."
 	1    10700 3650
 	0    -1   -1   0   
 $EndComp
@@ -1360,4 +1339,41 @@ Text Label 10700 3050 1    50   ~ 0
 5V
 Wire Wire Line
 	10700 3050 10700 3100
+$Comp
+L Device:CP C?
+U 1 1 61B273C0
+P 4500 1650
+AR Path="/619755E7/61B273C0" Ref="C?"  Part="1" 
+AR Path="/61DA711F/61B273C0" Ref="C29"  Part="1" 
+F 0 "C29" H 4618 1696 50  0000 L CNN
+F 1 "100u" H 4618 1605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4538 1500 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec_2013/B41821_B43821.pdf" H 4500 1650 50  0001 C CNN
+F 4 "495-5986-ND" H 4500 1650 50  0001 C CNN "Digikey Part No."
+	1    4500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 61B41092
+P 1700 1700
+AR Path="/619755E7/61B41092" Ref="C?"  Part="1" 
+AR Path="/61DA711F/61B41092" Ref="C25"  Part="1" 
+F 0 "C25" H 1818 1746 50  0000 L CNN
+F 1 "10u" H 1818 1655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1738 1550 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41866.pdf?ref_disty=digikey" H 1700 1700 50  0001 C CNN
+F 4 "495-75596-ND" H 1700 1700 50  0001 C CNN "Digikey Part No."
+	1    1700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1850 1700 1900
+Wire Wire Line
+	1700 1900 1250 1900
+Wire Wire Line
+	1250 1550 1250 1900
+Connection ~ 1700 1900
+Wire Wire Line
+	1700 1900 1700 1950
 $EndSCHEMATC

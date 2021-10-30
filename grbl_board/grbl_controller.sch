@@ -21,6 +21,7 @@ F 0 "U2" H 6150 1150 50  0000 C CNN
 F 1 "ATmega2560-16AU" H 6450 1050 50  0000 C CNN
 F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 5950 4000 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf" H 5950 4000 50  0001 C CNN
+F 4 "ATMEGA2560-16AU-ND" H 5950 4000 50  0001 C CNN "Digikey Part No."
 	1    5950 4000
 	1    0    0    -1  
 $EndComp
@@ -541,8 +542,9 @@ U 1 1 618D4A9C
 P 4100 6300
 F 0 "D1" V 4047 6380 50  0000 L CNN
 F 1 "LED" V 4138 6380 50  0000 L CNN
-F 2 "" H 4100 6300 50  0001 C CNN
-F 3 "~" H 4100 6300 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4100 6300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 4100 6300 50  0001 C CNN
+F 4 "404-1042-1-ND" H 4100 6300 50  0001 C CNN "Digikey Part No."
 	1    4100 6300
 	0    1    1    0   
 $EndComp
@@ -552,8 +554,9 @@ U 1 1 618D33FF
 P 4450 6300
 F 0 "D2" V 4397 6380 50  0000 L CNN
 F 1 "LED" V 4488 6380 50  0000 L CNN
-F 2 "" H 4450 6300 50  0001 C CNN
-F 3 "~" H 4450 6300 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4450 6300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 4450 6300 50  0001 C CNN
+F 4 "404-1042-1-ND" H 4450 6300 50  0001 C CNN "Digikey Part No."
 	1    4450 6300
 	0    1    1    0   
 $EndComp
@@ -901,4 +904,8 @@ Wire Wire Line
 	9800 3850 10100 3850
 Wire Wire Line
 	9000 3850 9400 3850
+Text Notes 4500 6100 0    50   ~ 0
+TXLED
+Text Notes 4150 6100 0    50   ~ 0
+RXLED
 $EndSCHEMATC

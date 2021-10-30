@@ -21,6 +21,7 @@ F 0 "U4" H 5300 3700 50  0000 C CNN
 F 1 "BD9G341EFJ" H 5500 3600 50  0000 C CNN
 F 2 "Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.4x3.2mm_ThermalVias" H 5300 2650 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/BD9G341EFJ.pdf" H 5200 3100 50  0001 C CNN
+F 4 "BD9G341AEFJ-E2CT-ND" H 5200 3100 50  0001 C CNN "Digikey Part No."
 	1    5200 3100
 	1    0    0    -1  
 $EndComp
@@ -49,28 +50,6 @@ F 3 "" H 3950 2200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3950 1850 3800 1850
-$Comp
-L Device:C C18
-U 1 1 617AA9A8
-P 4900 1950
-F 0 "C18" H 5015 1996 50  0000 L CNN
-F 1 "470u" H 5015 1905 50  0000 L CNN
-F 2 "" H 4938 1800 50  0001 C CNN
-F 3 "~" H 4900 1950 50  0001 C CNN
-	1    4900 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C19
-U 1 1 617AB129
-P 5350 1950
-F 0 "C19" H 5465 1996 50  0000 L CNN
-F 1 "10u" H 5465 1905 50  0000 L CNN
-F 2 "" H 5388 1800 50  0001 C CNN
-F 3 "~" H 5350 1950 50  0001 C CNN
-	1    5350 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 2150 5350 2100
 Wire Wire Line
@@ -133,17 +112,6 @@ Wire Wire Line
 Connection ~ 5800 1750
 Wire Wire Line
 	5800 1750 6350 1750
-$Comp
-L Device:C C17
-U 1 1 617B160B
-P 4250 1950
-F 0 "C17" H 4365 1996 50  0000 L CNN
-F 1 "470u" H 4365 1905 50  0000 L CNN
-F 2 "" H 4288 1800 50  0001 C CNN
-F 3 "~" H 4250 1950 50  0001 C CNN
-	1    4250 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 1750 4250 1750
 Wire Wire Line
@@ -203,17 +171,6 @@ F 3 "" H 4400 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 3500 4400 3400
-$Comp
-L Device:C C15
-U 1 1 617B86C0
-P 3950 3050
-F 0 "C15" H 4065 3096 50  0000 L CNN
-F 1 "10u" H 4065 3005 50  0000 L CNN
-F 2 "" H 3988 2900 50  0001 C CNN
-F 3 "~" H 3950 3050 50  0001 C CNN
-	1    3950 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3950 2900 3950 2800
 Connection ~ 3950 2800
@@ -364,17 +321,6 @@ Wire Wire Line
 Connection ~ 6300 2800
 Wire Wire Line
 	6300 2800 6750 2800
-$Comp
-L Device:C C24
-U 1 1 617C1EFE
-P 6750 3000
-F 0 "C24" H 6865 3046 50  0000 L CNN
-F 1 "100u" H 6865 2955 50  0000 L CNN
-F 2 "" H 6788 2850 50  0001 C CNN
-F 3 "~" H 6750 3000 50  0001 C CNN
-	1    6750 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6750 2850 6750 2800
 $Comp
@@ -422,8 +368,9 @@ U 1 1 617D07F5
 P 6150 3850
 F 0 "D3" V 6104 3930 50  0000 L CNN
 F 1 "SS2150-LTP" V 6195 3930 50  0000 L CNN
-F 2 "" H 6150 3850 50  0001 C CNN
-F 3 "~" H 6150 3850 50  0001 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 6150 3850 50  0001 C CNN
+F 3 "https://www.mccsemi.com/pdf/Products/SS22-L-SS220-L(DO-214AC).pdf" H 6150 3850 50  0001 C CNN
+F 4 "SS2150-LTPMSCT-ND" H 6150 3850 50  0001 C CNN "Digikey Part No."
 	1    6150 3850
 	0    1    1    0   
 $EndComp
@@ -437,6 +384,7 @@ F 0 "U3" H 5100 5517 50  0000 C CNN
 F 1 "LT1962-5" H 5100 5426 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 5100 4700 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 5100 4500 50  0001 C CNN
+F 4 "LT1962EMS8-5#TRPBFCT-ND" H 5100 5050 50  0001 C CNN "Digikey Part No."
 	1    5100 5050
 	1    0    0    -1  
 $EndComp
@@ -506,22 +454,8 @@ F 4 "CL31F105ZBFNNNE" H 6100 5000 50  0001 C CNN "Digikey Part No."
 	1    6100 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C23
-U 1 1 617E5C2A
-P 6650 5000
-F 0 "C23" H 6765 5046 50  0000 L CNN
-F 1 "10u" H 6765 4955 50  0000 L CNN
-F 2 "" H 6688 4850 50  0001 C CNN
-F 3 "~" H 6650 5000 50  0001 C CNN
-	1    6650 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 5150 5500 5150
-Wire Wire Line
-	6650 4850 6100 4850
-Connection ~ 6100 4850
 Wire Wire Line
 	6100 4850 5750 4850
 Wire Wire Line
@@ -552,8 +486,9 @@ U 1 1 617EED8F
 P 7300 2800
 F 0 "F1" V 7075 2800 50  0000 C CNN
 F 1 "2A" V 7166 2800 50  0000 C CNN
-F 2 "" H 7350 2600 50  0001 L CNN
-F 3 "~" H 7300 2800 50  0001 C CNN
+F 2 "Fuse:Fuse_Bourns_MF-RHT200" H 7350 2600 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/mfrht.pdf" H 7300 2800 50  0001 C CNN
+F 4 "118-MF-RHT200/32-0-ND" H 7300 2800 50  0001 C CNN "Digikey Part No."
 	1    7300 2800
 	0    1    1    0   
 $EndComp
@@ -568,14 +503,12 @@ U 1 1 617F6B7D
 P 7300 4850
 F 0 "F2" V 7075 4850 50  0000 C CNN
 F 1 "300mA" V 7166 4850 50  0000 C CNN
-F 2 "" H 7350 4650 50  0001 L CNN
-F 3 "~" H 7300 4850 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Castellated" H 7350 4650 50  0001 L CNN
+F 3 "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcg-series.pdf" H 7300 4850 50  0001 C CNN
+F 4 "507-1758-1-ND" H 7300 4850 50  0001 C CNN "Digikey Part No."
 	1    7300 4850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7150 4850 6650 4850
-Connection ~ 6650 4850
 Wire Wire Line
 	7550 4850 7450 4850
 Wire Wire Line
@@ -602,8 +535,9 @@ AR Path="/61764E0B/619AA747" Ref="D?"  Part="1"
 AR Path="/619755E7/619AA747" Ref="D4"  Part="1" 
 F 0 "D4" V 8397 5630 50  0000 L CNN
 F 1 "LED" V 8488 5630 50  0000 L CNN
-F 2 "" H 8450 5550 50  0001 C CNN
-F 3 "~" H 8450 5550 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8450 5550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 8450 5550 50  0001 C CNN
+F 4 "404-1046-1-ND" H 8450 5550 50  0001 C CNN "Digikey Part No."
 	1    8450 5550
 	0    -1   -1   0   
 $EndComp
@@ -622,4 +556,82 @@ F 3 "" H 8450 5700 50  0001 C CNN
 $EndComp
 Text HLabel 8450 5000 1    50   Input ~ 0
 5VDC
+$Comp
+L Device:CP C17
+U 1 1 61B06178
+P 4250 1950
+F 0 "C17" H 4368 1996 50  0000 L CNN
+F 1 "470u" H 4368 1905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4288 1800 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41896.pdf?ref_disty=digikey" H 4250 1950 50  0001 C CNN
+F 4 "B41896C7477M000-ND" H 4250 1950 50  0001 C CNN "Digikey Part No."
+	1    4250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C18
+U 1 1 61B09554
+P 4900 1950
+F 0 "C18" H 5018 1996 50  0000 L CNN
+F 1 "470u" H 5018 1905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4938 1800 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41896.pdf?ref_disty=digikey" H 4900 1950 50  0001 C CNN
+F 4 "B41896C7477M000-ND" H 4900 1950 50  0001 C CNN "Digikey Part No."
+	1    4900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C15
+U 1 1 61B0C9E2
+P 3950 3050
+F 0 "C15" H 4068 3096 50  0000 L CNN
+F 1 "10u" H 4068 3005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3988 2900 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41866.pdf?ref_disty=digikey" H 3950 3050 50  0001 C CNN
+F 4 "495-75596-ND" H 3950 3050 50  0001 C CNN "Digikey Part No."
+	1    3950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C24
+U 1 1 61B10617
+P 6750 3000
+F 0 "C24" H 6868 3046 50  0000 L CNN
+F 1 "100u" H 6868 2955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6788 2850 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec_2013/B41821_B43821.pdf" H 6750 3000 50  0001 C CNN
+F 4 "495-5986-ND" H 6750 3000 50  0001 C CNN "Digikey Part No."
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C23
+U 1 1 61B13999
+P 6650 5000
+F 0 "C23" H 6768 5046 50  0000 L CNN
+F 1 "10u" H 6768 4955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6688 4850 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41866.pdf?ref_disty=digikey" H 6650 5000 50  0001 C CNN
+F 4 "495-75596-ND" H 6650 5000 50  0001 C CNN "Digikey Part No."
+	1    6650 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4850 6650 4850
+Wire Wire Line
+	6100 4850 6650 4850
+Connection ~ 6100 4850
+Connection ~ 6650 4850
+$Comp
+L Device:CP C19
+U 1 1 61B8AB5A
+P 5350 1950
+F 0 "C19" H 5468 1996 50  0000 L CNN
+F 1 "10u" H 5468 1905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5388 1800 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41866.pdf?ref_disty=digikey" H 5350 1950 50  0001 C CNN
+F 4 "495-75596-ND" H 5350 1950 50  0001 C CNN "Digikey Part No."
+	1    5350 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
