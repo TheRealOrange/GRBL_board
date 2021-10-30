@@ -674,7 +674,7 @@ F 3 "~" H 1950 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_B J?
+L grbl_board-rescue:USB_B-Connector J?
 U 1 1 61885CD9
 P 850 3900
 F 0 "J?" H 907 4367 50  0000 C CNN
