@@ -791,6 +791,8 @@ $Comp
 L grbl_board-rescue:USB_B-Connector J?
 U 1 1 61809DB5
 P 1350 4000
+AR Path="/61809DB5" Ref="J?"  Part="1" 
+AR Path="/61764DEB/61809DB5" Ref="J?"  Part="1" 
 F 0 "J?" H 1407 4467 50  0000 C CNN
 F 1 "USB_B" H 1407 4376 50  0000 C CNN
 F 2 "" H 1500 3950 50  0001 C CNN

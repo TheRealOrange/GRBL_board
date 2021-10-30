@@ -298,47 +298,6 @@ Wire Wire Line
 	2750 1350 2750 1300
 Connection ~ 2750 1300
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 6185856D
-P 3250 3200
-F 0 "J?" H 3300 3517 50  0000 C CNN
-F 1 "ICSP" H 3300 3426 50  0000 C CNN
-F 2 "" H 3250 3200 50  0001 C CNN
-F 3 "~" H 3250 3200 50  0001 C CNN
-	1    3250 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 61858575
-P 3700 3000
-F 0 "#PWR?" H 3700 2850 50  0001 C CNN
-F 1 "+5V" H 3715 3173 50  0000 C CNN
-F 2 "" H 3700 3000 50  0001 C CNN
-F 3 "" H 3700 3000 50  0001 C CNN
-	1    3700 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 3000 3700 3100
-Wire Wire Line
-	3700 3100 3550 3100
-$Comp
-L power:GND #PWR?
-U 1 1 6185857D
-P 3700 3450
-F 0 "#PWR?" H 3700 3200 50  0001 C CNN
-F 1 "GND" H 3705 3277 50  0000 C CNN
-F 2 "" H 3700 3450 50  0001 C CNN
-F 3 "" H 3700 3450 50  0001 C CNN
-	1    3700 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 3450 3700 3300
-Wire Wire Line
-	3700 3300 3550 3300
-$Comp
 L power:+5V #PWR?
 U 1 1 61858587
 P 2750 800
@@ -677,6 +636,8 @@ $Comp
 L grbl_board-rescue:USB_B-Connector J?
 U 1 1 61885CD9
 P 850 3900
+AR Path="/61885CD9" Ref="J?"  Part="1" 
+AR Path="/61764E0B/61885CD9" Ref="J?"  Part="1" 
 F 0 "J?" H 907 4367 50  0000 C CNN
 F 1 "USB_B" H 907 4276 50  0000 C CNN
 F 2 "" H 1000 3850 50  0001 C CNN
@@ -844,8 +805,6 @@ F 3 "http://www.diodes.com/assets/Datasheets/BSS127.pdf" H 8050 1100 50  0001 L 
 	1    8050 1100
 	1    0    0    -1  
 $EndComp
-Text HLabel 9150 1950 0    50   Input ~ 0
-Z_STEP
 $Comp
 L Device:R R?
 U 1 1 619A4D2D
@@ -855,19 +814,6 @@ F 1 "1k" V 9434 1950 50  0000 C CNN
 F 2 "" V 9480 1950 50  0001 C CNN
 F 3 "~" H 9550 1950 50  0001 C CNN
 	1    9550 1950
-	0    1    1    0   
-$EndComp
-Text Label 7150 1950 2    50   ~ 0
-E_STEP
-$Comp
-L Device:R R?
-U 1 1 619AA69E
-P 7550 1950
-F 0 "R?" V 7343 1950 50  0000 C CNN
-F 1 "1k" V 7434 1950 50  0000 C CNN
-F 2 "" V 7480 1950 50  0001 C CNN
-F 3 "~" H 7550 1950 50  0001 C CNN
-	1    7550 1950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -926,73 +872,6 @@ Connection ~ 7600 1600
 Wire Wire Line
 	8150 1600 8150 1300
 Connection ~ 8150 1600
-$Comp
-L Transistor_FET:BSS127S Q?
-U 1 1 61A9E45D
-P 8050 2250
-F 0 "Q?" H 8254 2296 50  0000 L CNN
-F 1 "BSS127S" H 8254 2205 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8250 2175 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/BSS127.pdf" H 8050 2250 50  0001 L CNN
-	1    8050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61A9E463
-P 7300 2500
-F 0 "R?" H 7370 2546 50  0000 L CNN
-F 1 "10k" H 7370 2455 50  0000 L CNN
-F 2 "" V 7230 2500 50  0001 C CNN
-F 3 "~" H 7300 2500 50  0001 C CNN
-	1    7300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BZX84Cxx D?
-U 1 1 61A9E469
-P 7600 2500
-F 0 "D?" V 7554 2580 50  0000 L CNN
-F 1 "BZX84Cxx" V 7645 2580 50  0000 L CNN
-F 2 "Diode_SMD:D_SOT-23_ANK" H 7600 2325 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 7600 2500 50  0001 C CNN
-	1    7600 2500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7850 2250 7600 2250
-Wire Wire Line
-	7300 2250 7300 2350
-Wire Wire Line
-	7600 2350 7600 2250
-Connection ~ 7600 2250
-Wire Wire Line
-	7600 2250 7300 2250
-Wire Wire Line
-	7300 2650 7300 2750
-Wire Wire Line
-	7300 2750 7600 2750
-Wire Wire Line
-	7600 2750 7600 2650
-$Comp
-L power:GND #PWR?
-U 1 1 61A9E477
-P 8150 2850
-F 0 "#PWR?" H 8150 2600 50  0001 C CNN
-F 1 "GND" H 8155 2677 50  0000 C CNN
-F 2 "" H 8150 2850 50  0001 C CNN
-F 3 "" H 8150 2850 50  0001 C CNN
-	1    8150 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 2850 8150 2750
-Wire Wire Line
-	8150 2750 7600 2750
-Connection ~ 7600 2750
-Wire Wire Line
-	8150 2750 8150 2450
-Connection ~ 8150 2750
 $Comp
 L Transistor_FET:BSS127S Q?
 U 1 1 61AB0EFA
@@ -1108,17 +987,6 @@ Wire Wire Line
 	9300 2750 9600 2750
 Wire Wire Line
 	9600 2750 9600 2650
-$Comp
-L power:GND #PWR?
-U 1 1 61AB9FD8
-P 10150 2850
-F 0 "#PWR?" H 10150 2600 50  0001 C CNN
-F 1 "GND" H 10155 2677 50  0000 C CNN
-F 2 "" H 10150 2850 50  0001 C CNN
-F 3 "" H 10150 2850 50  0001 C CNN
-	1    10150 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10150 2850 10150 2750
 Wire Wire Line
@@ -1145,8 +1013,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 1950 9400 1950
 Wire Wire Line
-	7150 1950 7400 1950
-Wire Wire Line
 	7700 800  8150 800 
 Wire Wire Line
 	8150 800  8150 900 
@@ -1154,10 +1020,6 @@ Wire Wire Line
 	9700 1950 10150 1950
 Wire Wire Line
 	10150 1950 10150 2050
-Wire Wire Line
-	7700 1950 8150 1950
-Wire Wire Line
-	8150 1950 8150 2050
 Wire Wire Line
 	10150 800  10150 900 
 Wire Wire Line
@@ -1179,23 +1041,14 @@ F 3 "~" H 9550 800 50  0001 C CNN
 $EndComp
 Text Label 7150 1100 2    50   ~ 0
 X_EN
-Text Label 7150 2250 2    50   ~ 0
-E_EN
 Text Label 9150 2250 2    50   ~ 0
 Z_EN
 Text Label 9150 1100 2    50   ~ 0
 Y_EN
-Text Label 6500 6050 0    50   ~ 0
-X_EN
 Text Label 6500 6550 0    50   ~ 0
 Y_EN
 Text Label 6500 7050 0    50   ~ 0
 Z_EN
-Text Label 6500 7550 0    50   ~ 0
-E_EN
-Wire Wire Line
-	7150 2250 7300 2250
-Connection ~ 7300 2250
 Wire Wire Line
 	7150 1100 7300 1100
 Connection ~ 7300 1100
@@ -1210,10 +1063,6 @@ X_STEP_OUT
 Wire Wire Line
 	8250 800  8150 800 
 Connection ~ 8150 800 
-Text HLabel 8250 1950 2    50   Input ~ 0
-E_STEP_OUT
-Wire Wire Line
-	8250 1950 8150 1950
 Text HLabel 10250 1950 2    50   Input ~ 0
 Z_STEP_OUT
 Wire Wire Line
@@ -1222,7 +1071,6 @@ Text HLabel 10250 800  2    50   Input ~ 0
 Y_STEP_OUT
 Wire Wire Line
 	10250 800  10150 800 
-Connection ~ 8150 1950
 Connection ~ 10150 800 
 Connection ~ 10150 1950
 Text HLabel 4800 4850 0    50   Input ~ 0
@@ -1243,19 +1091,11 @@ Wire Wire Line
 	5200 4950 4800 4950
 Wire Wire Line
 	5200 4850 4800 4850
-Text Label 3050 3300 2    50   ~ 0
-RESET
 Text HLabel 5900 1750 2    50   Input ~ 0
 MOSI
 Text HLabel 5900 1850 2    50   Input ~ 0
 MISO
 Text HLabel 5900 1950 2    50   Input ~ 0
-SCK
-Text HLabel 3550 3200 2    50   Input ~ 0
-MOSI
-Text HLabel 3050 3100 0    50   Input ~ 0
-MISO
-Text HLabel 3050 3200 0    50   Input ~ 0
 SCK
 Text HLabel 5900 3550 2    50   Input ~ 0
 CS0
@@ -1265,6 +1105,222 @@ Text HLabel 5900 3750 2    50   Input ~ 0
 CS2
 Text HLabel 5900 3850 2    50   Input ~ 0
 CS3
+Text Label 5900 3350 0    50   ~ 0
+LIM_0
+Wire Wire Line
+	3600 7050 3350 7050
+Connection ~ 3600 7050
+$Comp
+L 74xx:74LS155 U?
+U 1 1 61FD2A47
+P 5200 6350
+F 0 "U?" H 5350 7050 50  0000 C CNN
+F 1 "74LS155" H 5450 6950 50  0000 C CNN
+F 2 "" H 5200 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS155" H 5200 6350 50  0001 C CNN
+	1    5200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U?
+U 1 1 61FD4784
+P 6200 6050
+F 0 "U?" H 6200 6367 50  0000 C CNN
+F 1 "40106" H 6200 6276 50  0000 C CNN
+F 2 "" H 6200 6050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 6050 50  0001 C CNN
+	1    6200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U?
+U 1 1 6201B7B4
+P 6200 6550
+F 0 "U?" H 6200 6867 50  0000 C CNN
+F 1 "40106" H 6200 6776 50  0000 C CNN
+F 2 "" H 6200 6550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 6550 50  0001 C CNN
+	1    6200 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U?
+U 1 1 62027074
+P 6200 7050
+F 0 "U?" H 6200 7367 50  0000 C CNN
+F 1 "40106" H 6200 7276 50  0000 C CNN
+F 2 "" H 6200 7050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 7050 50  0001 C CNN
+	1    6200 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62048018
+P 5200 7250
+F 0 "#PWR?" H 5200 7000 50  0001 C CNN
+F 1 "GND" H 5205 7077 50  0000 C CNN
+F 2 "" H 5200 7250 50  0001 C CNN
+F 3 "" H 5200 7250 50  0001 C CNN
+	1    5200 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 7050 5200 7200
+$Comp
+L Device:R R?
+U 1 1 620557F7
+P 4800 7200
+F 0 "R?" V 4593 7200 50  0000 C CNN
+F 1 "100" V 4684 7200 50  0000 C CNN
+F 2 "" V 4730 7200 50  0001 C CNN
+F 3 "~" H 4800 7200 50  0001 C CNN
+	1    4800 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 7200 5200 7200
+Connection ~ 5200 7200
+Wire Wire Line
+	5200 7200 5200 7250
+Wire Wire Line
+	4700 6050 4450 6050
+Wire Wire Line
+	4450 6050 4450 6550
+Wire Wire Line
+	4450 7200 4650 7200
+Wire Wire Line
+	4700 6550 4450 6550
+Connection ~ 4450 6550
+Wire Wire Line
+	5900 6550 5700 6550
+Wire Wire Line
+	5700 6450 5800 6450
+Wire Wire Line
+	5800 6450 5800 6050
+Wire Wire Line
+	5800 6050 5900 6050
+Wire Wire Line
+	5700 6650 5800 6650
+Wire Wire Line
+	5800 6650 5800 7050
+Wire Wire Line
+	5800 7050 5900 7050
+Text Label 4700 6250 2    50   ~ 0
+EN0
+Text Label 4700 6350 2    50   ~ 0
+EN1
+Text Label 4700 1650 2    50   ~ 0
+EN0
+Text Label 4700 1750 2    50   ~ 0
+EN1
+Text HLabel 5900 2350 2    50   Input ~ 0
+LIM_X
+Text HLabel 5900 2450 2    50   Input ~ 0
+LIM_Y
+Text HLabel 5900 2550 2    50   Input ~ 0
+LIM_Z
+Text HLabel 5900 2650 2    50   Input ~ 0
+LIM_X_OUT
+Text HLabel 5900 2750 2    50   Input ~ 0
+LIM_Y_OUT
+Text HLabel 5900 2850 2    50   Input ~ 0
+LIM_Z_OUT
+Wire Wire Line
+	4450 6650 4450 7200
+Wire Wire Line
+	4450 6550 4450 6650
+Connection ~ 4450 6650
+Wire Wire Line
+	4700 6650 4450 6650
+Text HLabel 9150 1950 0    50   Input ~ 0
+Z_STEP
+Wire Wire Line
+	4200 2750 4200 2700
+Wire Wire Line
+	4200 3750 4200 3850
+$Comp
+L power:GND #PWR?
+U 1 1 61FE3E51
+P 4200 3850
+F 0 "#PWR?" H 4200 3600 50  0001 C CNN
+F 1 "GND" H 4205 3677 50  0000 C CNN
+F 2 "" H 4200 3850 50  0001 C CNN
+F 3 "" H 4200 3850 50  0001 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61FD9392
+P 4200 2700
+F 0 "#PWR?" H 4200 2550 50  0001 C CNN
+F 1 "+5V" H 4215 2873 50  0000 C CNN
+F 2 "" H 4200 2700 50  0001 C CNN
+F 3 "" H 4200 2700 50  0001 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U?
+U 7 1 61FD68E5
+P 4200 3250
+F 0 "U?" H 4430 3296 50  0000 L CNN
+F 1 "40106" H 4430 3205 50  0000 L CNN
+F 2 "" H 4200 3250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 4200 3250 50  0001 C CNN
+	7    4200 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 3050 3200 0    50   Input ~ 0
+SCK
+Text HLabel 3050 3100 0    50   Input ~ 0
+MISO
+Text HLabel 3550 3200 2    50   Input ~ 0
+MOSI
+Text Label 3050 3300 2    50   ~ 0
+RESET
+Wire Wire Line
+	3700 3300 3550 3300
+Wire Wire Line
+	3700 3450 3700 3300
+$Comp
+L power:GND #PWR?
+U 1 1 6185857D
+P 3700 3450
+F 0 "#PWR?" H 3700 3200 50  0001 C CNN
+F 1 "GND" H 3705 3277 50  0000 C CNN
+F 2 "" H 3700 3450 50  0001 C CNN
+F 3 "" H 3700 3450 50  0001 C CNN
+	1    3700 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3100 3550 3100
+Wire Wire Line
+	3700 3000 3700 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 61858575
+P 3700 3000
+F 0 "#PWR?" H 3700 2850 50  0001 C CNN
+F 1 "+5V" H 3715 3173 50  0000 C CNN
+F 2 "" H 3700 3000 50  0001 C CNN
+F 3 "" H 3700 3000 50  0001 C CNN
+	1    3700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 6185856D
+P 3250 3200
+F 0 "J?" H 3300 3517 50  0000 C CNN
+F 1 "ICSP" H 3300 3426 50  0000 C CNN
+F 2 "" H 3250 3200 50  0001 C CNN
+F 3 "~" H 3250 3200 50  0001 C CNN
+	1    3250 3200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	10450 5850 10450 5950
 Wire Wire Line
@@ -1293,8 +1349,6 @@ F 3 "" H 10450 5950 50  0001 C CNN
 	1    10450 5950
 	1    0    0    -1  
 $EndComp
-Text Label 5900 3350 0    50   ~ 0
-LIM_0
 Text Label 10950 4000 0    50   ~ 0
 LIM_0
 Connection ~ 10450 5850
@@ -1419,46 +1473,10 @@ E_STEP
 Text HLabel 8850 4300 2    50   Input ~ 0
 E_DIR_OUT
 Wire Wire Line
-	6950 5100 6950 4650
-Wire Wire Line
-	6950 4200 6950 4250
-Wire Wire Line
-	6950 4250 6950 4350
-Connection ~ 6950 4250
-Wire Wire Line
-	6800 5100 6950 5100
-Text Label 6800 5100 2    50   ~ 0
-SEL1
-Text Label 6800 5000 2    50   ~ 0
-SEL0
-$Comp
-L power:+5V #PWR?
-U 1 1 618E2746
-P 6950 4200
-F 0 "#PWR?" H 6950 4050 50  0001 C CNN
-F 1 "+5V" H 6965 4373 50  0000 C CNN
-F 2 "" H 6950 4200 50  0001 C CNN
-F 3 "" H 6950 4200 50  0001 C CNN
-	1    6950 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 618D0F82
-P 6950 4500
-F 0 "R?" H 7020 4546 50  0000 L CNN
-F 1 "10k" H 7020 4455 50  0000 L CNN
-F 2 "" V 6880 4500 50  0001 C CNN
-F 3 "~" H 6950 4500 50  0001 C CNN
-	1    6950 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	7250 5000 7850 5000
 Connection ~ 7250 5000
 Wire Wire Line
 	7850 5100 6950 5100
-Connection ~ 6950 5100
 $Comp
 L 74xx:74LS153 U?
 U 1 1 61E49967
@@ -1551,181 +1569,52 @@ Wire Wire Line
 	9950 5500 9050 5500
 Connection ~ 9050 5500
 Wire Wire Line
-	3600 7050 3350 7050
-Connection ~ 3600 7050
+	6800 5100 6950 5100
+Wire Wire Line
+	6950 4200 6950 4250
+Wire Wire Line
+	6950 4250 6950 4350
+Connection ~ 6950 4250
+Connection ~ 6950 5100
 $Comp
-L 74xx:74LS155 U?
-U 1 1 61FD2A47
-P 5200 6350
-F 0 "U?" H 5350 7050 50  0000 C CNN
-F 1 "74LS155" H 5450 6950 50  0000 C CNN
-F 2 "" H 5200 6350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS155" H 5200 6350 50  0001 C CNN
-	1    5200 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:40106 U?
-U 1 1 61FD4784
-P 6200 6050
-F 0 "U?" H 6200 6367 50  0000 C CNN
-F 1 "40106" H 6200 6276 50  0000 C CNN
-F 2 "" H 6200 6050 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 6050 50  0001 C CNN
-	1    6200 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:40106 U?
-U 7 1 61FD68E5
-P 4200 3250
-F 0 "U?" H 4430 3296 50  0000 L CNN
-F 1 "40106" H 4430 3205 50  0000 L CNN
-F 2 "" H 4200 3250 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 4200 3250 50  0001 C CNN
-	7    4200 3250
+L Device:R R?
+U 1 1 618D0F82
+P 6950 4500
+F 0 "R?" H 7020 4546 50  0000 L CNN
+F 1 "10k" H 7020 4455 50  0000 L CNN
+F 2 "" V 6880 4500 50  0001 C CNN
+F 3 "~" H 6950 4500 50  0001 C CNN
+	1    6950 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
-U 1 1 61FD9392
-P 4200 2700
-F 0 "#PWR?" H 4200 2550 50  0001 C CNN
-F 1 "+5V" H 4215 2873 50  0000 C CNN
-F 2 "" H 4200 2700 50  0001 C CNN
-F 3 "" H 4200 2700 50  0001 C CNN
-	1    4200 2700
+U 1 1 618E2746
+P 6950 4200
+F 0 "#PWR?" H 6950 4050 50  0001 C CNN
+F 1 "+5V" H 6965 4373 50  0000 C CNN
+F 2 "" H 6950 4200 50  0001 C CNN
+F 3 "" H 6950 4200 50  0001 C CNN
+	1    6950 4200
 	1    0    0    -1  
 $EndComp
+Text Label 6800 5000 2    50   ~ 0
+SEL0
+Text Label 6800 5100 2    50   ~ 0
+SEL1
+Wire Wire Line
+	6950 5100 6950 4650
+Text Label 6500 6050 0    50   ~ 0
+X_EN
 $Comp
 L power:GND #PWR?
-U 1 1 61FE3E51
-P 4200 3850
-F 0 "#PWR?" H 4200 3600 50  0001 C CNN
-F 1 "GND" H 4205 3677 50  0000 C CNN
-F 2 "" H 4200 3850 50  0001 C CNN
-F 3 "" H 4200 3850 50  0001 C CNN
-	1    4200 3850
+U 1 1 61AB9FD8
+P 10150 2850
+F 0 "#PWR?" H 10150 2600 50  0001 C CNN
+F 1 "GND" H 10155 2677 50  0000 C CNN
+F 2 "" H 10150 2850 50  0001 C CNN
+F 3 "" H 10150 2850 50  0001 C CNN
+	1    10150 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 3750 4200 3850
-Wire Wire Line
-	4200 2750 4200 2700
-$Comp
-L 4xxx:40106 U?
-U 1 1 6201B7B4
-P 6200 6550
-F 0 "U?" H 6200 6867 50  0000 C CNN
-F 1 "40106" H 6200 6776 50  0000 C CNN
-F 2 "" H 6200 6550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 6550 50  0001 C CNN
-	1    6200 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:40106 U?
-U 1 1 62027074
-P 6200 7050
-F 0 "U?" H 6200 7367 50  0000 C CNN
-F 1 "40106" H 6200 7276 50  0000 C CNN
-F 2 "" H 6200 7050 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 7050 50  0001 C CNN
-	1    6200 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62048018
-P 5200 7250
-F 0 "#PWR?" H 5200 7000 50  0001 C CNN
-F 1 "GND" H 5205 7077 50  0000 C CNN
-F 2 "" H 5200 7250 50  0001 C CNN
-F 3 "" H 5200 7250 50  0001 C CNN
-	1    5200 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5200 7050 5200 7200
-$Comp
-L Device:R R?
-U 1 1 620557F7
-P 4800 7200
-F 0 "R?" V 4593 7200 50  0000 C CNN
-F 1 "100" V 4684 7200 50  0000 C CNN
-F 2 "" V 4730 7200 50  0001 C CNN
-F 3 "~" H 4800 7200 50  0001 C CNN
-	1    4800 7200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4950 7200 5200 7200
-Connection ~ 5200 7200
-Wire Wire Line
-	5200 7200 5200 7250
-Wire Wire Line
-	4700 6050 4450 6050
-Wire Wire Line
-	4450 6050 4450 6550
-Wire Wire Line
-	4450 7200 4650 7200
-Wire Wire Line
-	4700 6550 4450 6550
-Connection ~ 4450 6550
-Wire Wire Line
-	4450 6550 4450 6650
-Wire Wire Line
-	4700 6650 4450 6650
-Connection ~ 4450 6650
-Wire Wire Line
-	4450 6650 4450 7200
-Wire Wire Line
-	5900 6550 5700 6550
-Wire Wire Line
-	5700 6450 5800 6450
-Wire Wire Line
-	5800 6450 5800 6050
-Wire Wire Line
-	5800 6050 5900 6050
-Wire Wire Line
-	5700 6650 5800 6650
-Wire Wire Line
-	5800 6650 5800 7050
-Wire Wire Line
-	5800 7050 5900 7050
-$Comp
-L 4xxx:40106 U?
-U 1 1 620F4E78
-P 6200 7550
-F 0 "U?" H 6200 7867 50  0000 C CNN
-F 1 "40106" H 6200 7776 50  0000 C CNN
-F 2 "" H 6200 7550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 6200 7550 50  0001 C CNN
-	1    6200 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 7550 5700 7550
-Wire Wire Line
-	5700 6750 5700 7550
-Text Label 4700 6250 2    50   ~ 0
-EN0
-Text Label 4700 6350 2    50   ~ 0
-EN1
-Text Label 4700 1650 2    50   ~ 0
-EN0
-Text Label 4700 1750 2    50   ~ 0
-EN1
-Text HLabel 5900 2350 2    50   Input ~ 0
-LIM_X
-Text HLabel 5900 2450 2    50   Input ~ 0
-LIM_Y
-Text HLabel 5900 2550 2    50   Input ~ 0
-LIM_Z
-Text HLabel 5900 2650 2    50   Input ~ 0
-LIM_X_OUT
-Text HLabel 5900 2750 2    50   Input ~ 0
-LIM_Y_OUT
-Text HLabel 5900 2850 2    50   Input ~ 0
-LIM_Z_OUT
 $EndSCHEMATC
