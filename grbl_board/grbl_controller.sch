@@ -454,16 +454,7 @@ F 4 "311-1.0MGRCT-ND" H 2700 1700 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 1550 2700 1450
-Wire Wire Line
-	2700 1450 3100 1450
-Connection ~ 3100 1450
-Wire Wire Line
 	3100 2000 3100 1700
-Wire Wire Line
-	2700 1850 2700 2000
-Wire Wire Line
-	2700 2000 3100 2000
 $Comp
 L power:+5V #PWR016
 U 1 1 617EF684
@@ -799,7 +790,7 @@ F 4 "732-1591-1-ND" H 2450 3800 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L grbl_board-rescue:USB_B-Connector J?
+L Connector:USB_B J?
 U 1 1 61809DB5
 P 1350 4000
 AR Path="/61809DB5" Ref="J?"  Part="1" 
@@ -908,4 +899,16 @@ Text Notes 4500 6100 0    50   ~ 0
 TXLED
 Text Notes 4150 6100 0    50   ~ 0
 RXLED
+Wire Wire Line
+	4000 2000 4000 2350
+Wire Wire Line
+	4000 2350 2700 2350
+Wire Wire Line
+	2700 1850 2700 2350
+Wire Wire Line
+	4000 1450 4000 1100
+Wire Wire Line
+	4000 1100 2700 1100
+Wire Wire Line
+	2700 1100 2700 1550
 $EndSCHEMATC

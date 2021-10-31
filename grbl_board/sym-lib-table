@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name grbl_board)(type Legacy)(uri ${KIPRJMOD}/grbl_board.lib)(options "")(descr ""))
-  (lib (name grbl_board-rescue)(type Legacy)(uri ${KIPRJMOD}/grbl_board-rescue.lib)(options "")(descr ""))
 )

@@ -26,18 +26,6 @@ F 4 "BD9G341AEFJ-E2CT-ND" H 5200 3100 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J5
-U 1 1 617A7AB6
-P 3600 1850
-F 0 "J5" H 3518 1525 50  0000 C CNN
-F 1 "32VDC" H 3518 1616 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 3600 1850 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 3600 1850 50  0001 C CNN
-F 4 "ED2808-ND" H 3600 1850 50  0001 C CNN "Digikey Part No."
-	1    3600 1850
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR020
 U 1 1 617A8C18
 P 3950 2200
@@ -49,8 +37,6 @@ F 3 "" H 3950 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 1850 3800 1850
-Wire Wire Line
 	5350 2150 5350 2100
 Wire Wire Line
 	5350 1750 5350 1800
@@ -60,8 +46,6 @@ Wire Wire Line
 	4900 2100 4900 2150
 Text HLabel 6350 1750 2    50   Input ~ 0
 32VDC
-Wire Wire Line
-	3950 1850 3950 2150
 $Comp
 L Device:L L2
 U 1 1 617AECF9
@@ -76,7 +60,6 @@ F 4 "732-1140-1-ND" H 4550 1750 50  0001 C CNN "Digikey Part No."
 $EndComp
 Wire Wire Line
 	3950 2150 4250 2150
-Connection ~ 3950 2150
 Wire Wire Line
 	3950 2150 3950 2200
 $Comp
@@ -634,4 +617,33 @@ F 4 "495-75596-ND" H 5350 1950 50  0001 C CNN "Digikey Part No."
 	1    5350 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J5
+U 1 1 61EF7F56
+P 3500 1950
+F 0 "J5" H 3418 1525 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 3418 1616 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 3500 1950 50  0001 C CNN
+F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 3500 1950 50  0001 C CNN
+F 4 "ED2810-ND" H 3500 1950 50  0001 C CNN "Digikey Part No."
+	1    3500 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 1950 3950 1950
+Wire Wire Line
+	3950 1950 3950 2050
+Connection ~ 3950 2150
+Wire Wire Line
+	3950 2050 3700 2050
+Connection ~ 3950 2050
+Wire Wire Line
+	3950 2050 3950 2150
+Wire Wire Line
+	3700 1850 3800 1850
+Wire Wire Line
+	3800 1850 3800 1750
+Wire Wire Line
+	3800 1750 3700 1750
+Connection ~ 3800 1750
 $EndSCHEMATC
