@@ -1,4 +1,4 @@
-update=31/10/2021 20:56:28
+update=01/11/2021 20:51:11
 version=1
 last_client=kicad
 [general]
@@ -261,3 +261,13 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=C:/Users/linyi/Documents/Electronics/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
