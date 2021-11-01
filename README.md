@@ -1,5 +1,7 @@
 # GRBL_board
 
+![pcb picture](assets/board.png)
+
 ## Introduction
 
 This is a PCB designed to run [GRBL](https://github.com/gnea/grbl), an open source CNC control software that is designed and optimised for Arduino. This board uses [GRBL-Mega](https://github.com/gnea/grbl-Mega), which is a version of GRBL that can run on the ATMEGA-2560, used in the Arduino Mega. This implementation allows GRBL to have a larger buffer size, since the ATMEGA-328P that GRBL was originally designed for has severe memory limitations.
@@ -15,6 +17,11 @@ This board design incorporates several additional features, such as:
 - Possible sensorless homing using Trinamic drivers (not ideal since it only emulates a limit switch)
 
 The goal is to accomplish this with minimal editing of the GRBL code, thus to do so an additional ATMEGA-328P is added on the board to enable the additional features.
+
+## Connections
+
+This board is designed with the aim of being as compatible as possible with the default GRBL, and as such, the pins are wired to follow the default GRBL-Mega pinout, as shown.
+![Default GRBL-Mega pinout](assets\pinout.png)
 
 ## Trinamic Drivers
 
