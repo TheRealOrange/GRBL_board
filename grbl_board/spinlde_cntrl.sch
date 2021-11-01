@@ -587,20 +587,6 @@ Connection ~ 1700 1900
 Wire Wire Line
 	1700 1900 1700 1950
 $Comp
-L power:GND #PWR?
-U 1 1 619C265E
-P 10700 3800
-AR Path="/61764E0B/619C265E" Ref="#PWR?"  Part="1" 
-AR Path="/619755E7/619C265E" Ref="#PWR?"  Part="1" 
-AR Path="/61DA711F/619C265E" Ref="#PWR077"  Part="1" 
-F 0 "#PWR077" H 10700 3550 50  0001 C CNN
-F 1 "GND" H 10705 3627 50  0000 C CNN
-F 2 "" H 10700 3800 50  0001 C CNN
-F 3 "" H 10700 3800 50  0001 C CNN
-	1    10700 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C?
 U 1 1 61B41092
 P 1700 1700
@@ -1380,4 +1366,6 @@ F 4 "YAG6172CT-ND" H 1500 3800 50  0001 C CNN "Digikey Part No."
 	1    1500 3800
 	0    1    1    0   
 $EndComp
+Text Label 10700 3800 3    50   ~ 0
+GND_VFD
 $EndSCHEMATC

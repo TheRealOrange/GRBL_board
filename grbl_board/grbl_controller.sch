@@ -797,7 +797,7 @@ AR Path="/61809DB5" Ref="J?"  Part="1"
 AR Path="/61764DEB/61809DB5" Ref="J3"  Part="1" 
 F 0 "J3" H 1407 4467 50  0000 C CNN
 F 1 "USB_B" H 1407 4376 50  0000 C CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1500 3950 50  0001 C CNN
+F 2 "grbl_board:USB_B_OST_USB-B1HSxx_Horizontal" H 1500 3950 50  0001 C CNN
 F 3 "https://belfuse.com/resources/datasheets/stewartconnector/ds-stw-usb-2.0-type-b-connectors.pdf" H 1500 3950 50  0001 C CNN
 F 4 "380-1492-ND" H 1350 4000 50  0001 C CNN "Digikey Part No."
 	1    1350 4000

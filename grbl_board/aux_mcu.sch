@@ -548,7 +548,7 @@ AR Path="/61885CD9" Ref="J?"  Part="1"
 AR Path="/61764E0B/61885CD9" Ref="J17"  Part="1" 
 F 0 "J17" H 907 4367 50  0000 C CNN
 F 1 "USB_B" H 907 4276 50  0000 C CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1000 3850 50  0001 C CNN
+F 2 "grbl_board:USB_B_OST_USB-B1HSxx_Horizontal" H 1000 3850 50  0001 C CNN
 F 3 "https://belfuse.com/resources/datasheets/stewartconnector/ds-stw-usb-2.0-type-b-connectors.pdf" H 1000 3850 50  0001 C CNN
 F 4 "380-1492-ND" H 850 3900 50  0001 C CNN "Digikey Part No."
 	1    850  3900
@@ -1580,4 +1580,15 @@ Wire Wire Line
 	6800 5000 7850 5000
 Wire Wire Line
 	6800 5100 7850 5100
+$Comp
+L power:+5V #PWR0104
+U 1 1 62525187
+P 5200 5650
+F 0 "#PWR0104" H 5200 5500 50  0001 C CNN
+F 1 "+5V" H 5215 5823 50  0000 C CNN
+F 2 "" H 5200 5650 50  0001 C CNN
+F 3 "" H 5200 5650 50  0001 C CNN
+	1    5200 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
