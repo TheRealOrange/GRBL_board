@@ -431,9 +431,9 @@ U 1 1 617E4A28
 P 6100 5000
 F 0 "C22" H 6215 5046 50  0000 L CNN
 F 1 "10n" H 6215 4955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6138 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 4850 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31F105ZBFNNNE.jsp" H 6100 5000 50  0001 C CNN
-F 4 "CL31F105ZBFNNNE" H 6100 5000 50  0001 C CNN "Digikey Part No."
+F 4 "1276-1009-1-ND" H 6100 5000 50  0001 C CNN "Digikey Part No."
 	1    6100 5000
 	1    0    0    -1  
 $EndComp

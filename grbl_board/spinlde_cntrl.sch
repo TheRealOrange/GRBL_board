@@ -1146,7 +1146,7 @@ F 0 "C31" H 8715 3496 50  0000 L CNN
 F 1 "220p" H 8715 3405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8638 3300 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C221JB5NNNC.jsp" H 8600 3450 50  0001 C CNN
-F 4 "CL05C221JB5NNNC" H 8600 3450 50  0001 C CNN "Digikey Part No."
+F 4 "1276-1059-1-ND" H 8600 3450 50  0001 C CNN "Digikey Part No."
 	1    8600 3450
 	1    0    0    -1  
 $EndComp
@@ -1170,7 +1170,7 @@ F 0 "C32" H 8715 4296 50  0000 L CNN
 F 1 "220p" H 8715 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 8638 4100 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C221JB5NNNC.jsp" H 8600 4250 50  0001 C CNN
-F 4 "CL05C221JB5NNNC" H 8600 4250 50  0001 C CNN "Digikey Part No."
+F 4 "1276-1059-1-ND" H 8600 4250 50  0001 C CNN "Digikey Part No."
 	1    8600 4250
 	1    0    0    -1  
 $EndComp
