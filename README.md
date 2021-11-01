@@ -21,7 +21,7 @@ The goal is to accomplish this with minimal editing of the GRBL code, thus to do
 ## Connections
 
 This board is designed with the aim of being as compatible as possible with the default GRBL, and as such, the pins are wired to follow the default GRBL-Mega pinout, as shown.
-![Default GRBL-Mega pinout](assets\pinout.png)
+![Default GRBL-Mega pinout](assets/pinout.png)
 
 ## Trinamic Drivers
 
