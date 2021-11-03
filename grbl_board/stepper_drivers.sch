@@ -1156,4 +1156,107 @@ F 3 "" H 7450 950 50  0001 C CNN
 	1    7450 950 
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C47
+U 1 1 6183BAC9
+P 2550 6650
+F 0 "C47" H 2665 6696 50  0000 L CNN
+F 1 "4.7u" H 2665 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2588 6500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 2550 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 2550 6650 50  0001 C CNN "Digikey Part No."
+	1    2550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C48
+U 1 1 6183C6A1
+P 3000 6650
+F 0 "C48" H 3115 6696 50  0000 L CNN
+F 1 "4.7u" H 3115 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3038 6500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 3000 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 3000 6650 50  0001 C CNN "Digikey Part No."
+	1    3000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C49
+U 1 1 61844DE6
+P 3450 6650
+F 0 "C49" H 3565 6696 50  0000 L CNN
+F 1 "4.7u" H 3565 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 6500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 3450 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 3450 6650 50  0001 C CNN "Digikey Part No."
+	1    3450 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C50
+U 1 1 6184D473
+P 3900 6650
+F 0 "C50" H 4015 6696 50  0000 L CNN
+F 1 "4.7u" H 4015 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3938 6500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 3900 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 3900 6650 50  0001 C CNN "Digikey Part No."
+	1    3900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR077
+U 1 1 61855DAE
+P 3250 6900
+F 0 "#PWR077" H 3250 6650 50  0001 C CNN
+F 1 "GND" H 3255 6727 50  0000 C CNN
+F 2 "" H 3250 6900 50  0001 C CNN
+F 3 "" H 3250 6900 50  0001 C CNN
+	1    3250 6900
+	1    0    0    -1  
+$EndComp
+Text HLabel 3250 6350 1    50   Input ~ 0
+VMOT
+Wire Wire Line
+	3250 6350 3250 6450
+Wire Wire Line
+	3250 6450 3000 6450
+Wire Wire Line
+	2550 6450 2550 6500
+Wire Wire Line
+	2550 6800 2550 6850
+Wire Wire Line
+	2550 6850 3000 6850
+Wire Wire Line
+	3900 6850 3900 6800
+Wire Wire Line
+	3900 6500 3900 6450
+Wire Wire Line
+	3900 6450 3450 6450
+Connection ~ 3250 6450
+Wire Wire Line
+	3450 6500 3450 6450
+Connection ~ 3450 6450
+Wire Wire Line
+	3450 6450 3250 6450
+Wire Wire Line
+	3000 6500 3000 6450
+Connection ~ 3000 6450
+Wire Wire Line
+	3000 6450 2550 6450
+Wire Wire Line
+	3000 6850 3000 6800
+Connection ~ 3000 6850
+Wire Wire Line
+	3000 6850 3250 6850
+Wire Wire Line
+	3450 6850 3450 6800
+Connection ~ 3450 6850
+Wire Wire Line
+	3450 6850 3900 6850
+Wire Wire Line
+	3250 6900 3250 6850
+Connection ~ 3250 6850
+Wire Wire Line
+	3250 6850 3450 6850
 $EndSCHEMATC
