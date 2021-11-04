@@ -904,4 +904,24 @@ Wire Wire Line
 	1800 6700 1800 7000
 Wire Wire Line
 	1800 7000 1600 7000
+Wire Notes Line
+	5500 1150 5500 6100
+Wire Notes Line
+	5500 6100 8700 6100
+Wire Notes Line
+	8700 6100 8700 1150
+Wire Notes Line
+	8700 1150 5500 1150
+Text Notes 7900 1300 0    50   ~ 0
+Limit switch inputs
+Wire Notes Line
+	4650 1150 4650 4800
+Wire Notes Line
+	4650 4800 1200 4800
+Wire Notes Line
+	1200 4800 1200 1150
+Wire Notes Line
+	1200 1150 4650 1150
+Text Notes 2950 1300 0    50   ~ 0
+Reset/Abort, Hold, and Start Button inputs\n
 $EndSCHEMATC

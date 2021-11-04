@@ -546,8 +546,8 @@ P 4250 1950
 F 0 "C17" H 4368 1996 50  0000 L CNN
 F 1 "470u" H 4368 1905 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4288 1800 50  0001 C CNN
-F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41896.pdf?ref_disty=digikey" H 4250 1950 50  0001 C CNN
-F 4 "B41896C7477M000-ND" H 4250 1950 50  0001 C CNN "Digikey Part No."
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41895.pdf" H 4250 1950 50  0001 C CNN
+F 4 "495-76603-ND" H 4250 1950 50  0001 C CNN "Digikey Part No."
 	1    4250 1950
 	1    0    0    -1  
 $EndComp
@@ -558,8 +558,8 @@ P 4900 1950
 F 0 "C18" H 5018 1996 50  0000 L CNN
 F 1 "470u" H 5018 1905 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 4938 1800 50  0001 C CNN
-F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41896.pdf?ref_disty=digikey" H 4900 1950 50  0001 C CNN
-F 4 "B41896C7477M000-ND" H 4900 1950 50  0001 C CNN "Digikey Part No."
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41895.pdf" H 4900 1950 50  0001 C CNN
+F 4 "495-76603-ND" H 4900 1950 50  0001 C CNN "Digikey Part No."
 	1    4900 1950
 	1    0    0    -1  
 $EndComp
@@ -582,8 +582,8 @@ P 6750 3000
 F 0 "C24" H 6868 3046 50  0000 L CNN
 F 1 "100u" H 6868 2955 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6788 2850 50  0001 C CNN
-F 3 "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec_2013/B41821_B43821.pdf" H 6750 3000 50  0001 C CNN
-F 4 "495-5986-ND" H 6750 3000 50  0001 C CNN "Digikey Part No."
+F 3 "https://api.kemet.com/component-edge/download/specsheet/ESY107M050AG3AA.pdf" H 6750 3000 50  0001 C CNN
+F 4 "399-6119-ND" H 6750 3000 50  0001 C CNN "Digikey Part No."
 	1    6750 3000
 	1    0    0    -1  
 $EndComp
