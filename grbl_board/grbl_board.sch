@@ -162,8 +162,8 @@ $EndSheet
 $Sheet
 S 2150 4800 1700 1700
 U 61DA711F
-F0 "spinlde_cntrl" 50
-F1 "spinlde_cntrl.sch" 50
+F0 "spindle_cntrl" 50
+F1 "spindle_cntrl.sch" 50
 F2 "SPINLDE_PWM" I L 2150 5050 50 
 F3 "SPINDLE_EN" I L 2150 5150 50 
 F4 "SPINDLE_DIR" I L 2150 5250 50 
