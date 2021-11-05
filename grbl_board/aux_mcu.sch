@@ -660,7 +660,7 @@ Wire Wire Line
 	5300 4350 5300 4150
 Text Label 5900 3150 0    50   ~ 0
 RX0
-Text Label 5900 3250 0    50   ~ 0
+Text Label 6300 3150 0    50   ~ 0
 TX0
 Text Label 5900 2950 0    50   ~ 0
 RESET
@@ -1449,7 +1449,7 @@ $EndComp
 Text HLabel 8400 4200 2    50   Input ~ 0
 E_STEP_OUT
 Text Label 8500 5600 2    50   ~ 0
-SEL0
+SEL_E0
 Wire Wire Line
 	10050 6000 10050 6050
 Connection ~ 9200 4700
@@ -1618,38 +1618,38 @@ Wire Notes Line
 Text Notes 8600 3550 0    50   ~ 0
 MUX to choose which axis to clone\nselects between the STEP, DIR, and limit switch of the 3 axes
 Text Label 5900 1650 0    50   ~ 0
-SEL_E
+SEL_E1
 Text Label 8500 5700 2    50   ~ 0
-SEL_E
-Text Label 9000 4450 3    50   ~ 0
+SEL_E1
+Text Label 10500 6100 3    50   ~ 0
 SEL1
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0105
 U 1 1 6188BB6E
-P 9000 3950
-F 0 "#PWR?" H 9000 3800 50  0001 C CNN
-F 1 "+5V" H 9015 4123 50  0000 C CNN
-F 2 "" H 9000 3950 50  0001 C CNN
-F 3 "" H 9000 3950 50  0001 C CNN
-	1    9000 3950
+P 10500 5600
+F 0 "#PWR0105" H 10500 5450 50  0001 C CNN
+F 1 "+5V" H 10515 5773 50  0000 C CNN
+F 2 "" H 10500 5600 50  0001 C CNN
+F 3 "" H 10500 5600 50  0001 C CNN
+	1    10500 5600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R59
 U 1 1 6188BB75
-P 9000 4250
-F 0 "R?" H 9070 4296 50  0000 L CNN
-F 1 "10k" H 9070 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 4250 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9000 4250 50  0001 C CNN
-F 4 "311-10KARCT-ND" H 9000 4250 50  0001 C CNN "Digikey Part No."
-	1    9000 4250
+P 10500 5900
+F 0 "R59" H 10570 5946 50  0000 L CNN
+F 1 "10k" H 10570 5855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10430 5900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10500 5900 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 10500 5900 50  0001 C CNN "Digikey Part No."
+	1    10500 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 4100 9000 3950
+	10500 5750 10500 5600
 Wire Wire Line
-	9000 4450 9000 4400
+	10500 6100 10500 6050
 Text HLabel 9550 5100 0    50   Input ~ 0
 Z_DIR
 Text HLabel 9550 5000 0    50   Input ~ 0
@@ -1663,4 +1663,44 @@ Wire Wire Line
 	9200 5200 9200 5400
 Text HLabel 10550 4900 2    50   Input ~ 0
 E_DIR_OUT
+Text Label 6300 3250 0    50   ~ 0
+SEL_E0
+Wire Wire Line
+	6300 3250 6150 3250
+Wire Wire Line
+	6300 3150 6150 3150
+Wire Wire Line
+	6150 3150 6150 3250
+Connection ~ 6150 3250
+Wire Wire Line
+	6150 3250 5900 3250
+Text Label 10800 6100 3    50   ~ 0
+SEL0
+$Comp
+L power:+5V #PWR095
+U 1 1 619E2203
+P 10800 5600
+F 0 "#PWR095" H 10800 5450 50  0001 C CNN
+F 1 "+5V" H 10815 5773 50  0000 C CNN
+F 2 "" H 10800 5600 50  0001 C CNN
+F 3 "" H 10800 5600 50  0001 C CNN
+	1    10800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R60
+U 1 1 619E220A
+P 10800 5900
+F 0 "R60" H 10870 5946 50  0000 L CNN
+F 1 "10k" H 10870 5855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10730 5900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10800 5900 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 10800 5900 50  0001 C CNN "Digikey Part No."
+	1    10800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 5750 10800 5600
+Wire Wire Line
+	10800 6100 10800 6050
 $EndSCHEMATC
