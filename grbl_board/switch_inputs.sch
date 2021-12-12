@@ -25,26 +25,14 @@ F 4 "6N137IS-ND" H 3500 2050 50  0001 C CNN "Digikey Part No."
 	1    3500 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR051
-U 1 1 61D3C10B
-P 4000 1650
-F 0 "#PWR051" H 4000 1500 50  0001 C CNN
-F 1 "+5V" H 4015 1823 50  0000 C CNN
-F 2 "" H 4000 1650 50  0001 C CNN
-F 3 "" H 4000 1650 50  0001 C CNN
-	1    4000 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4000 1650 4000 1850
+	4150 1550 4150 1600
 Wire Wire Line
 	4000 1850 3800 1850
 Wire Wire Line
 	4000 1850 4000 1950
 Wire Wire Line
 	4000 1950 3800 1950
-Connection ~ 4000 1850
 $Comp
 L power:GND #PWR052
 U 1 1 61D3C8FB
@@ -141,26 +129,6 @@ F 4 "6N137IS-ND" H 3500 3150 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR053
-U 1 1 61D4ABFE
-P 4000 2750
-F 0 "#PWR053" H 4000 2600 50  0001 C CNN
-F 1 "+5V" H 4015 2923 50  0000 C CNN
-F 2 "" H 4000 2750 50  0001 C CNN
-F 3 "" H 4000 2750 50  0001 C CNN
-	1    4000 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2750 4000 2950
-Wire Wire Line
-	4000 2950 3800 2950
-Wire Wire Line
-	4000 2950 4000 3050
-Wire Wire Line
-	4000 3050 3800 3050
-Connection ~ 4000 2950
-$Comp
 L power:GND #PWR054
 U 1 1 61D4AC09
 P 4000 3400
@@ -217,26 +185,6 @@ F 4 "6N137IS-ND" H 3500 4250 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR055
-U 1 1 61D4D0D4
-P 4000 3850
-F 0 "#PWR055" H 4000 3700 50  0001 C CNN
-F 1 "+5V" H 4015 4023 50  0000 C CNN
-F 2 "" H 4000 3850 50  0001 C CNN
-F 3 "" H 4000 3850 50  0001 C CNN
-	1    4000 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3850 4000 4050
-Wire Wire Line
-	4000 4050 3800 4050
-Wire Wire Line
-	4000 4050 4000 4150
-Wire Wire Line
-	4000 4150 3800 4150
-Connection ~ 4000 4050
-$Comp
 L power:GND #PWR056
 U 1 1 61D4D0DF
 P 4000 4500
@@ -284,18 +232,12 @@ Wire Wire Line
 	2500 3150 2600 3150
 Wire Wire Line
 	2400 4250 2600 4250
-Text HLabel 4000 2050 2    50   Input ~ 0
+Text HLabel 4050 2150 2    50   Input ~ 0
 CYCLE_START
-Wire Wire Line
-	4000 2050 3800 2050
-Text HLabel 4000 3150 2    50   Input ~ 0
+Text HLabel 4050 3250 2    50   Input ~ 0
 FEED_HOLD
-Wire Wire Line
-	4000 3150 3800 3150
-Text HLabel 4000 4250 2    50   Input ~ 0
+Text HLabel 4050 4350 2    50   Input ~ 0
 RESET_ABORT
-Wire Wire Line
-	4000 4250 3800 4250
 $Comp
 L Isolator:6N137 U12
 U 1 1 61D5B748
@@ -308,26 +250,6 @@ F 4 "6N137IS-ND" H 3500 5700 50  0001 C CNN "Digikey Part No."
 	1    3500 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR057
-U 1 1 61D5B74E
-P 4000 5300
-F 0 "#PWR057" H 4000 5150 50  0001 C CNN
-F 1 "+5V" H 4015 5473 50  0000 C CNN
-F 2 "" H 4000 5300 50  0001 C CNN
-F 3 "" H 4000 5300 50  0001 C CNN
-	1    4000 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 5300 4000 5500
-Wire Wire Line
-	4000 5500 3800 5500
-Wire Wire Line
-	4000 5500 4000 5600
-Wire Wire Line
-	4000 5600 3800 5600
-Connection ~ 4000 5500
 $Comp
 L power:GND #PWR058
 U 1 1 61D5B759
@@ -372,10 +294,8 @@ Wire Wire Line
 	3000 5900 3000 5950
 Wire Wire Line
 	2900 5700 3200 5700
-Text HLabel 4000 5700 2    50   Input ~ 0
+Text HLabel 4050 5800 2    50   Input ~ 0
 DOOR
-Wire Wire Line
-	4000 5700 3800 5700
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 61D5C5B8
@@ -417,26 +337,6 @@ F 4 "6N137IS-ND" H 7800 2050 50  0001 C CNN "Digikey Part No."
 	1    7800 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR066
-U 1 1 61D6C402
-P 8300 1650
-F 0 "#PWR066" H 8300 1500 50  0001 C CNN
-F 1 "+5V" H 8315 1823 50  0000 C CNN
-F 2 "" H 8300 1650 50  0001 C CNN
-F 3 "" H 8300 1650 50  0001 C CNN
-	1    8300 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 1650 8300 1850
-Wire Wire Line
-	8300 1850 8100 1850
-Wire Wire Line
-	8300 1850 8300 1950
-Wire Wire Line
-	8300 1950 8100 1950
-Connection ~ 8300 1850
 $Comp
 L power:GND #PWR067
 U 1 1 61D6C40D
@@ -521,26 +421,6 @@ F 4 "6N137IS-ND" H 7800 3150 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR068
-U 1 1 61D6C43F
-P 8300 2750
-F 0 "#PWR068" H 8300 2600 50  0001 C CNN
-F 1 "+5V" H 8315 2923 50  0000 C CNN
-F 2 "" H 8300 2750 50  0001 C CNN
-F 3 "" H 8300 2750 50  0001 C CNN
-	1    8300 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 2750 8300 2950
-Wire Wire Line
-	8300 2950 8100 2950
-Wire Wire Line
-	8300 2950 8300 3050
-Wire Wire Line
-	8300 3050 8100 3050
-Connection ~ 8300 2950
-$Comp
 L power:GND #PWR069
 U 1 1 61D6C44A
 P 8300 3400
@@ -597,26 +477,6 @@ F 4 "6N137IS-ND" H 7800 4250 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR070
-U 1 1 61D6C467
-P 8300 3850
-F 0 "#PWR070" H 8300 3700 50  0001 C CNN
-F 1 "+5V" H 8315 4023 50  0000 C CNN
-F 2 "" H 8300 3850 50  0001 C CNN
-F 3 "" H 8300 3850 50  0001 C CNN
-	1    8300 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 3850 8300 4050
-Wire Wire Line
-	8300 4050 8100 4050
-Wire Wire Line
-	8300 4050 8300 4150
-Wire Wire Line
-	8300 4150 8100 4150
-Connection ~ 8300 4050
-$Comp
 L power:GND #PWR071
 U 1 1 61D6C472
 P 8300 4500
@@ -664,18 +524,12 @@ Wire Wire Line
 	6800 3150 6900 3150
 Wire Wire Line
 	6700 4250 6900 4250
-Text HLabel 8300 2050 2    50   Input ~ 0
+Text HLabel 8350 2150 2    50   Input ~ 0
 LIM_X
-Wire Wire Line
-	8300 2050 8100 2050
-Text HLabel 8300 3150 2    50   Input ~ 0
+Text HLabel 8350 3250 2    50   Input ~ 0
 LIM_Y
-Wire Wire Line
-	8300 3150 8100 3150
-Text HLabel 8300 4250 2    50   Input ~ 0
+Text HLabel 8350 4350 2    50   Input ~ 0
 LIM_Z
-Wire Wire Line
-	8300 4250 8100 4250
 $Comp
 L Connector:Screw_Terminal_01x08 J13
 U 1 1 61D70FDC
@@ -705,26 +559,6 @@ F 4 "6N137IS-ND" H 7800 5350 50  0001 C CNN "Digikey Part No."
 	1    7800 5350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR072
-U 1 1 61D77331
-P 8300 4950
-F 0 "#PWR072" H 8300 4800 50  0001 C CNN
-F 1 "+5V" H 8315 5123 50  0000 C CNN
-F 2 "" H 8300 4950 50  0001 C CNN
-F 3 "" H 8300 4950 50  0001 C CNN
-	1    8300 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 4950 8300 5150
-Wire Wire Line
-	8300 5150 8100 5150
-Wire Wire Line
-	8300 5150 8300 5250
-Wire Wire Line
-	8300 5250 8100 5250
-Connection ~ 8300 5150
 $Comp
 L power:GND #PWR073
 U 1 1 61D7733C
@@ -769,10 +603,8 @@ Wire Wire Line
 	7300 5550 7300 5600
 Wire Wire Line
 	7200 5350 7500 5350
-Text HLabel 8300 5350 2    50   Input ~ 0
+Text HLabel 8350 5450 2    50   Input ~ 0
 LIM_E
-Wire Wire Line
-	8300 5350 8100 5350
 Wire Wire Line
 	1650 2250 2500 2250
 Wire Wire Line
@@ -807,26 +639,6 @@ F 4 "6N137IS-ND" H 3500 6900 50  0001 C CNN "Digikey Part No."
 	1    3500 6900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR059
-U 1 1 62698522
-P 4000 6500
-F 0 "#PWR059" H 4000 6350 50  0001 C CNN
-F 1 "+5V" H 4015 6673 50  0000 C CNN
-F 2 "" H 4000 6500 50  0001 C CNN
-F 3 "" H 4000 6500 50  0001 C CNN
-	1    4000 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 6500 4000 6700
-Wire Wire Line
-	4000 6700 3800 6700
-Wire Wire Line
-	4000 6700 4000 6800
-Wire Wire Line
-	4000 6800 3800 6800
-Connection ~ 4000 6700
 $Comp
 L power:GND #PWR060
 U 1 1 6269852D
@@ -871,10 +683,8 @@ Wire Wire Line
 	3000 7100 3000 7150
 Wire Wire Line
 	2900 6900 3200 6900
-Text HLabel 4000 6900 2    50   Input ~ 0
+Text HLabel 4050 7000 2    50   Input ~ 0
 PROBE
-Wire Wire Line
-	4000 6900 3800 6900
 $Comp
 L Connector:Screw_Terminal_01x02 J11
 U 1 1 62698546
@@ -924,4 +734,464 @@ Wire Notes Line
 	1200 1150 4650 1150
 Text Notes 2950 1300 0    50   ~ 0
 Reset/Abort, Hold, and Start Button inputs\n
+$Comp
+L Device:R R?
+U 1 1 61E677B9
+P 4150 1850
+AR Path="/61DA711F/61E677B9" Ref="R?"  Part="1" 
+AR Path="/61D39570/61E677B9" Ref="R31"  Part="1" 
+F 0 "R31" V 3943 1850 50  0000 C CNN
+F 1 "1k" V 4034 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 1850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 1850 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 4150 1850 50  0001 C CNN "Digikey Part No."
+	1    4150 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2150 4000 2150
+Wire Wire Line
+	4150 2000 4150 2050
+$Comp
+L power:+5V #PWR051
+U 1 1 61D3C10B
+P 4150 1550
+F 0 "#PWR051" H 4150 1400 50  0001 C CNN
+F 1 "+5V" H 4165 1723 50  0000 C CNN
+F 2 "" H 4150 1550 50  0001 C CNN
+F 3 "" H 4150 1550 50  0001 C CNN
+	1    4150 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 2050
+Wire Wire Line
+	4150 2050 4000 2050
+Wire Wire Line
+	4000 2150 4000 2050
+Wire Wire Line
+	4000 2050 3800 2050
+Wire Wire Line
+	4000 1600 4150 1600
+Wire Wire Line
+	4150 1600 4150 1700
+Wire Wire Line
+	4000 1600 4000 1850
+Connection ~ 4000 1850
+Wire Wire Line
+	4150 2650 4150 2700
+Wire Wire Line
+	4000 2950 3800 2950
+Wire Wire Line
+	4000 2950 4000 3050
+Wire Wire Line
+	4000 3050 3800 3050
+$Comp
+L Device:R R?
+U 1 1 61ECFAFA
+P 4150 2950
+AR Path="/61DA711F/61ECFAFA" Ref="R?"  Part="1" 
+AR Path="/61D39570/61ECFAFA" Ref="R32"  Part="1" 
+F 0 "R32" V 3943 2950 50  0000 C CNN
+F 1 "1k" V 4034 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 2950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 2950 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 4150 2950 50  0001 C CNN "Digikey Part No."
+	1    4150 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 3100 4150 3150
+$Comp
+L power:+5V #PWR0106
+U 1 1 61ECFB01
+P 4150 2650
+F 0 "#PWR0106" H 4150 2500 50  0001 C CNN
+F 1 "+5V" H 4165 2823 50  0000 C CNN
+F 2 "" H 4150 2650 50  0001 C CNN
+F 3 "" H 4150 2650 50  0001 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 3150
+Wire Wire Line
+	4150 3150 4000 3150
+Wire Wire Line
+	4000 3250 4000 3150
+Wire Wire Line
+	4000 3150 3800 3150
+Wire Wire Line
+	4000 2700 4150 2700
+Wire Wire Line
+	4150 2700 4150 2800
+Wire Wire Line
+	4000 2700 4000 2950
+Connection ~ 4000 2950
+Wire Wire Line
+	4050 3250 4000 3250
+Wire Wire Line
+	4150 3750 4150 3800
+Wire Wire Line
+	4000 4050 3800 4050
+Wire Wire Line
+	4000 4050 4000 4150
+Wire Wire Line
+	4000 4150 3800 4150
+$Comp
+L Device:R R?
+U 1 1 61EEB163
+P 4150 4050
+AR Path="/61DA711F/61EEB163" Ref="R?"  Part="1" 
+AR Path="/61D39570/61EEB163" Ref="R71"  Part="1" 
+F 0 "R71" V 3943 4050 50  0000 C CNN
+F 1 "1k" V 4034 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 4050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 4050 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 4150 4050 50  0001 C CNN "Digikey Part No."
+	1    4150 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 4200 4150 4250
+$Comp
+L power:+5V #PWR0107
+U 1 1 61EEB16A
+P 4150 3750
+F 0 "#PWR0107" H 4150 3600 50  0001 C CNN
+F 1 "+5V" H 4165 3923 50  0000 C CNN
+F 2 "" H 4150 3750 50  0001 C CNN
+F 3 "" H 4150 3750 50  0001 C CNN
+	1    4150 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 4250
+Wire Wire Line
+	4150 4250 4000 4250
+Wire Wire Line
+	4000 4350 4000 4250
+Wire Wire Line
+	4000 4250 3800 4250
+Wire Wire Line
+	4000 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 3900
+Wire Wire Line
+	4000 3800 4000 4050
+Connection ~ 4000 4050
+Wire Wire Line
+	4050 4350 4000 4350
+Wire Wire Line
+	8450 4850 8450 4900
+Wire Wire Line
+	8300 5150 8100 5150
+Wire Wire Line
+	8300 5150 8300 5250
+Wire Wire Line
+	8300 5250 8100 5250
+$Comp
+L Device:R R?
+U 1 1 61F14762
+P 8450 5150
+AR Path="/61DA711F/61F14762" Ref="R?"  Part="1" 
+AR Path="/61D39570/61F14762" Ref="R77"  Part="1" 
+F 0 "R77" V 8243 5150 50  0000 C CNN
+F 1 "1k" V 8334 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 5150 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 8450 5150 50  0001 C CNN "Digikey Part No."
+	1    8450 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 5300 8450 5350
+$Comp
+L power:+5V #PWR0108
+U 1 1 61F14769
+P 8450 4850
+F 0 "#PWR0108" H 8450 4700 50  0001 C CNN
+F 1 "+5V" H 8465 5023 50  0000 C CNN
+F 2 "" H 8450 4850 50  0001 C CNN
+F 3 "" H 8450 4850 50  0001 C CNN
+	1    8450 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 5350
+Wire Wire Line
+	8450 5350 8300 5350
+Wire Wire Line
+	8300 5450 8300 5350
+Wire Wire Line
+	8300 5350 8100 5350
+Wire Wire Line
+	8300 4900 8450 4900
+Wire Wire Line
+	8450 4900 8450 5000
+Wire Wire Line
+	8300 4900 8300 5150
+Connection ~ 8300 5150
+Wire Wire Line
+	8450 3750 8450 3800
+Wire Wire Line
+	8300 4050 8100 4050
+Wire Wire Line
+	8300 4050 8300 4150
+Wire Wire Line
+	8300 4150 8100 4150
+$Comp
+L Device:R R?
+U 1 1 61F2167D
+P 8450 4050
+AR Path="/61DA711F/61F2167D" Ref="R?"  Part="1" 
+AR Path="/61D39570/61F2167D" Ref="R76"  Part="1" 
+F 0 "R76" V 8243 4050 50  0000 C CNN
+F 1 "1k" V 8334 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 4050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 4050 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 8450 4050 50  0001 C CNN "Digikey Part No."
+	1    8450 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 4200 8450 4250
+Connection ~ 8300 4250
+Wire Wire Line
+	8450 4250 8300 4250
+Wire Wire Line
+	8300 4350 8300 4250
+Wire Wire Line
+	8300 4250 8100 4250
+Wire Wire Line
+	8300 3800 8450 3800
+Wire Wire Line
+	8450 3800 8450 3900
+Wire Wire Line
+	8300 3800 8300 4050
+Connection ~ 8300 4050
+Wire Wire Line
+	8450 2650 8450 2700
+Wire Wire Line
+	8300 2950 8100 2950
+Wire Wire Line
+	8300 2950 8300 3050
+Wire Wire Line
+	8300 3050 8100 3050
+$Comp
+L Device:R R?
+U 1 1 61F2E656
+P 8450 2950
+AR Path="/61DA711F/61F2E656" Ref="R?"  Part="1" 
+AR Path="/61D39570/61F2E656" Ref="R75"  Part="1" 
+F 0 "R75" V 8243 2950 50  0000 C CNN
+F 1 "1k" V 8334 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 2950 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 2950 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 8450 2950 50  0001 C CNN "Digikey Part No."
+	1    8450 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 3100 8450 3150
+$Comp
+L power:+5V #PWR0109
+U 1 1 61F2E65D
+P 8450 2650
+F 0 "#PWR0109" H 8450 2500 50  0001 C CNN
+F 1 "+5V" H 8465 2823 50  0000 C CNN
+F 2 "" H 8450 2650 50  0001 C CNN
+F 3 "" H 8450 2650 50  0001 C CNN
+	1    8450 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 3150
+Wire Wire Line
+	8450 3150 8300 3150
+Wire Wire Line
+	8300 3250 8300 3150
+Wire Wire Line
+	8300 3150 8100 3150
+Wire Wire Line
+	8300 2700 8450 2700
+Wire Wire Line
+	8450 2700 8450 2800
+Wire Wire Line
+	8300 2700 8300 2950
+Connection ~ 8300 2950
+Wire Wire Line
+	8300 1850 8100 1850
+Wire Wire Line
+	8300 1850 8300 1950
+Wire Wire Line
+	8300 1950 8100 1950
+$Comp
+L Device:R R?
+U 1 1 61F3B936
+P 8450 1850
+AR Path="/61DA711F/61F3B936" Ref="R?"  Part="1" 
+AR Path="/61D39570/61F3B936" Ref="R74"  Part="1" 
+F 0 "R74" V 8243 1850 50  0000 C CNN
+F 1 "1k" V 8334 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 1850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 1850 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 8450 1850 50  0001 C CNN "Digikey Part No."
+	1    8450 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 2000 8450 2050
+Connection ~ 8300 2050
+Wire Wire Line
+	8450 2050 8300 2050
+Wire Wire Line
+	8300 2150 8300 2050
+Wire Wire Line
+	8300 2050 8100 2050
+Wire Wire Line
+	8300 1600 8450 1600
+Wire Wire Line
+	8450 1600 8450 1700
+Wire Wire Line
+	8300 1600 8300 1850
+Connection ~ 8300 1850
+Connection ~ 8450 2700
+$Comp
+L power:+5V #PWR0110
+U 1 1 61F21684
+P 8450 3750
+F 0 "#PWR0110" H 8450 3600 50  0001 C CNN
+F 1 "+5V" H 8465 3923 50  0000 C CNN
+F 2 "" H 8450 3750 50  0001 C CNN
+F 3 "" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1550 8450 1600
+$Comp
+L power:+5V #PWR0111
+U 1 1 61F3B93D
+P 8450 1550
+F 0 "#PWR0111" H 8450 1400 50  0001 C CNN
+F 1 "+5V" H 8465 1723 50  0000 C CNN
+F 2 "" H 8450 1550 50  0001 C CNN
+F 3 "" H 8450 1550 50  0001 C CNN
+	1    8450 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 1600
+Connection ~ 8450 3800
+Connection ~ 8450 4900
+Wire Wire Line
+	8300 5450 8350 5450
+Wire Wire Line
+	8300 4350 8350 4350
+Wire Wire Line
+	8350 3250 8300 3250
+Wire Wire Line
+	8350 2150 8300 2150
+Connection ~ 4150 2700
+Connection ~ 4150 1600
+Connection ~ 4150 3800
+Wire Wire Line
+	4000 5200 4000 5250
+Wire Wire Line
+	4000 5500 3800 5500
+Wire Wire Line
+	4000 5500 4000 5600
+Wire Wire Line
+	4000 5600 3800 5600
+$Comp
+L Device:R R?
+U 1 1 61FC0762
+P 4150 5500
+AR Path="/61DA711F/61FC0762" Ref="R?"  Part="1" 
+AR Path="/61D39570/61FC0762" Ref="R72"  Part="1" 
+F 0 "R72" V 3943 5500 50  0000 C CNN
+F 1 "1k" V 4034 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 5500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 5500 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 4150 5500 50  0001 C CNN "Digikey Part No."
+	1    4150 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 5650 4150 5700
+$Comp
+L power:+5V #PWR0112
+U 1 1 61FC0769
+P 4000 5200
+F 0 "#PWR0112" H 4000 5050 50  0001 C CNN
+F 1 "+5V" H 4015 5373 50  0000 C CNN
+F 2 "" H 4000 5200 50  0001 C CNN
+F 3 "" H 4000 5200 50  0001 C CNN
+	1    4000 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 5700
+Wire Wire Line
+	4150 5700 4000 5700
+Wire Wire Line
+	4000 5800 4000 5700
+Wire Wire Line
+	4000 5700 3800 5700
+Wire Wire Line
+	4000 5250 4150 5250
+Wire Wire Line
+	4150 5250 4150 5350
+Connection ~ 4000 5250
+Wire Wire Line
+	4000 5250 4000 5500
+Connection ~ 4000 5500
+Wire Wire Line
+	4000 6400 4000 6450
+Wire Wire Line
+	4000 6700 3800 6700
+Wire Wire Line
+	4000 6700 4000 6800
+Wire Wire Line
+	4000 6800 3800 6800
+$Comp
+L Device:R R?
+U 1 1 61FC8E3E
+P 4150 6700
+AR Path="/61DA711F/61FC8E3E" Ref="R?"  Part="1" 
+AR Path="/61D39570/61FC8E3E" Ref="R73"  Part="1" 
+F 0 "R73" V 3943 6700 50  0000 C CNN
+F 1 "1k" V 4034 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 6700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 6700 50  0001 C CNN
+F 4 "311-10KARCT-ND" H 4150 6700 50  0001 C CNN "Digikey Part No."
+	1    4150 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 6850 4150 6900
+$Comp
+L power:+5V #PWR0113
+U 1 1 61FC8E45
+P 4000 6400
+F 0 "#PWR0113" H 4000 6250 50  0001 C CNN
+F 1 "+5V" H 4015 6573 50  0000 C CNN
+F 2 "" H 4000 6400 50  0001 C CNN
+F 3 "" H 4000 6400 50  0001 C CNN
+	1    4000 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 6900
+Wire Wire Line
+	4150 6900 4000 6900
+Wire Wire Line
+	4000 7000 4000 6900
+Wire Wire Line
+	4000 6900 3800 6900
+Wire Wire Line
+	4000 6450 4150 6450
+Wire Wire Line
+	4150 6450 4150 6550
+Connection ~ 4000 6450
+Wire Wire Line
+	4000 6450 4000 6700
+Connection ~ 4000 6700
+Wire Wire Line
+	4050 7000 4000 7000
+Wire Wire Line
+	4050 5800 4000 5800
 $EndSCHEMATC

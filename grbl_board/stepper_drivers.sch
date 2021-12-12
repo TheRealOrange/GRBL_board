@@ -21,17 +21,6 @@ Text HLabel 1450 2100 0    50   Input ~ 0
 SCK
 Text HLabel 1450 2000 0    50   Input ~ 0
 MOSI
-$Comp
-L power:GND #PWR031
-U 1 1 61CE6539
-P 2150 3000
-F 0 "#PWR031" H 2150 2750 50  0001 C CNN
-F 1 "GND" H 2155 2827 50  0000 C CNN
-F 2 "" H 2150 3000 50  0001 C CNN
-F 3 "" H 2150 3000 50  0001 C CNN
-	1    2150 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2150 3000 2150 2900
 Wire Wire Line
@@ -47,102 +36,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 2500 1450 2500
 Connection ~ 2150 2900
-$Comp
-L Diode:B360 D6
-U 1 1 61CEA397
-P 3300 1550
-F 0 "D6" H 3300 1767 50  0000 C CNN
-F 1 "B360" H 3300 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3300 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3300 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3300 1550 50  0001 C CNN "Digikey Part No."
-	1    3300 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D10
-U 1 1 61CEAD79
-P 3650 1550
-F 0 "D10" H 3650 1767 50  0000 C CNN
-F 1 "B360" H 3650 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3650 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3650 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3650 1550 50  0001 C CNN "Digikey Part No."
-	1    3650 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D14
-U 1 1 61CEDC5E
-P 4000 1550
-F 0 "D14" H 4000 1767 50  0000 C CNN
-F 1 "B360" H 4000 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4000 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4000 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4000 1550 50  0001 C CNN "Digikey Part No."
-	1    4000 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D18
-U 1 1 61CEDC64
-P 4350 1550
-F 0 "D18" H 4350 1767 50  0000 C CNN
-F 1 "B360" H 4350 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4350 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4350 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4350 1550 50  0001 C CNN "Digikey Part No."
-	1    4350 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D7
-U 1 1 61CF1014
-P 3300 2300
-F 0 "D7" H 3300 2517 50  0000 C CNN
-F 1 "B360" H 3300 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3300 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3300 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3300 2300 50  0001 C CNN "Digikey Part No."
-	1    3300 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D11
-U 1 1 61CF101A
-P 3650 2300
-F 0 "D11" H 3650 2517 50  0000 C CNN
-F 1 "B360" H 3650 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3650 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3650 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3650 2300 50  0001 C CNN "Digikey Part No."
-	1    3650 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D15
-U 1 1 61CF1020
-P 4000 2300
-F 0 "D15" H 4000 2517 50  0000 C CNN
-F 1 "B360" H 4000 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4000 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4000 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4000 2300 50  0001 C CNN "Digikey Part No."
-	1    4000 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D19
-U 1 1 61CF1026
-P 4350 2300
-F 0 "D19" H 4350 2517 50  0000 C CNN
-F 1 "B360" H 4350 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4350 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4350 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4350 2300 50  0001 C CNN "Digikey Part No."
-	1    4350 2300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4800 2000 4000 2000
 Wire Wire Line
@@ -207,34 +100,11 @@ Wire Wire Line
 Connection ~ 4000 2500
 Wire Wire Line
 	4000 2500 4350 2500
-$Comp
-L power:GND #PWR035
-U 1 1 61CF5A1D
-P 3850 2600
-F 0 "#PWR035" H 3850 2350 50  0001 C CNN
-F 1 "GND" H 3855 2427 50  0000 C CNN
-F 2 "" H 3850 2600 50  0001 C CNN
-F 3 "" H 3850 2600 50  0001 C CNN
-	1    3850 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 2600 3850 2500
 Connection ~ 3850 2500
 Wire Wire Line
 	3850 2500 4000 2500
-$Comp
-L Diode:B360 D5
-U 1 1 61CF6E6E
-P 3200 1150
-F 0 "D5" H 3200 1367 50  0000 C CNN
-F 1 "B360" H 3200 1276 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3200 975 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3200 1150 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3200 1150 50  0001 C CNN "Digikey Part No."
-	1    3200 1150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3200 1300 3200 1350
 Wire Wire Line
@@ -264,18 +134,6 @@ Text HLabel 1450 1800 0    50   Input ~ 0
 X_STEP
 Text HLabel 1450 1700 0    50   Input ~ 0
 X_DIR
-$Comp
-L Connector:Screw_Terminal_01x04 J6
-U 1 1 61CE7870
-P 5000 1900
-F 0 "J6" H 5080 1892 50  0000 L CNN
-F 1 "X_STEPPER" H 5080 1801 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 5000 1900 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 5000 1900 50  0001 C CNN
-F 4 "ED2810-ND" H 5000 1900 50  0001 C CNN "Digikey Part No."
-	1    5000 1900
-	1    0    0    -1  
-$EndComp
 Text HLabel 1500 4650 0    50   Input ~ 0
 CS_Y
 Text HLabel 1500 4550 0    50   Input ~ 0
@@ -284,17 +142,6 @@ Text HLabel 1500 4450 0    50   Input ~ 0
 SCK
 Text HLabel 1500 4350 0    50   Input ~ 0
 MOSI
-$Comp
-L power:GND #PWR032
-U 1 1 61D120CD
-P 2200 5350
-F 0 "#PWR032" H 2200 5100 50  0001 C CNN
-F 1 "GND" H 2205 5177 50  0000 C CNN
-F 2 "" H 2200 5350 50  0001 C CNN
-F 3 "" H 2200 5350 50  0001 C CNN
-	1    2200 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 5350 2200 5250
 Wire Wire Line
@@ -310,102 +157,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 4850 1500 4850
 Connection ~ 2200 5250
-$Comp
-L Diode:B360 D8
-U 1 1 61D120DB
-P 3350 3900
-F 0 "D8" H 3350 4117 50  0000 C CNN
-F 1 "B360" H 3350 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3350 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3350 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3350 3900 50  0001 C CNN "Digikey Part No."
-	1    3350 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D12
-U 1 1 61D120E1
-P 3700 3900
-F 0 "D12" H 3700 4117 50  0000 C CNN
-F 1 "B360" H 3700 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3700 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3700 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3700 3900 50  0001 C CNN "Digikey Part No."
-	1    3700 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D16
-U 1 1 61D120E7
-P 4050 3900
-F 0 "D16" H 4050 4117 50  0000 C CNN
-F 1 "B360" H 4050 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4050 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4050 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4050 3900 50  0001 C CNN "Digikey Part No."
-	1    4050 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D20
-U 1 1 61D120ED
-P 4400 3900
-F 0 "D20" H 4400 4117 50  0000 C CNN
-F 1 "B360" H 4400 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4400 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4400 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4400 3900 50  0001 C CNN "Digikey Part No."
-	1    4400 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D9
-U 1 1 61D120F3
-P 3350 4650
-F 0 "D9" H 3350 4867 50  0000 C CNN
-F 1 "B360" H 3350 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3350 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3350 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3350 4650 50  0001 C CNN "Digikey Part No."
-	1    3350 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D13
-U 1 1 61D120F9
-P 3700 4650
-F 0 "D13" H 3700 4867 50  0000 C CNN
-F 1 "B360" H 3700 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 3700 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3700 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 3700 4650 50  0001 C CNN "Digikey Part No."
-	1    3700 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D17
-U 1 1 61D120FF
-P 4050 4650
-F 0 "D17" H 4050 4867 50  0000 C CNN
-F 1 "B360" H 4050 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4050 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4050 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4050 4650 50  0001 C CNN "Digikey Part No."
-	1    4050 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D21
-U 1 1 61D12105
-P 4400 4650
-F 0 "D21" H 4400 4867 50  0000 C CNN
-F 1 "B360" H 4400 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4400 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4400 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 4400 4650 50  0001 C CNN "Digikey Part No."
-	1    4400 4650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4850 4350 4050 4350
 Wire Wire Line
@@ -470,17 +221,6 @@ Wire Wire Line
 Connection ~ 4050 4850
 Wire Wire Line
 	4050 4850 4400 4850
-$Comp
-L power:GND #PWR036
-U 1 1 61D12131
-P 3900 4950
-F 0 "#PWR036" H 3900 4700 50  0001 C CNN
-F 1 "GND" H 3905 4777 50  0000 C CNN
-F 2 "" H 3900 4950 50  0001 C CNN
-F 3 "" H 3900 4950 50  0001 C CNN
-	1    3900 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 4950 3900 4850
 Connection ~ 3900 4850
@@ -510,18 +250,6 @@ Text HLabel 1500 4150 0    50   Input ~ 0
 Y_STEP
 Text HLabel 1500 4050 0    50   Input ~ 0
 Y_DIR
-$Comp
-L Connector:Screw_Terminal_01x04 J7
-U 1 1 61D12151
-P 5050 4250
-F 0 "J7" H 5130 4242 50  0000 L CNN
-F 1 "Y_STEPPER" H 5130 4151 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 5050 4250 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 5050 4250 50  0001 C CNN
-F 4 "ED2810-ND" H 5050 4250 50  0001 C CNN "Digikey Part No."
-	1    5050 4250
-	1    0    0    -1  
-$EndComp
 Text HLabel 6000 2300 0    50   Input ~ 0
 CS_Z
 Text HLabel 6000 2200 0    50   Input ~ 0
@@ -530,17 +258,6 @@ Text HLabel 6000 2100 0    50   Input ~ 0
 SCK
 Text HLabel 6000 2000 0    50   Input ~ 0
 MOSI
-$Comp
-L power:GND #PWR037
-U 1 1 61D2DAC5
-P 6700 3000
-F 0 "#PWR037" H 6700 2750 50  0001 C CNN
-F 1 "GND" H 6705 2827 50  0000 C CNN
-F 2 "" H 6700 3000 50  0001 C CNN
-F 3 "" H 6700 3000 50  0001 C CNN
-	1    6700 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6700 3000 6700 2900
 Wire Wire Line
@@ -556,102 +273,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 2500 6000 2500
 Connection ~ 6700 2900
-$Comp
-L Diode:B360 D22
-U 1 1 61D2DAD3
-P 7850 1550
-F 0 "D22" H 7850 1767 50  0000 C CNN
-F 1 "B360" H 7850 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 7850 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7850 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 7850 1550 50  0001 C CNN "Digikey Part No."
-	1    7850 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D26
-U 1 1 61D2DAD9
-P 8200 1550
-F 0 "D26" H 8200 1767 50  0000 C CNN
-F 1 "B360" H 8200 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8200 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8200 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8200 1550 50  0001 C CNN "Digikey Part No."
-	1    8200 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D30
-U 1 1 61D2DADF
-P 8550 1550
-F 0 "D30" H 8550 1767 50  0000 C CNN
-F 1 "B360" H 8550 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8550 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8550 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8550 1550 50  0001 C CNN "Digikey Part No."
-	1    8550 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D34
-U 1 1 61D2DAE5
-P 8900 1550
-F 0 "D34" H 8900 1767 50  0000 C CNN
-F 1 "B360" H 8900 1676 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8900 1375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8900 1550 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8900 1550 50  0001 C CNN "Digikey Part No."
-	1    8900 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D23
-U 1 1 61D2DAEB
-P 7850 2300
-F 0 "D23" H 7850 2517 50  0000 C CNN
-F 1 "B360" H 7850 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 7850 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7850 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 7850 2300 50  0001 C CNN "Digikey Part No."
-	1    7850 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D27
-U 1 1 61D2DAF1
-P 8200 2300
-F 0 "D27" H 8200 2517 50  0000 C CNN
-F 1 "B360" H 8200 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8200 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8200 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8200 2300 50  0001 C CNN "Digikey Part No."
-	1    8200 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D31
-U 1 1 61D2DAF7
-P 8550 2300
-F 0 "D31" H 8550 2517 50  0000 C CNN
-F 1 "B360" H 8550 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8550 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8550 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8550 2300 50  0001 C CNN "Digikey Part No."
-	1    8550 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D35
-U 1 1 61D2DAFD
-P 8900 2300
-F 0 "D35" H 8900 2517 50  0000 C CNN
-F 1 "B360" H 8900 2426 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8900 2125 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8900 2300 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8900 2300 50  0001 C CNN "Digikey Part No."
-	1    8900 2300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9350 2000 8550 2000
 Wire Wire Line
@@ -716,17 +337,6 @@ Wire Wire Line
 Connection ~ 8550 2500
 Wire Wire Line
 	8550 2500 8900 2500
-$Comp
-L power:GND #PWR041
-U 1 1 61D2DB29
-P 8400 2600
-F 0 "#PWR041" H 8400 2350 50  0001 C CNN
-F 1 "GND" H 8405 2427 50  0000 C CNN
-F 2 "" H 8400 2600 50  0001 C CNN
-F 3 "" H 8400 2600 50  0001 C CNN
-	1    8400 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8400 2600 8400 2500
 Connection ~ 8400 2500
@@ -756,18 +366,6 @@ Text HLabel 6000 1800 0    50   Input ~ 0
 Z_STEP
 Text HLabel 6000 1700 0    50   Input ~ 0
 Z_DIR
-$Comp
-L Connector:Screw_Terminal_01x04 J8
-U 1 1 61D2DB49
-P 9550 1900
-F 0 "J8" H 9630 1892 50  0000 L CNN
-F 1 "Z_STEPPER" H 9630 1801 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 9550 1900 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 9550 1900 50  0001 C CNN
-F 4 "ED2810-ND" H 9550 1900 50  0001 C CNN "Digikey Part No."
-	1    9550 1900
-	1    0    0    -1  
-$EndComp
 Text HLabel 6050 4650 0    50   Input ~ 0
 CS_E
 Text HLabel 6050 4550 0    50   Input ~ 0
@@ -776,17 +374,6 @@ Text HLabel 6050 4450 0    50   Input ~ 0
 SCK
 Text HLabel 6050 4350 0    50   Input ~ 0
 MOSI
-$Comp
-L power:GND #PWR038
-U 1 1 61D2DB5D
-P 6750 5350
-F 0 "#PWR038" H 6750 5100 50  0001 C CNN
-F 1 "GND" H 6755 5177 50  0000 C CNN
-F 2 "" H 6750 5350 50  0001 C CNN
-F 3 "" H 6750 5350 50  0001 C CNN
-	1    6750 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6750 5350 6750 5250
 Wire Wire Line
@@ -802,102 +389,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 4850 6050 4850
 Connection ~ 6750 5250
-$Comp
-L Diode:B360 D24
-U 1 1 61D2DB6B
-P 7900 3900
-F 0 "D24" H 7900 4117 50  0000 C CNN
-F 1 "B360" H 7900 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 7900 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7900 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 7900 3900 50  0001 C CNN "Digikey Part No."
-	1    7900 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D28
-U 1 1 61D2DB71
-P 8250 3900
-F 0 "D28" H 8250 4117 50  0000 C CNN
-F 1 "B360" H 8250 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8250 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8250 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8250 3900 50  0001 C CNN "Digikey Part No."
-	1    8250 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D32
-U 1 1 61D2DB77
-P 8600 3900
-F 0 "D32" H 8600 4117 50  0000 C CNN
-F 1 "B360" H 8600 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8600 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8600 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8600 3900 50  0001 C CNN "Digikey Part No."
-	1    8600 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D36
-U 1 1 61D2DB7D
-P 8950 3900
-F 0 "D36" H 8950 4117 50  0000 C CNN
-F 1 "B360" H 8950 4026 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8950 3725 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8950 3900 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8950 3900 50  0001 C CNN "Digikey Part No."
-	1    8950 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D25
-U 1 1 61D2DB83
-P 7900 4650
-F 0 "D25" H 7900 4867 50  0000 C CNN
-F 1 "B360" H 7900 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 7900 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7900 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 7900 4650 50  0001 C CNN "Digikey Part No."
-	1    7900 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D29
-U 1 1 61D2DB89
-P 8250 4650
-F 0 "D29" H 8250 4867 50  0000 C CNN
-F 1 "B360" H 8250 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8250 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8250 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8250 4650 50  0001 C CNN "Digikey Part No."
-	1    8250 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D33
-U 1 1 61D2DB8F
-P 8600 4650
-F 0 "D33" H 8600 4867 50  0000 C CNN
-F 1 "B360" H 8600 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8600 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8600 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8600 4650 50  0001 C CNN "Digikey Part No."
-	1    8600 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:B360 D37
-U 1 1 61D2DB95
-P 8950 4650
-F 0 "D37" H 8950 4867 50  0000 C CNN
-F 1 "B360" H 8950 4776 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 8950 4475 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8950 4650 50  0001 C CNN
-F 4 "CD214A-B360RCT-ND" H 8950 4650 50  0001 C CNN "Digikey Part No."
-	1    8950 4650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9400 4350 8600 4350
 Wire Wire Line
@@ -962,17 +453,6 @@ Wire Wire Line
 Connection ~ 8600 4850
 Wire Wire Line
 	8600 4850 8950 4850
-$Comp
-L power:GND #PWR042
-U 1 1 61D2DBC1
-P 8450 4950
-F 0 "#PWR042" H 8450 4700 50  0001 C CNN
-F 1 "GND" H 8455 4777 50  0000 C CNN
-F 2 "" H 8450 4950 50  0001 C CNN
-F 3 "" H 8450 4950 50  0001 C CNN
-	1    8450 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8450 4950 8450 4850
 Connection ~ 8450 4850
@@ -1000,18 +480,6 @@ Text HLabel 6050 4150 0    50   Input ~ 0
 E_STEP
 Text HLabel 6050 4050 0    50   Input ~ 0
 E_DIR
-$Comp
-L Connector:Screw_Terminal_01x04 J9
-U 1 1 61D2DBE1
-P 9600 4250
-F 0 "J9" H 9680 4242 50  0000 L CNN
-F 1 "E_STEPPER" H 9680 4151 50  0000 L CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 9600 4250 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 9600 4250 50  0001 C CNN
-F 4 "ED2810-ND" H 9600 4250 50  0001 C CNN "Digikey Part No."
-	1    9600 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 2000 4000 2000
 Wire Wire Line
@@ -1028,28 +496,6 @@ Wire Wire Line
 	7400 2000 8550 2000
 Wire Wire Line
 	8900 2100 7400 2100
-$Comp
-L power:+5V #PWR034
-U 1 1 61C87F74
-P 3050 900
-F 0 "#PWR034" H 3050 750 50  0001 C CNN
-F 1 "+5V" H 3065 1073 50  0000 C CNN
-F 2 "" H 3050 900 50  0001 C CNN
-F 3 "" H 3050 900 50  0001 C CNN
-	1    3050 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR033
-U 1 1 61C9AD0D
-P 2950 3300
-F 0 "#PWR033" H 2950 3150 50  0001 C CNN
-F 1 "+5V" H 2965 3473 50  0000 C CNN
-F 2 "" H 2950 3300 50  0001 C CNN
-F 3 "" H 2950 3300 50  0001 C CNN
-	1    2950 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 950  3050 950 
 Wire Wire Line
@@ -1057,164 +503,8 @@ Wire Wire Line
 Connection ~ 3050 950 
 Wire Wire Line
 	3050 950  3200 950 
-$Comp
-L grbl_board:TMC5160_SILENTSTEPSTICK U5
-U 1 1 61D16C13
-P 2150 1900
-F 0 "U5" H 2150 2767 50  0000 C CNN
-F 1 "TMC5160_SILENTSTEPSTICK" H 2150 2676 50  0000 C CNN
-F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 2150 1900 50  0001 L BNN
-F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 2150 1900 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 2150 1900 50  0001 L BNN "STANDARD"
-F 5 "N/A" H 2150 1900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "v11" H 2150 1900 50  0001 L BNN "PARTREV"
-F 7 "Trinamic" H 2150 1900 50  0001 L BNN "MANUFACTURER"
-F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 2150 1900 50  0001 C CNN "Digikey Part No."
-	1    2150 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L grbl_board:TMC5160_SILENTSTEPSTICK U6
-U 1 1 61D1BCC8
-P 2200 4250
-F 0 "U6" H 2200 5117 50  0000 C CNN
-F 1 "TMC5160_SILENTSTEPSTICK" H 2200 5026 50  0000 C CNN
-F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 2200 4250 50  0001 L BNN
-F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 2200 4250 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 2200 4250 50  0001 L BNN "STANDARD"
-F 5 "N/A" H 2200 4250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "v11" H 2200 4250 50  0001 L BNN "PARTREV"
-F 7 "Trinamic" H 2200 4250 50  0001 L BNN "MANUFACTURER"
-F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 2200 4250 50  0001 C CNN "Digikey Part No."
-	1    2200 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L grbl_board:TMC5160_SILENTSTEPSTICK U8
-U 1 1 61D27A86
-P 6750 4250
-F 0 "U8" H 6750 5117 50  0000 C CNN
-F 1 "TMC5160_SILENTSTEPSTICK" H 6750 5026 50  0000 C CNN
-F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 6750 4250 50  0001 L BNN
-F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 6750 4250 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 6750 4250 50  0001 L BNN "STANDARD"
-F 5 "N/A" H 6750 4250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "v11" H 6750 4250 50  0001 L BNN "PARTREV"
-F 7 "Trinamic" H 6750 4250 50  0001 L BNN "MANUFACTURER"
-F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 6750 4250 50  0001 C CNN "Digikey Part No."
-	1    6750 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L grbl_board:TMC5160_SILENTSTEPSTICK U7
-U 1 1 61D32723
-P 6700 1900
-F 0 "U7" H 6700 2767 50  0000 C CNN
-F 1 "TMC5160_SILENTSTEPSTICK" H 6700 2676 50  0000 C CNN
-F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 6700 1900 50  0001 L BNN
-F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 6700 1900 50  0001 L BNN
-F 4 "Manufacturer Recommendations" H 6700 1900 50  0001 L BNN "STANDARD"
-F 5 "N/A" H 6700 1900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "v11" H 6700 1900 50  0001 L BNN "PARTREV"
-F 7 "Trinamic" H 6700 1900 50  0001 L BNN "MANUFACTURER"
-F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 6700 1900 50  0001 C CNN "Digikey Part No."
-	1    6700 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L grbl_board:heatsink_60x135mm HS1
-U 1 1 61DA8A2E
-P 10150 5850
-F 0 "HS1" H 10150 6265 50  0000 C CNN
-F 1 "heatsink_60x135mm" H 10150 6174 50  0000 C CNN
-F 2 "grbl_board:heatsink_60x135mm" H 10150 6250 50  0001 C CNN
-F 3 "" H 10450 5650 50  0001 C CNN
-	1    10150 5850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7500 3650 7500 3300
-$Comp
-L power:+5V #PWR040
-U 1 1 61C91F0F
-P 7500 3300
-F 0 "#PWR040" H 7500 3150 50  0001 C CNN
-F 1 "+5V" H 7515 3473 50  0000 C CNN
-F 2 "" H 7500 3300 50  0001 C CNN
-F 3 "" H 7500 3300 50  0001 C CNN
-	1    7500 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR039
-U 1 1 61E423DD
-P 7450 950
-F 0 "#PWR039" H 7450 800 50  0001 C CNN
-F 1 "+5V" H 7465 1123 50  0000 C CNN
-F 2 "" H 7450 950 50  0001 C CNN
-F 3 "" H 7450 950 50  0001 C CNN
-	1    7450 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C47
-U 1 1 6183BAC9
-P 2550 6650
-F 0 "C47" H 2665 6696 50  0000 L CNN
-F 1 "4.7u" H 2665 6605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2588 6500 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 2550 6650 50  0001 C CNN
-F 4 "1276-6781-1-ND" H 2550 6650 50  0001 C CNN "Digikey Part No."
-	1    2550 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C48
-U 1 1 6183C6A1
-P 3000 6650
-F 0 "C48" H 3115 6696 50  0000 L CNN
-F 1 "4.7u" H 3115 6605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3038 6500 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 3000 6650 50  0001 C CNN
-F 4 "1276-6781-1-ND" H 3000 6650 50  0001 C CNN "Digikey Part No."
-	1    3000 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C49
-U 1 1 61844DE6
-P 3450 6650
-F 0 "C49" H 3565 6696 50  0000 L CNN
-F 1 "4.7u" H 3565 6605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 6500 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 3450 6650 50  0001 C CNN
-F 4 "1276-6781-1-ND" H 3450 6650 50  0001 C CNN "Digikey Part No."
-	1    3450 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C50
-U 1 1 6184D473
-P 3900 6650
-F 0 "C50" H 4015 6696 50  0000 L CNN
-F 1 "4.7u" H 4015 6605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3938 6500 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31B475KBHVPNE.jsp" H 3900 6650 50  0001 C CNN
-F 4 "1276-6781-1-ND" H 3900 6650 50  0001 C CNN "Digikey Part No."
-	1    3900 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR077
-U 1 1 61855DAE
-P 3250 6900
-F 0 "#PWR077" H 3250 6650 50  0001 C CNN
-F 1 "GND" H 3255 6727 50  0000 C CNN
-F 2 "" H 3250 6900 50  0001 C CNN
-F 3 "" H 3250 6900 50  0001 C CNN
-	1    3250 6900
-	1    0    0    -1  
-$EndComp
 Text HLabel 3250 6350 1    50   Input ~ 0
 VMOT
 Wire Wire Line
@@ -1259,4 +549,817 @@ Wire Wire Line
 Connection ~ 3250 6850
 Wire Wire Line
 	3250 6850 3450 6850
+$Comp
+L power:GND #PWR077
+U 1 1 61855DAE
+P 3250 6900
+F 0 "#PWR077" H 3250 6650 50  0001 C CNN
+F 1 "GND" H 3255 6727 50  0000 C CNN
+F 2 "" H 3250 6900 50  0001 C CNN
+F 3 "" H 3250 6900 50  0001 C CNN
+	1    3250 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C50
+U 1 1 6184D473
+P 3900 6650
+F 0 "C50" H 4015 6696 50  0000 L CNN
+F 1 "4.7u" H 4015 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3938 6500 50  0001 C CNN
+F 3 "~" H 3900 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 3900 6650 50  0001 C CNN "Digikey Part No."
+	1    3900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C49
+U 1 1 61844DE6
+P 3450 6650
+F 0 "C49" H 3565 6696 50  0000 L CNN
+F 1 "4.7u" H 3565 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3488 6500 50  0001 C CNN
+F 3 "~" H 3450 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 3450 6650 50  0001 C CNN "Digikey Part No."
+	1    3450 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C48
+U 1 1 6183C6A1
+P 3000 6650
+F 0 "C48" H 3115 6696 50  0000 L CNN
+F 1 "4.7u" H 3115 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3038 6500 50  0001 C CNN
+F 3 "~" H 3000 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 3000 6650 50  0001 C CNN "Digikey Part No."
+	1    3000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C47
+U 1 1 6183BAC9
+P 2550 6650
+F 0 "C47" H 2665 6696 50  0000 L CNN
+F 1 "4.7u" H 2665 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2588 6500 50  0001 C CNN
+F 3 "~" H 2550 6650 50  0001 C CNN
+F 4 "1276-6781-1-ND" H 2550 6650 50  0001 C CNN "Digikey Part No."
+	1    2550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR039
+U 1 1 61E423DD
+P 7450 950
+F 0 "#PWR039" H 7450 800 50  0001 C CNN
+F 1 "+5V" H 7465 1123 50  0000 C CNN
+F 2 "" H 7450 950 50  0001 C CNN
+F 3 "" H 7450 950 50  0001 C CNN
+	1    7450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR040
+U 1 1 61C91F0F
+P 7500 3300
+F 0 "#PWR040" H 7500 3150 50  0001 C CNN
+F 1 "+5V" H 7515 3473 50  0000 C CNN
+F 2 "" H 7500 3300 50  0001 C CNN
+F 3 "" H 7500 3300 50  0001 C CNN
+	1    7500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L grbl_board:heatsink_60x135mm HS1
+U 1 1 61DA8A2E
+P 10150 5850
+F 0 "HS1" H 10150 6265 50  0000 C CNN
+F 1 "heatsink_60x135mm" H 10150 6174 50  0000 C CNN
+F 2 "grbl_board:heatsink_60x135mm" H 10150 6250 50  0001 C CNN
+F 3 "" H 10450 5650 50  0001 C CNN
+	1    10150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L grbl_board:TMC5160_SILENTSTEPSTICK U7
+U 1 1 61D32723
+P 6700 1900
+F 0 "U7" H 6700 2767 50  0000 C CNN
+F 1 "TMC5160_SILENTSTEPSTICK" H 6700 2676 50  0000 C CNN
+F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 6700 1900 50  0001 L BNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 6700 1900 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 6700 1900 50  0001 L BNN "STANDARD"
+F 5 "N/A" H 6700 1900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "v11" H 6700 1900 50  0001 L BNN "PARTREV"
+F 7 "Trinamic" H 6700 1900 50  0001 L BNN "MANUFACTURER"
+F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 6700 1900 50  0001 C CNN "Digikey Part No."
+	1    6700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L grbl_board:TMC5160_SILENTSTEPSTICK U8
+U 1 1 61D27A86
+P 6750 4250
+F 0 "U8" H 6750 5117 50  0000 C CNN
+F 1 "TMC5160_SILENTSTEPSTICK" H 6750 5026 50  0000 C CNN
+F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 6750 4250 50  0001 L BNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 6750 4250 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 6750 4250 50  0001 L BNN "STANDARD"
+F 5 "N/A" H 6750 4250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "v11" H 6750 4250 50  0001 L BNN "PARTREV"
+F 7 "Trinamic" H 6750 4250 50  0001 L BNN "MANUFACTURER"
+F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 6750 4250 50  0001 C CNN "Digikey Part No."
+	1    6750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L grbl_board:TMC5160_SILENTSTEPSTICK U6
+U 1 1 61D1BCC8
+P 2200 4250
+F 0 "U6" H 2200 5117 50  0000 C CNN
+F 1 "TMC5160_SILENTSTEPSTICK" H 2200 5026 50  0000 C CNN
+F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 2200 4250 50  0001 L BNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 2200 4250 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 2200 4250 50  0001 L BNN "STANDARD"
+F 5 "N/A" H 2200 4250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "v11" H 2200 4250 50  0001 L BNN "PARTREV"
+F 7 "Trinamic" H 2200 4250 50  0001 L BNN "MANUFACTURER"
+F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 2200 4250 50  0001 C CNN "Digikey Part No."
+	1    2200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L grbl_board:TMC5160_SILENTSTEPSTICK U5
+U 1 1 61D16C13
+P 2150 1900
+F 0 "U5" H 2150 2767 50  0000 C CNN
+F 1 "TMC5160_SILENTSTEPSTICK" H 2150 2676 50  0000 C CNN
+F 2 "grbl_board:TMC5160_SILENTSTEPSTICK" H 2150 1900 50  0001 L BNN
+F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_SilentStepStick_datasheet_Rev1.20.pdf" H 2150 1900 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 2150 1900 50  0001 L BNN "STANDARD"
+F 5 "N/A" H 2150 1900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "v11" H 2150 1900 50  0001 L BNN "PARTREV"
+F 7 "Trinamic" H 2150 1900 50  0001 L BNN "MANUFACTURER"
+F 8 "1460-TMC5160SILENTSTEPSTICK-ND" H 2150 1900 50  0001 C CNN "Digikey Part No."
+	1    2150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR033
+U 1 1 61C9AD0D
+P 2950 3300
+F 0 "#PWR033" H 2950 3150 50  0001 C CNN
+F 1 "+5V" H 2965 3473 50  0000 C CNN
+F 2 "" H 2950 3300 50  0001 C CNN
+F 3 "" H 2950 3300 50  0001 C CNN
+	1    2950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR034
+U 1 1 61C87F74
+P 3050 900
+F 0 "#PWR034" H 3050 750 50  0001 C CNN
+F 1 "+5V" H 3065 1073 50  0000 C CNN
+F 2 "" H 3050 900 50  0001 C CNN
+F 3 "" H 3050 900 50  0001 C CNN
+	1    3050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J9
+U 1 1 61D2DBE1
+P 9600 4250
+F 0 "J9" H 9680 4242 50  0000 L CNN
+F 1 "E_STEPPER" H 9680 4151 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 9600 4250 50  0001 C CNN
+F 3 "~" H 9600 4250 50  0001 C CNN
+F 4 "ED2810-ND" H 9600 4250 50  0001 C CNN "Digikey Part No."
+	1    9600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 61D2DBC1
+P 8450 4950
+F 0 "#PWR042" H 8450 4700 50  0001 C CNN
+F 1 "GND" H 8455 4777 50  0000 C CNN
+F 2 "" H 8450 4950 50  0001 C CNN
+F 3 "" H 8450 4950 50  0001 C CNN
+	1    8450 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B360 D37
+U 1 1 61D2DB95
+P 8950 4650
+F 0 "D37" H 8950 4867 50  0000 C CNN
+F 1 "B360" H 8950 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8950 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8950 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8950 4650 50  0001 C CNN "Digikey Part No."
+	1    8950 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D33
+U 1 1 61D2DB8F
+P 8600 4650
+F 0 "D33" H 8600 4867 50  0000 C CNN
+F 1 "B360" H 8600 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8600 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8600 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8600 4650 50  0001 C CNN "Digikey Part No."
+	1    8600 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D29
+U 1 1 61D2DB89
+P 8250 4650
+F 0 "D29" H 8250 4867 50  0000 C CNN
+F 1 "B360" H 8250 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8250 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8250 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8250 4650 50  0001 C CNN "Digikey Part No."
+	1    8250 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D25
+U 1 1 61D2DB83
+P 7900 4650
+F 0 "D25" H 7900 4867 50  0000 C CNN
+F 1 "B360" H 7900 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7900 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7900 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 7900 4650 50  0001 C CNN "Digikey Part No."
+	1    7900 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D36
+U 1 1 61D2DB7D
+P 8950 3900
+F 0 "D36" H 8950 4117 50  0000 C CNN
+F 1 "B360" H 8950 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8950 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8950 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8950 3900 50  0001 C CNN "Digikey Part No."
+	1    8950 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D32
+U 1 1 61D2DB77
+P 8600 3900
+F 0 "D32" H 8600 4117 50  0000 C CNN
+F 1 "B360" H 8600 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8600 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8600 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8600 3900 50  0001 C CNN "Digikey Part No."
+	1    8600 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D28
+U 1 1 61D2DB71
+P 8250 3900
+F 0 "D28" H 8250 4117 50  0000 C CNN
+F 1 "B360" H 8250 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8250 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8250 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8250 3900 50  0001 C CNN "Digikey Part No."
+	1    8250 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D24
+U 1 1 61D2DB6B
+P 7900 3900
+F 0 "D24" H 7900 4117 50  0000 C CNN
+F 1 "B360" H 7900 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7900 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7900 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 7900 3900 50  0001 C CNN "Digikey Part No."
+	1    7900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 61D2DB5D
+P 6750 5350
+F 0 "#PWR038" H 6750 5100 50  0001 C CNN
+F 1 "GND" H 6755 5177 50  0000 C CNN
+F 2 "" H 6750 5350 50  0001 C CNN
+F 3 "" H 6750 5350 50  0001 C CNN
+	1    6750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J8
+U 1 1 61D2DB49
+P 9550 1900
+F 0 "J8" H 9630 1892 50  0000 L CNN
+F 1 "Z_STEPPER" H 9630 1801 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 9550 1900 50  0001 C CNN
+F 3 "~" H 9550 1900 50  0001 C CNN
+F 4 "ED2810-ND" H 9550 1900 50  0001 C CNN "Digikey Part No."
+	1    9550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 61D2DB29
+P 8400 2600
+F 0 "#PWR041" H 8400 2350 50  0001 C CNN
+F 1 "GND" H 8405 2427 50  0000 C CNN
+F 2 "" H 8400 2600 50  0001 C CNN
+F 3 "" H 8400 2600 50  0001 C CNN
+	1    8400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B360 D35
+U 1 1 61D2DAFD
+P 8900 2300
+F 0 "D35" H 8900 2517 50  0000 C CNN
+F 1 "B360" H 8900 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8900 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8900 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8900 2300 50  0001 C CNN "Digikey Part No."
+	1    8900 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D31
+U 1 1 61D2DAF7
+P 8550 2300
+F 0 "D31" H 8550 2517 50  0000 C CNN
+F 1 "B360" H 8550 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8550 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8550 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8550 2300 50  0001 C CNN "Digikey Part No."
+	1    8550 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D27
+U 1 1 61D2DAF1
+P 8200 2300
+F 0 "D27" H 8200 2517 50  0000 C CNN
+F 1 "B360" H 8200 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8200 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8200 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8200 2300 50  0001 C CNN "Digikey Part No."
+	1    8200 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D23
+U 1 1 61D2DAEB
+P 7850 2300
+F 0 "D23" H 7850 2517 50  0000 C CNN
+F 1 "B360" H 7850 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7850 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7850 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 7850 2300 50  0001 C CNN "Digikey Part No."
+	1    7850 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D34
+U 1 1 61D2DAE5
+P 8900 1550
+F 0 "D34" H 8900 1767 50  0000 C CNN
+F 1 "B360" H 8900 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8900 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8900 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8900 1550 50  0001 C CNN "Digikey Part No."
+	1    8900 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D30
+U 1 1 61D2DADF
+P 8550 1550
+F 0 "D30" H 8550 1767 50  0000 C CNN
+F 1 "B360" H 8550 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8550 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8550 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8550 1550 50  0001 C CNN "Digikey Part No."
+	1    8550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D26
+U 1 1 61D2DAD9
+P 8200 1550
+F 0 "D26" H 8200 1767 50  0000 C CNN
+F 1 "B360" H 8200 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8200 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8200 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 8200 1550 50  0001 C CNN "Digikey Part No."
+	1    8200 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D22
+U 1 1 61D2DAD3
+P 7850 1550
+F 0 "D22" H 7850 1767 50  0000 C CNN
+F 1 "B360" H 7850 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7850 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7850 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 7850 1550 50  0001 C CNN "Digikey Part No."
+	1    7850 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 61D2DAC5
+P 6700 3000
+F 0 "#PWR037" H 6700 2750 50  0001 C CNN
+F 1 "GND" H 6705 2827 50  0000 C CNN
+F 2 "" H 6700 3000 50  0001 C CNN
+F 3 "" H 6700 3000 50  0001 C CNN
+	1    6700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J7
+U 1 1 61D12151
+P 5050 4250
+F 0 "J7" H 5130 4242 50  0000 L CNN
+F 1 "Y_STEPPER" H 5130 4151 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 5050 4250 50  0001 C CNN
+F 3 "~" H 5050 4250 50  0001 C CNN
+F 4 "ED2810-ND" H 5050 4250 50  0001 C CNN "Digikey Part No."
+	1    5050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 61D12131
+P 3900 4950
+F 0 "#PWR036" H 3900 4700 50  0001 C CNN
+F 1 "GND" H 3905 4777 50  0000 C CNN
+F 2 "" H 3900 4950 50  0001 C CNN
+F 3 "" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B360 D21
+U 1 1 61D12105
+P 4400 4650
+F 0 "D21" H 4400 4867 50  0000 C CNN
+F 1 "B360" H 4400 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4400 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4400 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4400 4650 50  0001 C CNN "Digikey Part No."
+	1    4400 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D17
+U 1 1 61D120FF
+P 4050 4650
+F 0 "D17" H 4050 4867 50  0000 C CNN
+F 1 "B360" H 4050 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4050 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4050 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4050 4650 50  0001 C CNN "Digikey Part No."
+	1    4050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D13
+U 1 1 61D120F9
+P 3700 4650
+F 0 "D13" H 3700 4867 50  0000 C CNN
+F 1 "B360" H 3700 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3700 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3700 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3700 4650 50  0001 C CNN "Digikey Part No."
+	1    3700 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D9
+U 1 1 61D120F3
+P 3350 4650
+F 0 "D9" H 3350 4867 50  0000 C CNN
+F 1 "B360" H 3350 4776 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3350 4475 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3350 4650 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3350 4650 50  0001 C CNN "Digikey Part No."
+	1    3350 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D20
+U 1 1 61D120ED
+P 4400 3900
+F 0 "D20" H 4400 4117 50  0000 C CNN
+F 1 "B360" H 4400 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4400 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4400 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4400 3900 50  0001 C CNN "Digikey Part No."
+	1    4400 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D16
+U 1 1 61D120E7
+P 4050 3900
+F 0 "D16" H 4050 4117 50  0000 C CNN
+F 1 "B360" H 4050 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4050 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4050 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4050 3900 50  0001 C CNN "Digikey Part No."
+	1    4050 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D12
+U 1 1 61D120E1
+P 3700 3900
+F 0 "D12" H 3700 4117 50  0000 C CNN
+F 1 "B360" H 3700 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3700 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3700 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3700 3900 50  0001 C CNN "Digikey Part No."
+	1    3700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D8
+U 1 1 61D120DB
+P 3350 3900
+F 0 "D8" H 3350 4117 50  0000 C CNN
+F 1 "B360" H 3350 4026 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3350 3725 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3350 3900 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3350 3900 50  0001 C CNN "Digikey Part No."
+	1    3350 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 61D120CD
+P 2200 5350
+F 0 "#PWR032" H 2200 5100 50  0001 C CNN
+F 1 "GND" H 2205 5177 50  0000 C CNN
+F 2 "" H 2200 5350 50  0001 C CNN
+F 3 "" H 2200 5350 50  0001 C CNN
+	1    2200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J6
+U 1 1 61CE7870
+P 5000 1900
+F 0 "J6" H 5080 1892 50  0000 L CNN
+F 1 "X_STEPPER" H 5080 1801 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_4-G-3.81_1x04_P3.81mm_Horizontal" H 5000 1900 50  0001 C CNN
+F 3 "~" H 5000 1900 50  0001 C CNN
+F 4 "ED2810-ND" H 5000 1900 50  0001 C CNN "Digikey Part No."
+	1    5000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B360 D5
+U 1 1 61CF6E6E
+P 3200 1150
+F 0 "D5" H 3200 1367 50  0000 C CNN
+F 1 "B360" H 3200 1276 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3200 975 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3200 1150 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3200 1150 50  0001 C CNN "Digikey Part No."
+	1    3200 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 61CF5A1D
+P 3850 2600
+F 0 "#PWR035" H 3850 2350 50  0001 C CNN
+F 1 "GND" H 3855 2427 50  0000 C CNN
+F 2 "" H 3850 2600 50  0001 C CNN
+F 3 "" H 3850 2600 50  0001 C CNN
+	1    3850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B360 D19
+U 1 1 61CF1026
+P 4350 2300
+F 0 "D19" H 4350 2517 50  0000 C CNN
+F 1 "B360" H 4350 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4350 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4350 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4350 2300 50  0001 C CNN "Digikey Part No."
+	1    4350 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D15
+U 1 1 61CF1020
+P 4000 2300
+F 0 "D15" H 4000 2517 50  0000 C CNN
+F 1 "B360" H 4000 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4000 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4000 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4000 2300 50  0001 C CNN "Digikey Part No."
+	1    4000 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D11
+U 1 1 61CF101A
+P 3650 2300
+F 0 "D11" H 3650 2517 50  0000 C CNN
+F 1 "B360" H 3650 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3650 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3650 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3650 2300 50  0001 C CNN "Digikey Part No."
+	1    3650 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D7
+U 1 1 61CF1014
+P 3300 2300
+F 0 "D7" H 3300 2517 50  0000 C CNN
+F 1 "B360" H 3300 2426 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3300 2125 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3300 2300 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3300 2300 50  0001 C CNN "Digikey Part No."
+	1    3300 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D18
+U 1 1 61CEDC64
+P 4350 1550
+F 0 "D18" H 4350 1767 50  0000 C CNN
+F 1 "B360" H 4350 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4350 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4350 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4350 1550 50  0001 C CNN "Digikey Part No."
+	1    4350 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D14
+U 1 1 61CEDC5E
+P 4000 1550
+F 0 "D14" H 4000 1767 50  0000 C CNN
+F 1 "B360" H 4000 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 4000 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 4000 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 4000 1550 50  0001 C CNN "Digikey Part No."
+	1    4000 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D10
+U 1 1 61CEAD79
+P 3650 1550
+F 0 "D10" H 3650 1767 50  0000 C CNN
+F 1 "B360" H 3650 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3650 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3650 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3650 1550 50  0001 C CNN "Digikey Part No."
+	1    3650 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:B360 D6
+U 1 1 61CEA397
+P 3300 1550
+F 0 "D6" H 3300 1767 50  0000 C CNN
+F 1 "B360" H 3300 1676 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 3300 1375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 3300 1550 50  0001 C CNN
+F 4 "CD214A-B360RCT-ND" H 3300 1550 50  0001 C CNN "Digikey Part No."
+	1    3300 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 61CE6539
+P 2150 3000
+F 0 "#PWR031" H 2150 2750 50  0001 C CNN
+F 1 "GND" H 2155 2827 50  0000 C CNN
+F 2 "" H 2150 3000 50  0001 C CNN
+F 3 "" H 2150 3000 50  0001 C CNN
+	1    2150 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 5250 6350 1    50   Input ~ 0
+VMOT
+Wire Wire Line
+	5250 6350 5250 6450
+Wire Wire Line
+	5250 6450 5000 6450
+Wire Wire Line
+	4550 6450 4550 6500
+Wire Wire Line
+	4550 6800 4550 6850
+Wire Wire Line
+	4550 6850 5000 6850
+Wire Wire Line
+	5900 6850 5900 6800
+Wire Wire Line
+	5900 6500 5900 6450
+Wire Wire Line
+	5900 6450 5450 6450
+Connection ~ 5250 6450
+Wire Wire Line
+	5450 6500 5450 6450
+Connection ~ 5450 6450
+Wire Wire Line
+	5450 6450 5250 6450
+Wire Wire Line
+	5000 6500 5000 6450
+Connection ~ 5000 6450
+Wire Wire Line
+	5000 6450 4550 6450
+Wire Wire Line
+	5000 6850 5000 6800
+Connection ~ 5000 6850
+Wire Wire Line
+	5000 6850 5250 6850
+Wire Wire Line
+	5450 6850 5450 6800
+Connection ~ 5450 6850
+Wire Wire Line
+	5450 6850 5900 6850
+Wire Wire Line
+	5250 6900 5250 6850
+Connection ~ 5250 6850
+Wire Wire Line
+	5250 6850 5450 6850
+$Comp
+L power:GND #PWR053
+U 1 1 620E9017
+P 5250 6900
+F 0 "#PWR053" H 5250 6650 50  0001 C CNN
+F 1 "GND" H 5255 6727 50  0000 C CNN
+F 2 "" H 5250 6900 50  0001 C CNN
+F 3 "" H 5250 6900 50  0001 C CNN
+	1    5250 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C54
+U 1 1 620E901E
+P 5900 6650
+F 0 "C54" H 6015 6696 50  0000 L CNN
+F 1 "100u" H 6015 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 5938 6500 50  0001 C CNN
+F 3 "~" H 5900 6650 50  0001 C CNN
+F 4 "UE107M050HFKTA" H 5900 6650 50  0001 C CNN "Digikey Part No."
+	1    5900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C53
+U 1 1 620E9025
+P 5450 6650
+F 0 "C53" H 5565 6696 50  0000 L CNN
+F 1 "100u" H 5565 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 5488 6500 50  0001 C CNN
+F 3 "~" H 5450 6650 50  0001 C CNN
+F 4 "UE107M050HFKTA" H 5450 6650 50  0001 C CNN "Digikey Part No."
+	1    5450 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C52
+U 1 1 620E902C
+P 5000 6650
+F 0 "C52" H 5115 6696 50  0000 L CNN
+F 1 "100u" H 5115 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 5038 6500 50  0001 C CNN
+F 3 "~" H 5000 6650 50  0001 C CNN
+F 4 "UE107M050HFKTA" H 5000 6650 50  0001 C CNN "Digikey Part No."
+	1    5000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C51
+U 1 1 620E9033
+P 4550 6650
+F 0 "C51" H 4665 6696 50  0000 L CNN
+F 1 "100u" H 4665 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 4588 6500 50  0001 C CNN
+F 3 "~" H 4550 6650 50  0001 C CNN
+F 4 "UE107M050HFKTA" H 4550 6650 50  0001 C CNN "Digikey Part No."
+	1    4550 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

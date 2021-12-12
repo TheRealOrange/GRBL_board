@@ -56,7 +56,7 @@ P 1100 1150
 F 0 "J2" H 1018 825 50  0000 C CNN
 F 1 "12VDC" H 1018 916 50  0000 C CNN
 F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 1100 1150 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 1100 1150 50  0001 C CNN
+F 3 "~" H 1100 1150 50  0001 C CNN
 F 4 "ED2808-ND" H 1100 1150 50  0001 C CNN "Digikey Part No."
 	1    1100 1150
 	-1   0    0    1   
@@ -367,7 +367,7 @@ P 850 3100
 F 0 "J1" H 768 2775 50  0000 C CNN
 F 1 "COOL" H 768 2866 50  0000 C CNN
 F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.81_1x03_P3.81mm_Horizontal" H 850 3100 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 850 3100 50  0001 C CNN
+F 3 "~" H 850 3100 50  0001 C CNN
 F 4 "ED2809-ND" H 850 3100 50  0001 C CNN "Digikey Part No."
 	1    850  3100
 	-1   0    0    1   

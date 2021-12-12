@@ -359,29 +359,10 @@ F 4 "SS2150-LTPMSCT-ND" H 6150 3850 50  0001 C CNN "Digikey Part No."
 $EndComp
 Text HLabel 7600 2800 2    50   Input ~ 0
 12VDC
-$Comp
-L Regulator_Linear:LT1962-5 U3
-U 1 1 617DD5A8
-P 5100 5050
-F 0 "U3" H 5100 5517 50  0000 C CNN
-F 1 "LT1962-5" H 5100 5426 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 5100 4700 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1962fb.pdf" H 5100 4500 50  0001 C CNN
-F 4 "LT1962EMS8-5#TRPBFCT-ND" H 5100 5050 50  0001 C CNN "Digikey Part No."
-	1    5100 5050
-	1    0    0    -1  
-$EndComp
 Text HLabel 3700 4850 0    50   Input ~ 0
 12VDC
 Wire Wire Line
 	3700 4850 4150 4850
-Wire Wire Line
-	4550 4850 4550 5150
-Wire Wire Line
-	4550 5150 4700 5150
-Connection ~ 4550 4850
-Wire Wire Line
-	4550 4850 4700 4850
 $Comp
 L Device:C C16
 U 1 1 617E03C5
@@ -396,9 +377,6 @@ F 4 "1276-1204-1-ND" H 4150 5100 50  0001 C CNN "Digikey Part No."
 $EndComp
 Wire Wire Line
 	4150 4950 4150 4850
-Connection ~ 4150 4850
-Wire Wire Line
-	4150 4850 4550 4850
 $Comp
 L power:GND #PWR022
 U 1 1 617E18BC
@@ -410,19 +388,6 @@ F 3 "" H 4150 5300 50  0001 C CNN
 	1    4150 5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 617E1EFF
-P 5100 5400
-F 0 "#PWR025" H 5100 5150 50  0001 C CNN
-F 1 "GND" H 5105 5227 50  0000 C CNN
-F 2 "" H 5100 5400 50  0001 C CNN
-F 3 "" H 5100 5400 50  0001 C CNN
-	1    5100 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 5400 5100 5350
 Wire Wire Line
 	4150 5300 4150 5250
 $Comp
@@ -435,19 +400,8 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 4850 50  
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL31F105ZBFNNNE.jsp" H 6100 5000 50  0001 C CNN
 F 4 "1276-1009-1-ND" H 6100 5000 50  0001 C CNN "Digikey Part No."
 	1    6100 5000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	6100 5150 5500 5150
-Wire Wire Line
-	6100 4850 5750 4850
-Wire Wire Line
-	5500 4950 5750 4950
-Wire Wire Line
-	5750 4950 5750 4850
-Connection ~ 5750 4850
-Wire Wire Line
-	5750 4850 5500 4850
 $Comp
 L power:GND #PWR028
 U 1 1 617EA1CF
@@ -603,7 +557,6 @@ Wire Wire Line
 	7150 4850 6650 4850
 Wire Wire Line
 	6100 4850 6650 4850
-Connection ~ 6100 4850
 Connection ~ 6650 4850
 $Comp
 L Device:CP C19
@@ -646,4 +599,44 @@ Wire Wire Line
 Wire Wire Line
 	3800 1750 3700 1750
 Connection ~ 3800 1750
+$Comp
+L Regulator_Linear:L7805 U?
+U 1 1 61B77D83
+P 5300 4850
+AR Path="/61DA711F/61B77D83" Ref="U?"  Part="1" 
+AR Path="/619755E7/61B77D83" Ref="U3"  Part="1" 
+F 0 "U3" H 5300 5092 50  0000 C CNN
+F 1 "L7805" H 5300 5001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 5325 4700 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5300 4800 50  0001 C CNN
+F 4 "497-1170-1-ND" H 5300 4850 50  0001 C CNN "Digikey Part No."
+	1    5300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4850 6100 4850
+Connection ~ 6100 4850
+Wire Wire Line
+	5000 4850 4150 4850
+Connection ~ 4150 4850
+$Comp
+L power:GND #PWR025
+U 1 1 61B84416
+P 5300 5300
+F 0 "#PWR025" H 5300 5050 50  0001 C CNN
+F 1 "GND" H 5305 5127 50  0000 C CNN
+F 2 "" H 5300 5300 50  0001 C CNN
+F 3 "" H 5300 5300 50  0001 C CNN
+	1    5300 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5300 5300 5250
+Wire Wire Line
+	5300 5250 6100 5250
+Wire Wire Line
+	6100 5250 6100 5150
+Connection ~ 5300 5250
+Wire Wire Line
+	5300 5250 5300 5150
 $EndSCHEMATC
