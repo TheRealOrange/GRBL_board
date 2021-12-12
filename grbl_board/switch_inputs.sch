@@ -1194,4 +1194,148 @@ Wire Wire Line
 	4050 7000 4000 7000
 Wire Wire Line
 	4050 5800 4000 5800
+Text HLabel 10650 1600 1    50   Input ~ 0
+5VDC
+$Comp
+L Device:LED D?
+U 1 1 61C80669
+P 10650 2150
+AR Path="/61764E0B/61C80669" Ref="D?"  Part="1" 
+AR Path="/619755E7/61C80669" Ref="D?"  Part="1" 
+AR Path="/61D39570/61C80669" Ref="D?"  Part="1" 
+F 0 "D?" V 10597 2230 50  0000 L CNN
+F 1 "LED" V 10688 2230 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10650 2150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 10650 2150 50  0001 C CNN
+F 4 "404-1046-1-ND" H 10650 2150 50  0001 C CNN "Digikey Part No."
+	1    10650 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C80662
+P 10650 1750
+AR Path="/61764E0B/61C80662" Ref="R?"  Part="1" 
+AR Path="/619755E7/61C80662" Ref="R?"  Part="1" 
+AR Path="/61D39570/61C80662" Ref="R?"  Part="1" 
+F 0 "R?" H 10720 1796 50  0000 L CNN
+F 1 "270" H 10720 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10580 1750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 10650 1750 50  0001 C CNN
+F 4 "YAG6172CT-ND" H 10650 1750 50  0001 C CNN "Digikey Part No."
+	1    10650 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10650 1900 10650 2000
+Text HLabel 10300 1600 1    50   Input ~ 0
+5VDC
+$Comp
+L Device:LED D?
+U 1 1 61C6CA4A
+P 10300 2150
+AR Path="/61764E0B/61C6CA4A" Ref="D?"  Part="1" 
+AR Path="/619755E7/61C6CA4A" Ref="D?"  Part="1" 
+AR Path="/61D39570/61C6CA4A" Ref="D?"  Part="1" 
+F 0 "D?" V 10247 2230 50  0000 L CNN
+F 1 "LED" V 10338 2230 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10300 2150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 10300 2150 50  0001 C CNN
+F 4 "404-1046-1-ND" H 10300 2150 50  0001 C CNN "Digikey Part No."
+	1    10300 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C6CA43
+P 10300 1750
+AR Path="/61764E0B/61C6CA43" Ref="R?"  Part="1" 
+AR Path="/619755E7/61C6CA43" Ref="R?"  Part="1" 
+AR Path="/61D39570/61C6CA43" Ref="R?"  Part="1" 
+F 0 "R?" H 10370 1796 50  0000 L CNN
+F 1 "270" H 10370 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10230 1750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 10300 1750 50  0001 C CNN
+F 4 "YAG6172CT-ND" H 10300 1750 50  0001 C CNN "Digikey Part No."
+	1    10300 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10300 1900 10300 2000
+Text HLabel 9900 1600 1    50   Input ~ 0
+5VDC
+$Comp
+L Device:LED D?
+U 1 1 61C6334D
+P 9900 2150
+AR Path="/61764E0B/61C6334D" Ref="D?"  Part="1" 
+AR Path="/619755E7/61C6334D" Ref="D?"  Part="1" 
+AR Path="/61D39570/61C6334D" Ref="D?"  Part="1" 
+F 0 "D?" V 9847 2230 50  0000 L CNN
+F 1 "LED" V 9938 2230 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9900 2150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 9900 2150 50  0001 C CNN
+F 4 "404-1046-1-ND" H 9900 2150 50  0001 C CNN "Digikey Part No."
+	1    9900 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C63346
+P 9900 1750
+AR Path="/61764E0B/61C63346" Ref="R?"  Part="1" 
+AR Path="/619755E7/61C63346" Ref="R?"  Part="1" 
+AR Path="/61D39570/61C63346" Ref="R?"  Part="1" 
+F 0 "R?" H 9970 1796 50  0000 L CNN
+F 1 "270" H 9970 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9830 1750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 9900 1750 50  0001 C CNN
+F 4 "YAG6172CT-ND" H 9900 1750 50  0001 C CNN "Digikey Part No."
+	1    9900 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 1900 9900 2000
+Wire Wire Line
+	9500 1900 9500 2000
+$Comp
+L Device:R R?
+U 1 1 61C59CE7
+P 9500 1750
+AR Path="/61764E0B/61C59CE7" Ref="R?"  Part="1" 
+AR Path="/619755E7/61C59CE7" Ref="R?"  Part="1" 
+AR Path="/61D39570/61C59CE7" Ref="R?"  Part="1" 
+F 0 "R?" H 9570 1796 50  0000 L CNN
+F 1 "270" H 9570 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9430 1750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 9500 1750 50  0001 C CNN
+F 4 "YAG6172CT-ND" H 9500 1750 50  0001 C CNN "Digikey Part No."
+	1    9500 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C59CEE
+P 9500 2150
+AR Path="/61764E0B/61C59CEE" Ref="D?"  Part="1" 
+AR Path="/619755E7/61C59CEE" Ref="D?"  Part="1" 
+AR Path="/61D39570/61C59CEE" Ref="D?"  Part="1" 
+F 0 "D?" V 9447 2230 50  0000 L CNN
+F 1 "LED" V 9538 2230 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9500 2150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 9500 2150 50  0001 C CNN
+F 4 "404-1046-1-ND" H 9500 2150 50  0001 C CNN "Digikey Part No."
+	1    9500 2150
+	0    -1   -1   0   
+$EndComp
+Text HLabel 9500 1600 1    50   Input ~ 0
+5VDC
+Text HLabel 9500 2300 3    50   Input ~ 0
+LIM_X
+Text HLabel 9900 2300 3    50   Input ~ 0
+LIM_Y
+Text HLabel 10300 2300 3    50   Input ~ 0
+LIM_Z
+Text HLabel 10650 2300 3    50   Input ~ 0
+LIM_E
 $EndSCHEMATC

@@ -921,4 +921,112 @@ Wire Notes Line
 	650  7400 650  3350
 Text Notes 3450 3500 0    50   ~ 0
 FTDI USB to UART module
+Text HLabel 8800 5000 1    50   Input ~ 0
+5VDC
+$Comp
+L Device:LED D?
+U 1 1 61CDF7A9
+P 8800 5550
+AR Path="/61764E0B/61CDF7A9" Ref="D?"  Part="1" 
+AR Path="/619755E7/61CDF7A9" Ref="D?"  Part="1" 
+AR Path="/61D39570/61CDF7A9" Ref="D?"  Part="1" 
+F 0 "D?" V 8747 5630 50  0000 L CNN
+F 1 "LED" V 8838 5630 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8800 5550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 8800 5550 50  0001 C CNN
+F 4 "404-1046-1-ND" H 8800 5550 50  0001 C CNN "Digikey Part No."
+	1    8800 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61CDF7B0
+P 8800 5150
+AR Path="/61764E0B/61CDF7B0" Ref="R?"  Part="1" 
+AR Path="/619755E7/61CDF7B0" Ref="R?"  Part="1" 
+AR Path="/61D39570/61CDF7B0" Ref="R?"  Part="1" 
+F 0 "R?" H 8870 5196 50  0000 L CNN
+F 1 "270" H 8870 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 8800 5150 50  0001 C CNN
+F 4 "YAG6172CT-ND" H 8800 5150 50  0001 C CNN "Digikey Part No."
+	1    8800 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 5300 8800 5400
+Text HLabel 8400 5000 1    50   Input ~ 0
+5VDC
+$Comp
+L Device:LED D?
+U 1 1 61CDF7B9
+P 8400 5550
+AR Path="/61764E0B/61CDF7B9" Ref="D?"  Part="1" 
+AR Path="/619755E7/61CDF7B9" Ref="D?"  Part="1" 
+AR Path="/61D39570/61CDF7B9" Ref="D?"  Part="1" 
+F 0 "D?" V 8347 5630 50  0000 L CNN
+F 1 "LED" V 8438 5630 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8400 5550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 8400 5550 50  0001 C CNN
+F 4 "404-1046-1-ND" H 8400 5550 50  0001 C CNN "Digikey Part No."
+	1    8400 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61CDF7C0
+P 8400 5150
+AR Path="/61764E0B/61CDF7C0" Ref="R?"  Part="1" 
+AR Path="/619755E7/61CDF7C0" Ref="R?"  Part="1" 
+AR Path="/61D39570/61CDF7C0" Ref="R?"  Part="1" 
+F 0 "R?" H 8470 5196 50  0000 L CNN
+F 1 "270" H 8470 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8330 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 8400 5150 50  0001 C CNN
+F 4 "YAG6172CT-ND" H 8400 5150 50  0001 C CNN "Digikey Part No."
+	1    8400 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 5300 8400 5400
+Wire Wire Line
+	8000 5300 8000 5400
+$Comp
+L Device:R R?
+U 1 1 61CDF7C9
+P 8000 5150
+AR Path="/61764E0B/61CDF7C9" Ref="R?"  Part="1" 
+AR Path="/619755E7/61CDF7C9" Ref="R?"  Part="1" 
+AR Path="/61D39570/61CDF7C9" Ref="R?"  Part="1" 
+F 0 "R?" H 8070 5196 50  0000 L CNN
+F 1 "270" H 8070 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 5150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 8000 5150 50  0001 C CNN
+F 4 "YAG6172CT-ND" H 8000 5150 50  0001 C CNN "Digikey Part No."
+	1    8000 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61CDF7D0
+P 8000 5550
+AR Path="/61764E0B/61CDF7D0" Ref="D?"  Part="1" 
+AR Path="/619755E7/61CDF7D0" Ref="D?"  Part="1" 
+AR Path="/61D39570/61CDF7D0" Ref="D?"  Part="1" 
+F 0 "D?" V 7947 5630 50  0000 L CNN
+F 1 "LED" V 8038 5630 50  0000 L CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8000 5550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 8000 5550 50  0001 C CNN
+F 4 "404-1046-1-ND" H 8000 5550 50  0001 C CNN "Digikey Part No."
+	1    8000 5550
+	0    -1   -1   0   
+$EndComp
+Text HLabel 8000 5000 1    50   Input ~ 0
+5VDC
+Text HLabel 8000 5700 3    50   Input ~ 0
+LIM_X
+Text HLabel 8400 5700 3    50   Input ~ 0
+LIM_Y
+Text HLabel 8800 5700 3    50   Input ~ 0
+LIM_Z
 $EndSCHEMATC
