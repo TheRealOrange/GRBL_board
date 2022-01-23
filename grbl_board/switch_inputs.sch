@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Isolator:6N137 U9
+L Isolator:6N137 U10
 U 1 1 61D3AAD0
 P 3500 2050
-F 0 "U9" H 3500 2517 50  0000 C CNN
+F 0 "U10" H 3500 2517 50  0000 C CNN
 F 1 "6N137" H 3500 2426 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3500 1550 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 2650 2600 50  0001 C CNN
@@ -34,10 +34,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 1950 3800 1950
 $Comp
-L power:GND #PWR052
+L power:GND #PWR060
 U 1 1 61D3C8FB
 P 4000 2300
-F 0 "#PWR052" H 4000 2050 50  0001 C CNN
+F 0 "#PWR060" H 4000 2050 50  0001 C CNN
 F 1 "GND" H 4005 2127 50  0000 C CNN
 F 2 "" H 4000 2300 50  0001 C CNN
 F 3 "" H 4000 2300 50  0001 C CNN
@@ -49,10 +49,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 2250 3800 2250
 $Comp
-L Device:R R16
+L Device:R R28
 U 1 1 61D3D4D7
 P 2750 2050
-F 0 "R16" V 2543 2050 50  0000 C CNN
+F 0 "R28" V 2543 2050 50  0000 C CNN
 F 1 "1k" V 2634 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 2050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 2050 50  0001 C CNN
@@ -61,10 +61,10 @@ F 4 "311-1.0KERCT-ND" H 2750 2050 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR046
+L power:GND #PWR055
 U 1 1 61D3DDE5
 P 3000 2300
-F 0 "#PWR046" H 3000 2050 50  0001 C CNN
+F 0 "#PWR055" H 3000 2050 50  0001 C CNN
 F 1 "GND" H 3005 2127 50  0000 C CNN
 F 2 "" H 3000 2300 50  0001 C CNN
 F 3 "" H 3000 2300 50  0001 C CNN
@@ -88,10 +88,10 @@ F 4 "ED2812-ND" H 1450 2350 50  0001 C CNN "Digikey Part No."
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR045
+L power:+12V #PWR054
 U 1 1 61D4055A
 P 1900 1700
-F 0 "#PWR045" H 1900 1550 50  0001 C CNN
+F 0 "#PWR054" H 1900 1550 50  0001 C CNN
 F 1 "+12V" H 1915 1873 50  0000 C CNN
 F 2 "" H 1900 1700 50  0001 C CNN
 F 3 "" H 1900 1700 50  0001 C CNN
@@ -117,10 +117,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 2050 1650 2050
 $Comp
-L Isolator:6N137 U10
+L Isolator:6N137 U11
 U 1 1 61D4ABF8
 P 3500 3150
-F 0 "U10" H 3500 3617 50  0000 C CNN
+F 0 "U11" H 3500 3617 50  0000 C CNN
 F 1 "6N137" H 3500 3526 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3500 2650 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 2650 3700 50  0001 C CNN
@@ -129,10 +129,10 @@ F 4 "6N137IS-ND" H 3500 3150 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR054
+L power:GND #PWR061
 U 1 1 61D4AC09
 P 4000 3400
-F 0 "#PWR054" H 4000 3150 50  0001 C CNN
+F 0 "#PWR061" H 4000 3150 50  0001 C CNN
 F 1 "GND" H 4005 3227 50  0000 C CNN
 F 2 "" H 4000 3400 50  0001 C CNN
 F 3 "" H 4000 3400 50  0001 C CNN
@@ -144,10 +144,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 3350 3800 3350
 $Comp
-L Device:R R17
+L Device:R R29
 U 1 1 61D4AC11
 P 2750 3150
-F 0 "R17" V 2543 3150 50  0000 C CNN
+F 0 "R29" V 2543 3150 50  0000 C CNN
 F 1 "1k" V 2634 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 3150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 3150 50  0001 C CNN
@@ -156,10 +156,10 @@ F 4 "311-1.0KERCT-ND" H 2750 3150 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR047
+L power:GND #PWR056
 U 1 1 61D4AC17
 P 3000 3400
-F 0 "#PWR047" H 3000 3150 50  0001 C CNN
+F 0 "#PWR056" H 3000 3150 50  0001 C CNN
 F 1 "GND" H 3005 3227 50  0000 C CNN
 F 2 "" H 3000 3400 50  0001 C CNN
 F 3 "" H 3000 3400 50  0001 C CNN
@@ -173,10 +173,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 3150 3200 3150
 $Comp
-L Isolator:6N137 U11
+L Isolator:6N137 U12
 U 1 1 61D4D0CE
 P 3500 4250
-F 0 "U11" H 3500 4717 50  0000 C CNN
+F 0 "U12" H 3500 4717 50  0000 C CNN
 F 1 "6N137" H 3500 4626 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3500 3750 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 2650 4800 50  0001 C CNN
@@ -185,10 +185,10 @@ F 4 "6N137IS-ND" H 3500 4250 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR056
+L power:GND #PWR062
 U 1 1 61D4D0DF
 P 4000 4500
-F 0 "#PWR056" H 4000 4250 50  0001 C CNN
+F 0 "#PWR062" H 4000 4250 50  0001 C CNN
 F 1 "GND" H 4005 4327 50  0000 C CNN
 F 2 "" H 4000 4500 50  0001 C CNN
 F 3 "" H 4000 4500 50  0001 C CNN
@@ -200,10 +200,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 4450 3800 4450
 $Comp
-L Device:R R18
+L Device:R R30
 U 1 1 61D4D0E7
 P 2750 4250
-F 0 "R18" V 2543 4250 50  0000 C CNN
+F 0 "R30" V 2543 4250 50  0000 C CNN
 F 1 "1k" V 2634 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 4250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 4250 50  0001 C CNN
@@ -212,10 +212,10 @@ F 4 "311-1.0KERCT-ND" H 2750 4250 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR048
+L power:GND #PWR057
 U 1 1 61D4D0ED
 P 3000 4500
-F 0 "#PWR048" H 3000 4250 50  0001 C CNN
+F 0 "#PWR057" H 3000 4250 50  0001 C CNN
 F 1 "GND" H 3005 4327 50  0000 C CNN
 F 2 "" H 3000 4500 50  0001 C CNN
 F 3 "" H 3000 4500 50  0001 C CNN
@@ -239,10 +239,10 @@ FEED_HOLD
 Text HLabel 4050 4350 2    50   Input ~ 0
 RESET_ABORT
 $Comp
-L Isolator:6N137 U12
+L Isolator:6N137 U13
 U 1 1 61D5B748
 P 3500 5700
-F 0 "U12" H 3500 6167 50  0000 C CNN
+F 0 "U13" H 3500 6167 50  0000 C CNN
 F 1 "6N137" H 3500 6076 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3500 5200 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 2650 6250 50  0001 C CNN
@@ -251,10 +251,10 @@ F 4 "6N137IS-ND" H 3500 5700 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L power:GND #PWR064
 U 1 1 61D5B759
 P 4000 5950
-F 0 "#PWR058" H 4000 5700 50  0001 C CNN
+F 0 "#PWR064" H 4000 5700 50  0001 C CNN
 F 1 "GND" H 4005 5777 50  0000 C CNN
 F 2 "" H 4000 5950 50  0001 C CNN
 F 3 "" H 4000 5950 50  0001 C CNN
@@ -266,10 +266,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 5900 3800 5900
 $Comp
-L Device:R R19
+L Device:R R31
 U 1 1 61D5B761
 P 2750 5700
-F 0 "R19" V 2543 5700 50  0000 C CNN
+F 0 "R31" V 2543 5700 50  0000 C CNN
 F 1 "1k" V 2634 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 5700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 5700 50  0001 C CNN
@@ -278,10 +278,10 @@ F 4 "311-1.0KERCT-ND" H 2750 5700 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR049
+L power:GND #PWR058
 U 1 1 61D5B767
 P 3000 5950
-F 0 "#PWR049" H 3000 5700 50  0001 C CNN
+F 0 "#PWR058" H 3000 5700 50  0001 C CNN
 F 1 "GND" H 3005 5777 50  0000 C CNN
 F 2 "" H 3000 5950 50  0001 C CNN
 F 3 "" H 3000 5950 50  0001 C CNN
@@ -311,10 +311,10 @@ $EndComp
 Wire Wire Line
 	1600 5700 2600 5700
 $Comp
-L power:+12V #PWR043
+L power:+12V #PWR052
 U 1 1 61D5EAEE
 P 1800 5500
-F 0 "#PWR043" H 1800 5350 50  0001 C CNN
+F 0 "#PWR052" H 1800 5350 50  0001 C CNN
 F 1 "+12V" H 1815 5673 50  0000 C CNN
 F 2 "" H 1800 5500 50  0001 C CNN
 F 3 "" H 1800 5500 50  0001 C CNN
@@ -326,10 +326,10 @@ Wire Wire Line
 Wire Wire Line
 	1800 5800 1600 5800
 $Comp
-L Isolator:6N137 U14
+L Isolator:6N137 U15
 U 1 1 61D6C3FC
 P 7800 2050
-F 0 "U14" H 7800 2517 50  0000 C CNN
+F 0 "U15" H 7800 2517 50  0000 C CNN
 F 1 "6N137" H 7800 2426 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7800 1550 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 6950 2600 50  0001 C CNN
@@ -338,10 +338,10 @@ F 4 "6N137IS-ND" H 7800 2050 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR067
+L power:GND #PWR075
 U 1 1 61D6C40D
 P 8300 2300
-F 0 "#PWR067" H 8300 2050 50  0001 C CNN
+F 0 "#PWR075" H 8300 2050 50  0001 C CNN
 F 1 "GND" H 8305 2127 50  0000 C CNN
 F 2 "" H 8300 2300 50  0001 C CNN
 F 3 "" H 8300 2300 50  0001 C CNN
@@ -353,10 +353,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 2250 8100 2250
 $Comp
-L Device:R R21
+L Device:R R38
 U 1 1 61D6C415
 P 7050 2050
-F 0 "R21" V 6843 2050 50  0000 C CNN
+F 0 "R38" V 6843 2050 50  0000 C CNN
 F 1 "1k" V 6934 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6980 2050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7050 2050 50  0001 C CNN
@@ -365,10 +365,10 @@ F 4 "311-1.0KERCT-ND" H 7050 2050 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR062
+L power:GND #PWR071
 U 1 1 61D6C41B
 P 7300 2300
-F 0 "#PWR062" H 7300 2050 50  0001 C CNN
+F 0 "#PWR071" H 7300 2050 50  0001 C CNN
 F 1 "GND" H 7305 2127 50  0000 C CNN
 F 2 "" H 7300 2300 50  0001 C CNN
 F 3 "" H 7300 2300 50  0001 C CNN
@@ -379,40 +379,13 @@ Wire Wire Line
 	7500 2250 7300 2250
 Wire Wire Line
 	7300 2250 7300 2300
-$Comp
-L power:+12V #PWR061
-U 1 1 61D6C429
-P 6200 1700
-F 0 "#PWR061" H 6200 1550 50  0001 C CNN
-F 1 "+12V" H 6215 1873 50  0000 C CNN
-F 2 "" H 6200 1700 50  0001 C CNN
-F 3 "" H 6200 1700 50  0001 C CNN
-	1    6200 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 2550 5950 2550
-Wire Wire Line
-	6200 2350 5950 2350
-Wire Wire Line
-	6200 2350 6200 2550
-Connection ~ 6200 2350
-Wire Wire Line
-	6200 1700 6200 2150
-Wire Wire Line
-	6200 2150 5950 2150
-Connection ~ 6200 2150
-Wire Wire Line
-	6200 2150 6200 2350
 Wire Wire Line
 	7200 2050 7500 2050
-Wire Wire Line
-	6900 2050 5950 2050
 $Comp
-L Isolator:6N137 U15
+L Isolator:6N137 U16
 U 1 1 61D6C439
 P 7800 3150
-F 0 "U15" H 7800 3617 50  0000 C CNN
+F 0 "U16" H 7800 3617 50  0000 C CNN
 F 1 "6N137" H 7800 3526 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7800 2650 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 6950 3700 50  0001 C CNN
@@ -421,10 +394,10 @@ F 4 "6N137IS-ND" H 7800 3150 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR069
+L power:GND #PWR076
 U 1 1 61D6C44A
 P 8300 3400
-F 0 "#PWR069" H 8300 3150 50  0001 C CNN
+F 0 "#PWR076" H 8300 3150 50  0001 C CNN
 F 1 "GND" H 8305 3227 50  0000 C CNN
 F 2 "" H 8300 3400 50  0001 C CNN
 F 3 "" H 8300 3400 50  0001 C CNN
@@ -436,10 +409,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 3350 8100 3350
 $Comp
-L Device:R R22
+L Device:R R39
 U 1 1 61D6C452
 P 7050 3150
-F 0 "R22" V 6843 3150 50  0000 C CNN
+F 0 "R39" V 6843 3150 50  0000 C CNN
 F 1 "1k" V 6934 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6980 3150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7050 3150 50  0001 C CNN
@@ -448,10 +421,10 @@ F 4 "311-1.0KERCT-ND" H 7050 3150 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR063
+L power:GND #PWR072
 U 1 1 61D6C458
 P 7300 3400
-F 0 "#PWR063" H 7300 3150 50  0001 C CNN
+F 0 "#PWR072" H 7300 3150 50  0001 C CNN
 F 1 "GND" H 7305 3227 50  0000 C CNN
 F 2 "" H 7300 3400 50  0001 C CNN
 F 3 "" H 7300 3400 50  0001 C CNN
@@ -465,10 +438,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 3150 7500 3150
 $Comp
-L Isolator:6N137 U16
+L Isolator:6N137 U17
 U 1 1 61D6C461
 P 7800 4250
-F 0 "U16" H 7800 4717 50  0000 C CNN
+F 0 "U17" H 7800 4717 50  0000 C CNN
 F 1 "6N137" H 7800 4626 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7800 3750 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 6950 4800 50  0001 C CNN
@@ -477,10 +450,10 @@ F 4 "6N137IS-ND" H 7800 4250 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR071
+L power:GND #PWR077
 U 1 1 61D6C472
 P 8300 4500
-F 0 "#PWR071" H 8300 4250 50  0001 C CNN
+F 0 "#PWR077" H 8300 4250 50  0001 C CNN
 F 1 "GND" H 8305 4327 50  0000 C CNN
 F 2 "" H 8300 4500 50  0001 C CNN
 F 3 "" H 8300 4500 50  0001 C CNN
@@ -492,10 +465,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 4450 8100 4450
 $Comp
-L Device:R R23
+L Device:R R40
 U 1 1 61D6C47A
 P 7050 4250
-F 0 "R23" V 6843 4250 50  0000 C CNN
+F 0 "R40" V 6843 4250 50  0000 C CNN
 F 1 "1k" V 6934 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6980 4250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7050 4250 50  0001 C CNN
@@ -504,10 +477,10 @@ F 4 "311-1.0KERCT-ND" H 7050 4250 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR064
+L power:GND #PWR073
 U 1 1 61D6C480
 P 7300 4500
-F 0 "#PWR064" H 7300 4250 50  0001 C CNN
+F 0 "#PWR073" H 7300 4250 50  0001 C CNN
 F 1 "GND" H 7305 4327 50  0000 C CNN
 F 2 "" H 7300 4500 50  0001 C CNN
 F 3 "" H 7300 4500 50  0001 C CNN
@@ -531,27 +504,10 @@ LIM_Y
 Text HLabel 8350 4350 2    50   Input ~ 0
 LIM_Z
 $Comp
-L Connector:Screw_Terminal_01x08 J13
-U 1 1 61D70FDC
-P 5750 2450
-F 0 "J13" H 5668 1825 50  0000 C CNN
-F 1 "LIM" H 5668 1916 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_8-G-3.81_1x08_P3.81mm_Horizontal" H 5750 2450 50  0001 C CNN
-F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 5750 2450 50  0001 C CNN
-F 4 "ED2814-ND" H 5750 2450 50  0001 C CNN "Digikey Part No."
-	1    5750 2450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5950 2750 6200 2750
-Wire Wire Line
-	6200 2750 6200 2550
-Connection ~ 6200 2550
-$Comp
-L Isolator:6N137 U17
+L Isolator:6N137 U18
 U 1 1 61D7732B
 P 7800 5350
-F 0 "U17" H 7800 5817 50  0000 C CNN
+F 0 "U18" H 7800 5817 50  0000 C CNN
 F 1 "6N137" H 7800 5726 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 7800 4850 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 6950 5900 50  0001 C CNN
@@ -560,10 +516,10 @@ F 4 "6N137IS-ND" H 7800 5350 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR073
+L power:GND #PWR078
 U 1 1 61D7733C
 P 8300 5600
-F 0 "#PWR073" H 8300 5350 50  0001 C CNN
+F 0 "#PWR078" H 8300 5350 50  0001 C CNN
 F 1 "GND" H 8305 5427 50  0000 C CNN
 F 2 "" H 8300 5600 50  0001 C CNN
 F 3 "" H 8300 5600 50  0001 C CNN
@@ -575,10 +531,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 5550 8100 5550
 $Comp
-L Device:R R24
+L Device:R R41
 U 1 1 61D77344
 P 7050 5350
-F 0 "R24" V 6843 5350 50  0000 C CNN
+F 0 "R41" V 6843 5350 50  0000 C CNN
 F 1 "1k" V 6934 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6980 5350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7050 5350 50  0001 C CNN
@@ -587,10 +543,10 @@ F 4 "311-1.0KERCT-ND" H 7050 5350 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR065
+L power:GND #PWR074
 U 1 1 61D7734A
 P 7300 5600
-F 0 "#PWR065" H 7300 5350 50  0001 C CNN
+F 0 "#PWR074" H 7300 5350 50  0001 C CNN
 F 1 "GND" H 7305 5427 50  0000 C CNN
 F 2 "" H 7300 5600 50  0001 C CNN
 F 3 "" H 7300 5600 50  0001 C CNN
@@ -613,25 +569,11 @@ Wire Wire Line
 	2400 4250 2400 2450
 Wire Wire Line
 	2400 2450 1650 2450
-Wire Wire Line
-	6800 3150 6800 2250
-Wire Wire Line
-	6800 2250 5950 2250
-Wire Wire Line
-	6700 4250 6700 2450
-Wire Wire Line
-	6700 2450 5950 2450
-Wire Wire Line
-	5950 2650 6600 2650
-Wire Wire Line
-	6600 2650 6600 5350
-Wire Wire Line
-	6600 5350 6900 5350
 $Comp
-L Isolator:6N137 U13
+L Isolator:6N137 U14
 U 1 1 6269851C
 P 3500 6900
-F 0 "U13" H 3500 7367 50  0000 C CNN
+F 0 "U14" H 3500 7367 50  0000 C CNN
 F 1 "6N137" H 3500 7276 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3500 6400 50  0001 C CNN
 F 3 "http://isocom.com/wp-content/uploads/2017/10/DD93209-6N137_ICPL2601_2611-280917.pdf" H 2650 7450 50  0001 C CNN
@@ -640,10 +582,10 @@ F 4 "6N137IS-ND" H 3500 6900 50  0001 C CNN "Digikey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR060
+L power:GND #PWR066
 U 1 1 6269852D
 P 4000 7150
-F 0 "#PWR060" H 4000 6900 50  0001 C CNN
+F 0 "#PWR066" H 4000 6900 50  0001 C CNN
 F 1 "GND" H 4005 6977 50  0000 C CNN
 F 2 "" H 4000 7150 50  0001 C CNN
 F 3 "" H 4000 7150 50  0001 C CNN
@@ -655,10 +597,10 @@ Wire Wire Line
 Wire Wire Line
 	4000 7100 3800 7100
 $Comp
-L Device:R R20
+L Device:R R32
 U 1 1 62698535
 P 2750 6900
-F 0 "R20" V 2543 6900 50  0000 C CNN
+F 0 "R32" V 2543 6900 50  0000 C CNN
 F 1 "1k" V 2634 6900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2680 6900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 2750 6900 50  0001 C CNN
@@ -667,10 +609,10 @@ F 4 "311-1.0KERCT-ND" H 2750 6900 50  0001 C CNN "Digikey Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR050
+L power:GND #PWR059
 U 1 1 6269853B
 P 3000 7150
-F 0 "#PWR050" H 3000 6900 50  0001 C CNN
+F 0 "#PWR059" H 3000 6900 50  0001 C CNN
 F 1 "GND" H 3005 6977 50  0000 C CNN
 F 2 "" H 3000 7150 50  0001 C CNN
 F 3 "" H 3000 7150 50  0001 C CNN
@@ -700,10 +642,10 @@ $EndComp
 Wire Wire Line
 	1600 6900 2600 6900
 $Comp
-L power:+12V #PWR044
+L power:+12V #PWR053
 U 1 1 6269854D
 P 1800 6700
-F 0 "#PWR044" H 1800 6550 50  0001 C CNN
+F 0 "#PWR053" H 1800 6550 50  0001 C CNN
 F 1 "+12V" H 1815 6873 50  0000 C CNN
 F 2 "" H 1800 6700 50  0001 C CNN
 F 3 "" H 1800 6700 50  0001 C CNN
@@ -727,10 +669,6 @@ Limit switch inputs
 Wire Notes Line
 	4650 1150 4650 4800
 Wire Notes Line
-	4650 4800 1200 4800
-Wire Notes Line
-	1200 4800 1200 1150
-Wire Notes Line
 	1200 1150 4650 1150
 Text Notes 2950 1300 0    50   ~ 0
 Reset/Abort, Hold, and Start Button inputs\n
@@ -739,8 +677,8 @@ L Device:R R?
 U 1 1 61E677B9
 P 4150 1850
 AR Path="/61DA711F/61E677B9" Ref="R?"  Part="1" 
-AR Path="/61D39570/61E677B9" Ref="R31"  Part="1" 
-F 0 "R31" V 3943 1850 50  0000 C CNN
+AR Path="/61D39570/61E677B9" Ref="R33"  Part="1" 
+F 0 "R33" V 3943 1850 50  0000 C CNN
 F 1 "1k" V 4034 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 1850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 1850 50  0001 C CNN
@@ -753,10 +691,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 2000 4150 2050
 $Comp
-L power:+5V #PWR051
+L power:+5V #PWR067
 U 1 1 61D3C10B
 P 4150 1550
-F 0 "#PWR051" H 4150 1400 50  0001 C CNN
+F 0 "#PWR067" H 4150 1400 50  0001 C CNN
 F 1 "+5V" H 4165 1723 50  0000 C CNN
 F 2 "" H 4150 1550 50  0001 C CNN
 F 3 "" H 4150 1550 50  0001 C CNN
@@ -790,8 +728,8 @@ L Device:R R?
 U 1 1 61ECFAFA
 P 4150 2950
 AR Path="/61DA711F/61ECFAFA" Ref="R?"  Part="1" 
-AR Path="/61D39570/61ECFAFA" Ref="R32"  Part="1" 
-F 0 "R32" V 3943 2950 50  0000 C CNN
+AR Path="/61D39570/61ECFAFA" Ref="R34"  Part="1" 
+F 0 "R34" V 3943 2950 50  0000 C CNN
 F 1 "1k" V 4034 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 2950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 2950 50  0001 C CNN
@@ -802,10 +740,10 @@ $EndComp
 Wire Wire Line
 	4150 3100 4150 3150
 $Comp
-L power:+5V #PWR0106
+L power:+5V #PWR068
 U 1 1 61ECFB01
 P 4150 2650
-F 0 "#PWR0106" H 4150 2500 50  0001 C CNN
+F 0 "#PWR068" H 4150 2500 50  0001 C CNN
 F 1 "+5V" H 4165 2823 50  0000 C CNN
 F 2 "" H 4150 2650 50  0001 C CNN
 F 3 "" H 4150 2650 50  0001 C CNN
@@ -841,8 +779,8 @@ L Device:R R?
 U 1 1 61EEB163
 P 4150 4050
 AR Path="/61DA711F/61EEB163" Ref="R?"  Part="1" 
-AR Path="/61D39570/61EEB163" Ref="R71"  Part="1" 
-F 0 "R71" V 3943 4050 50  0000 C CNN
+AR Path="/61D39570/61EEB163" Ref="R35"  Part="1" 
+F 0 "R35" V 3943 4050 50  0000 C CNN
 F 1 "1k" V 4034 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 4050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 4050 50  0001 C CNN
@@ -853,10 +791,10 @@ $EndComp
 Wire Wire Line
 	4150 4200 4150 4250
 $Comp
-L power:+5V #PWR0107
+L power:+5V #PWR069
 U 1 1 61EEB16A
 P 4150 3750
-F 0 "#PWR0107" H 4150 3600 50  0001 C CNN
+F 0 "#PWR069" H 4150 3600 50  0001 C CNN
 F 1 "+5V" H 4165 3923 50  0000 C CNN
 F 2 "" H 4150 3750 50  0001 C CNN
 F 3 "" H 4150 3750 50  0001 C CNN
@@ -892,8 +830,8 @@ L Device:R R?
 U 1 1 61F14762
 P 8450 5150
 AR Path="/61DA711F/61F14762" Ref="R?"  Part="1" 
-AR Path="/61D39570/61F14762" Ref="R77"  Part="1" 
-F 0 "R77" V 8243 5150 50  0000 C CNN
+AR Path="/61D39570/61F14762" Ref="R45"  Part="1" 
+F 0 "R45" V 8243 5150 50  0000 C CNN
 F 1 "1k" V 8334 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 5150 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 5150 50  0001 C CNN
@@ -904,10 +842,10 @@ $EndComp
 Wire Wire Line
 	8450 5300 8450 5350
 $Comp
-L power:+5V #PWR0108
+L power:+5V #PWR082
 U 1 1 61F14769
 P 8450 4850
-F 0 "#PWR0108" H 8450 4700 50  0001 C CNN
+F 0 "#PWR082" H 8450 4700 50  0001 C CNN
 F 1 "+5V" H 8465 5023 50  0000 C CNN
 F 2 "" H 8450 4850 50  0001 C CNN
 F 3 "" H 8450 4850 50  0001 C CNN
@@ -941,8 +879,8 @@ L Device:R R?
 U 1 1 61F2167D
 P 8450 4050
 AR Path="/61DA711F/61F2167D" Ref="R?"  Part="1" 
-AR Path="/61D39570/61F2167D" Ref="R76"  Part="1" 
-F 0 "R76" V 8243 4050 50  0000 C CNN
+AR Path="/61D39570/61F2167D" Ref="R44"  Part="1" 
+F 0 "R44" V 8243 4050 50  0000 C CNN
 F 1 "1k" V 8334 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 4050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 4050 50  0001 C CNN
@@ -979,8 +917,8 @@ L Device:R R?
 U 1 1 61F2E656
 P 8450 2950
 AR Path="/61DA711F/61F2E656" Ref="R?"  Part="1" 
-AR Path="/61D39570/61F2E656" Ref="R75"  Part="1" 
-F 0 "R75" V 8243 2950 50  0000 C CNN
+AR Path="/61D39570/61F2E656" Ref="R43"  Part="1" 
+F 0 "R43" V 8243 2950 50  0000 C CNN
 F 1 "1k" V 8334 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 2950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 2950 50  0001 C CNN
@@ -991,10 +929,10 @@ $EndComp
 Wire Wire Line
 	8450 3100 8450 3150
 $Comp
-L power:+5V #PWR0109
+L power:+5V #PWR080
 U 1 1 61F2E65D
 P 8450 2650
-F 0 "#PWR0109" H 8450 2500 50  0001 C CNN
+F 0 "#PWR080" H 8450 2500 50  0001 C CNN
 F 1 "+5V" H 8465 2823 50  0000 C CNN
 F 2 "" H 8450 2650 50  0001 C CNN
 F 3 "" H 8450 2650 50  0001 C CNN
@@ -1026,8 +964,8 @@ L Device:R R?
 U 1 1 61F3B936
 P 8450 1850
 AR Path="/61DA711F/61F3B936" Ref="R?"  Part="1" 
-AR Path="/61D39570/61F3B936" Ref="R74"  Part="1" 
-F 0 "R74" V 8243 1850 50  0000 C CNN
+AR Path="/61D39570/61F3B936" Ref="R42"  Part="1" 
+F 0 "R42" V 8243 1850 50  0000 C CNN
 F 1 "1k" V 8334 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8380 1850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 1850 50  0001 C CNN
@@ -1053,10 +991,10 @@ Wire Wire Line
 Connection ~ 8300 1850
 Connection ~ 8450 2700
 $Comp
-L power:+5V #PWR0110
+L power:+5V #PWR081
 U 1 1 61F21684
 P 8450 3750
-F 0 "#PWR0110" H 8450 3600 50  0001 C CNN
+F 0 "#PWR081" H 8450 3600 50  0001 C CNN
 F 1 "+5V" H 8465 3923 50  0000 C CNN
 F 2 "" H 8450 3750 50  0001 C CNN
 F 3 "" H 8450 3750 50  0001 C CNN
@@ -1066,10 +1004,10 @@ $EndComp
 Wire Wire Line
 	8450 1550 8450 1600
 $Comp
-L power:+5V #PWR0111
+L power:+5V #PWR079
 U 1 1 61F3B93D
 P 8450 1550
-F 0 "#PWR0111" H 8450 1400 50  0001 C CNN
+F 0 "#PWR079" H 8450 1400 50  0001 C CNN
 F 1 "+5V" H 8465 1723 50  0000 C CNN
 F 2 "" H 8450 1550 50  0001 C CNN
 F 3 "" H 8450 1550 50  0001 C CNN
@@ -1103,8 +1041,8 @@ L Device:R R?
 U 1 1 61FC0762
 P 4150 5500
 AR Path="/61DA711F/61FC0762" Ref="R?"  Part="1" 
-AR Path="/61D39570/61FC0762" Ref="R72"  Part="1" 
-F 0 "R72" V 3943 5500 50  0000 C CNN
+AR Path="/61D39570/61FC0762" Ref="R36"  Part="1" 
+F 0 "R36" V 3943 5500 50  0000 C CNN
 F 1 "1k" V 4034 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 5500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 5500 50  0001 C CNN
@@ -1115,10 +1053,10 @@ $EndComp
 Wire Wire Line
 	4150 5650 4150 5700
 $Comp
-L power:+5V #PWR0112
+L power:+5V #PWR063
 U 1 1 61FC0769
 P 4000 5200
-F 0 "#PWR0112" H 4000 5050 50  0001 C CNN
+F 0 "#PWR063" H 4000 5050 50  0001 C CNN
 F 1 "+5V" H 4015 5373 50  0000 C CNN
 F 2 "" H 4000 5200 50  0001 C CNN
 F 3 "" H 4000 5200 50  0001 C CNN
@@ -1153,8 +1091,8 @@ L Device:R R?
 U 1 1 61FC8E3E
 P 4150 6700
 AR Path="/61DA711F/61FC8E3E" Ref="R?"  Part="1" 
-AR Path="/61D39570/61FC8E3E" Ref="R73"  Part="1" 
-F 0 "R73" V 3943 6700 50  0000 C CNN
+AR Path="/61D39570/61FC8E3E" Ref="R37"  Part="1" 
+F 0 "R37" V 3943 6700 50  0000 C CNN
 F 1 "1k" V 4034 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 6700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4150 6700 50  0001 C CNN
@@ -1165,10 +1103,10 @@ $EndComp
 Wire Wire Line
 	4150 6850 4150 6900
 $Comp
-L power:+5V #PWR0113
+L power:+5V #PWR065
 U 1 1 61FC8E45
 P 4000 6400
-F 0 "#PWR0113" H 4000 6250 50  0001 C CNN
+F 0 "#PWR065" H 4000 6250 50  0001 C CNN
 F 1 "+5V" H 4015 6573 50  0000 C CNN
 F 2 "" H 4000 6400 50  0001 C CNN
 F 3 "" H 4000 6400 50  0001 C CNN
@@ -1194,148 +1132,102 @@ Wire Wire Line
 	4050 7000 4000 7000
 Wire Wire Line
 	4050 5800 4000 5800
-Text HLabel 10650 1600 1    50   Input ~ 0
-5VDC
 $Comp
-L Device:LED D?
-U 1 1 61C80669
-P 10650 2150
-AR Path="/61764E0B/61C80669" Ref="D?"  Part="1" 
-AR Path="/619755E7/61C80669" Ref="D?"  Part="1" 
-AR Path="/61D39570/61C80669" Ref="D?"  Part="1" 
-F 0 "D?" V 10597 2230 50  0000 L CNN
-F 1 "LED" V 10688 2230 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10650 2150 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 10650 2150 50  0001 C CNN
-F 4 "404-1046-1-ND" H 10650 2150 50  0001 C CNN "Digikey Part No."
-	1    10650 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61C80662
-P 10650 1750
-AR Path="/61764E0B/61C80662" Ref="R?"  Part="1" 
-AR Path="/619755E7/61C80662" Ref="R?"  Part="1" 
-AR Path="/61D39570/61C80662" Ref="R?"  Part="1" 
-F 0 "R?" H 10720 1796 50  0000 L CNN
-F 1 "270" H 10720 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10580 1750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 10650 1750 50  0001 C CNN
-F 4 "YAG6172CT-ND" H 10650 1750 50  0001 C CNN "Digikey Part No."
-	1    10650 1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10650 1900 10650 2000
-Text HLabel 10300 1600 1    50   Input ~ 0
-5VDC
-$Comp
-L Device:LED D?
-U 1 1 61C6CA4A
-P 10300 2150
-AR Path="/61764E0B/61C6CA4A" Ref="D?"  Part="1" 
-AR Path="/619755E7/61C6CA4A" Ref="D?"  Part="1" 
-AR Path="/61D39570/61C6CA4A" Ref="D?"  Part="1" 
-F 0 "D?" V 10247 2230 50  0000 L CNN
-F 1 "LED" V 10338 2230 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 10300 2150 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 10300 2150 50  0001 C CNN
-F 4 "404-1046-1-ND" H 10300 2150 50  0001 C CNN "Digikey Part No."
-	1    10300 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61C6CA43
-P 10300 1750
-AR Path="/61764E0B/61C6CA43" Ref="R?"  Part="1" 
-AR Path="/619755E7/61C6CA43" Ref="R?"  Part="1" 
-AR Path="/61D39570/61C6CA43" Ref="R?"  Part="1" 
-F 0 "R?" H 10370 1796 50  0000 L CNN
-F 1 "270" H 10370 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10230 1750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 10300 1750 50  0001 C CNN
-F 4 "YAG6172CT-ND" H 10300 1750 50  0001 C CNN "Digikey Part No."
-	1    10300 1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10300 1900 10300 2000
-Text HLabel 9900 1600 1    50   Input ~ 0
-5VDC
-$Comp
-L Device:LED D?
-U 1 1 61C6334D
-P 9900 2150
-AR Path="/61764E0B/61C6334D" Ref="D?"  Part="1" 
-AR Path="/619755E7/61C6334D" Ref="D?"  Part="1" 
-AR Path="/61D39570/61C6334D" Ref="D?"  Part="1" 
-F 0 "D?" V 9847 2230 50  0000 L CNN
-F 1 "LED" V 9938 2230 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9900 2150 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 9900 2150 50  0001 C CNN
-F 4 "404-1046-1-ND" H 9900 2150 50  0001 C CNN "Digikey Part No."
-	1    9900 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61C63346
-P 9900 1750
-AR Path="/61764E0B/61C63346" Ref="R?"  Part="1" 
-AR Path="/619755E7/61C63346" Ref="R?"  Part="1" 
-AR Path="/61D39570/61C63346" Ref="R?"  Part="1" 
-F 0 "R?" H 9970 1796 50  0000 L CNN
-F 1 "270" H 9970 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9830 1750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 9900 1750 50  0001 C CNN
-F 4 "YAG6172CT-ND" H 9900 1750 50  0001 C CNN "Digikey Part No."
-	1    9900 1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9900 1900 9900 2000
-Wire Wire Line
-	9500 1900 9500 2000
-$Comp
-L Device:R R?
-U 1 1 61C59CE7
-P 9500 1750
-AR Path="/61764E0B/61C59CE7" Ref="R?"  Part="1" 
-AR Path="/619755E7/61C59CE7" Ref="R?"  Part="1" 
-AR Path="/61D39570/61C59CE7" Ref="R?"  Part="1" 
-F 0 "R?" H 9570 1796 50  0000 L CNN
-F 1 "270" H 9570 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9430 1750 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-SR_20105_RoHS_L_9.pdf" H 9500 1750 50  0001 C CNN
-F 4 "YAG6172CT-ND" H 9500 1750 50  0001 C CNN "Digikey Part No."
-	1    9500 1750
+L Connector:Screw_Terminal_01x02 J13
+U 1 1 61E4A4E8
+P 5750 2150
+F 0 "J13" H 5668 1825 50  0000 C CNN
+F 1 "LIM_X" H 5668 1916 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 5750 2150 50  0001 C CNN
+F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 5750 2150 50  0001 C CNN
+F 4 "ED2808-ND" H 5750 2150 50  0001 C CNN "Digikey Part No."
+	1    5750 2150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
-U 1 1 61C59CEE
-P 9500 2150
-AR Path="/61764E0B/61C59CEE" Ref="D?"  Part="1" 
-AR Path="/619755E7/61C59CEE" Ref="D?"  Part="1" 
-AR Path="/61D39570/61C59CEE" Ref="D?"  Part="1" 
-F 0 "D?" V 9447 2230 50  0000 L CNN
-F 1 "LED" V 9538 2230 50  0000 L CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9500 2150 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Stanley%20Electric%20PDFs/1101W_Series.pdf" H 9500 2150 50  0001 C CNN
-F 4 "404-1046-1-ND" H 9500 2150 50  0001 C CNN "Digikey Part No."
-	1    9500 2150
-	0    -1   -1   0   
+L Connector:Screw_Terminal_01x02 J14
+U 1 1 61E534B8
+P 5750 2600
+F 0 "J14" H 5668 2275 50  0000 C CNN
+F 1 "LIM_Y" H 5668 2366 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 5750 2600 50  0001 C CNN
+F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 5750 2600 50  0001 C CNN
+F 4 "ED2808-ND" H 5750 2600 50  0001 C CNN "Digikey Part No."
+	1    5750 2600
+	-1   0    0    1   
 $EndComp
-Text HLabel 9500 1600 1    50   Input ~ 0
-5VDC
-Text HLabel 9500 2300 3    50   Input ~ 0
-LIM_X
-Text HLabel 9900 2300 3    50   Input ~ 0
-LIM_Y
-Text HLabel 10300 2300 3    50   Input ~ 0
-LIM_Z
-Text HLabel 10650 2300 3    50   Input ~ 0
-LIM_E
+$Comp
+L Connector:Screw_Terminal_01x02 J15
+U 1 1 61E5C9C6
+P 5750 3050
+F 0 "J15" H 5668 2725 50  0000 C CNN
+F 1 "LIM_Z" H 5668 2816 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 5750 3050 50  0001 C CNN
+F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 5750 3050 50  0001 C CNN
+F 4 "ED2808-ND" H 5750 3050 50  0001 C CNN "Digikey Part No."
+	1    5750 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J16
+U 1 1 61E787AA
+P 5750 3500
+F 0 "J16" H 5668 3175 50  0000 C CNN
+F 1 "LIM_E" H 5668 3266 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 5750 3500 50  0001 C CNN
+F 3 "https://www.on-shore.com/wp-content/uploads/OSTOQXX3251.pdf" H 5750 3500 50  0001 C CNN
+F 4 "ED2808-ND" H 5750 3500 50  0001 C CNN "Digikey Part No."
+	1    5750 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR070
+U 1 1 61EC60C3
+P 6200 1550
+F 0 "#PWR070" H 6200 1400 50  0001 C CNN
+F 1 "+12V" H 6215 1723 50  0000 C CNN
+F 2 "" H 6200 1550 50  0001 C CNN
+F 3 "" H 6200 1550 50  0001 C CNN
+	1    6200 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3500 5950 3500
+Wire Wire Line
+	5950 3050 6200 3050
+Connection ~ 6200 3050
+Wire Wire Line
+	6200 3050 6200 3500
+Wire Wire Line
+	5950 2600 6200 2600
+Connection ~ 6200 2600
+Wire Wire Line
+	6200 2600 6200 3050
+Wire Wire Line
+	5950 2150 6200 2150
+Wire Wire Line
+	6200 1550 6200 2150
+Connection ~ 6200 2150
+Wire Wire Line
+	6200 2150 6200 2600
+Wire Wire Line
+	6900 2050 5950 2050
+Wire Wire Line
+	6800 3150 6800 2500
+Wire Wire Line
+	6800 2500 5950 2500
+Wire Wire Line
+	6700 4250 6700 2950
+Wire Wire Line
+	6700 2950 5950 2950
+Wire Wire Line
+	6600 5350 6900 5350
+Wire Wire Line
+	6600 5350 6600 3400
+Wire Wire Line
+	6600 3400 5950 3400
+Wire Notes Line
+	1200 4800 1200 1150
+Wire Notes Line
+	4650 4800 1200 4800
 $EndSCHEMATC
